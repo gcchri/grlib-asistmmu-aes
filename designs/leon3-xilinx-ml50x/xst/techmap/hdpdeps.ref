@@ -1,0 +1,1315 @@
+V3 1303
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/gencomp/gencomp.vhd 2014/04/16.17:51:33 P.49d
+PH techmap/gencomp 1590169158 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/gencomp/gencomp.vhd \
+      PB ieee/std_logic_1164 1354696159 LB grlib PH grlib/config 1590169012 \
+      PH grlib/config_types 1590169011 CD syncram CD syncram_2p CD syncram_dp \
+      CD regfile_3p CD syncram64 CD syncram128 CD syncramft CD syncram_2pft \
+      CD syncram128bw CD syncram156bw CD syncram256bw CD syncrambw CD syncram_2pbw \
+      CD syncrambwft CD from CD syncfifo_2p CD inpad CD inpadv CD iopad CD iopadv \
+      CD iopadvv CD iodpad CD iodpadv CD outpad CD outpadv CD odpad CD odpadv \
+      CD toutpad CD toutpadv CD toutpadvv CD toutpad_ds CD toutpad_dsv \
+      CD toutpad_dsvv CD skew_outpad CD clkpad CD inpad_ds CD clkpad_ds CD inpad_dsv \
+      CD iopad_ds CD iopad_dsv CD iopad_dsvv CD outpad_ds CD outpad_dsv CD lvds_combo \
+      CD inpad_ddr CD inpad_ddrv CD outpad_ddr CD outpad_ddrv CD iopad_ddr \
+      CD iopad_ddrv CD iopad_ddrvv CD techbuf CD clkgen CD clkand CD clkmux CD clkinv \
+      CD clkrand CD tap CD scanregi CD scanrego CD scanregto CD scanregio CD ddr_ireg \
+      CD ddr_oreg CD ddrphy CD ddrphy_wo_pads CD ddr2phy CD ddr2phy_wo_pads \
+      CD lpddr2phy_wo_pads CD ddr2pads CD ddrpads CD ddrphy_datapath CD mul_61x61 \
+      CD ringosc CD system_monitor CD nandtree CD grmux2 CD grmux2v CD grdff CD gror2 \
+      CD grand12 CD grnand2 CD techmult CD syncreg CD sdram_phy CD serdes
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/gencomp/netcomp.vhd 2014/04/16.17:51:33 P.49d
+PH techmap/netcomp 1590169356 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/gencomp/netcomp.vhd \
+      PB ieee/std_logic_1164 1354696159 LB grlib PB grlib/amba 1590169016 \
+      PH techmap/gencomp 1590169158 CD grusbhc_net CD grspwc_net CD grspwc2_net \
+      CD grlfpw_net CD grfpw_net CD leon3ft_net CD ssrctrl_net CD ftsrctrl_net \
+      CD grlfpw4_net CD grfpw4_net CD spictrl_net CD leon4_net CD grpci2_phy_net
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/inferred/ddrphy_datapath.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/ddrphy_datapath 1590169257 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/inferred/ddrphy_datapath.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158
+AR techmap/ddrphy_datapath/rtl 1590169258 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/inferred/ddrphy_datapath.vhd \
+      EN techmap/ddrphy_datapath 1590169257 CP ddr_oreg CP grdff CP ddr_ireg
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/inferred/ddr_inferred.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/gen_iddr_reg 1590169173 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/inferred/ddr_inferred.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR techmap/gen_iddr_reg/rtl 1590169174 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/inferred/ddr_inferred.vhd \
+      EN techmap/gen_iddr_reg 1590169173
+EN techmap/gen_oddr_reg 1590169175 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/inferred/ddr_inferred.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR techmap/gen_oddr_reg/rtl 1590169176 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/inferred/ddr_inferred.vhd \
+      EN techmap/gen_oddr_reg 1590169175
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/inferred/ddr_phy_inferred.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/generic_ddr_phy_wo_pads 1590169343 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/inferred/ddr_phy_inferred.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158 \
+      LB grlib PB grlib/stdlib 1590169014
+AR techmap/generic_ddr_phy_wo_pads/rtl 1590169344 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/inferred/ddr_phy_inferred.vhd \
+      EN techmap/generic_ddr_phy_wo_pads 1590169343 CP ddrphy_datapath
+EN techmap/generic_ddr2_phy_wo_pads 1590169345 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/inferred/ddr_phy_inferred.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158 \
+      LB grlib PB grlib/stdlib 1590169014
+AR techmap/generic_ddr2_phy_wo_pads/rtl 1590169346 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/inferred/ddr_phy_inferred.vhd \
+      EN techmap/generic_ddr2_phy_wo_pads 1590169345 CP ddrphy_datapath
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/inferred/memory_inferred.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/generic_syncram 1590169159 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/inferred/memory_inferred.vhd \
+      PB ieee/std_logic_1164 1354696159 LB grlib PB grlib/stdlib 1590169014
+AR techmap/generic_syncram/behavioral 1590169160 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/inferred/memory_inferred.vhd \
+      EN techmap/generic_syncram 1590169159
+EN techmap/generic_syncram_reg 1590169161 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/inferred/memory_inferred.vhd \
+      PB ieee/std_logic_1164 1354696159 LB grlib PB grlib/stdlib 1590169014
+AR techmap/generic_syncram_reg/behavioral 1590169162 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/inferred/memory_inferred.vhd \
+      EN techmap/generic_syncram_reg 1590169161
+EN techmap/generic_syncram_2p 1590169163 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/inferred/memory_inferred.vhd \
+      PB ieee/std_logic_1164 1354696159 LB grlib PB grlib/stdlib 1590169014
+AR techmap/generic_syncram_2p/behav 1590169164 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/inferred/memory_inferred.vhd \
+      EN techmap/generic_syncram_2p 1590169163
+EN techmap/generic_syncram_2p_reg 1590169165 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/inferred/memory_inferred.vhd \
+      PB ieee/std_logic_1164 1354696159 LB grlib PB grlib/stdlib 1590169014
+AR techmap/generic_syncram_2p_reg/behav 1590169166 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/inferred/memory_inferred.vhd \
+      EN techmap/generic_syncram_2p_reg 1590169165
+EN techmap/generic_regfile_3p 1590169167 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/inferred/memory_inferred.vhd \
+      PB ieee/std_logic_1164 1354696159 LB grlib PB grlib/stdlib 1590169014
+AR techmap/generic_regfile_3p/rtl 1590169168 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/inferred/memory_inferred.vhd \
+      EN techmap/generic_regfile_3p 1590169167
+EN techmap/generic_regfile_4p 1590169169 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/inferred/memory_inferred.vhd \
+      PB ieee/std_logic_1164 1354696159 LB grlib PB grlib/stdlib 1590169014
+AR techmap/generic_regfile_4p/rtl 1590169170 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/inferred/memory_inferred.vhd \
+      EN techmap/generic_regfile_4p 1590169169
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/inferred/mul_inferred.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/gen_mul_61x61 1590169287 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/inferred/mul_inferred.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB grlib \
+      PB grlib/stdlib 1590169014
+AR techmap/gen_mul_61x61/rtl 1590169288 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/inferred/mul_inferred.vhd \
+      EN techmap/gen_mul_61x61 1590169287
+EN techmap/gen_mult_pipe 1590169289 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/inferred/mul_inferred.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      LB grlib PB grlib/stdlib 1590169014
+AR techmap/gen_mult_pipe/simple 1590169290 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/inferred/mul_inferred.vhd \
+      EN techmap/gen_mult_pipe 1590169289
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/allclkgen.vhd 2014/04/16.17:51:33 P.49d
+PH techmap/allclkgen 1590169171 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/allclkgen.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158 \
+      CD clkgen_virtex2 CD clkgen_spartan3 CD clkgen_virtex5 CD clkgen_virtex7 \
+      CD clkgen_axcelerator CD clkgen_altera_mf CD clkgen_stratixii \
+      CD clkgen_cycloneiii CD clkgen_stratixiii CD clkgen_rh_lib18t \
+      CD clkmul_virtex2 CD clkand_unisim CD clkand_ut025crh CD clkand_ut130hbd \
+      CD clkand_ut90nhbd CD clkrand_ut130hbd CD clkand_rh_lib18t CD clkmux_unisim \
+      CD clkmux_ut130hbd CD clkmux_ut90nhbd CD clkmux_fusion CD altera_pll \
+      CD clkgen_proasic3 CD clkgen_fusion CD clkgen_proasic3e CD clkgen_proasic3l \
+      CD cyclone3_pll CD stratix3_pll CD clkgen_rhumc CD clkinv_saed32 \
+      CD clkand_saed32 CD clkmux_saed32 CD clkgen_saed32 CD clkinv_dare \
+      CD clkand_dare CD clkmux_rhumc CD clkgen_dare CD clkgen_easic90 CD clkmux_dare \
+      CD clkmux_rhlib18t CD clkand_n2x CD clkmux_n2x CD clkgen_n2x \
+      CD clkgen_ut130hbd CD clkgen_ut90nhbd CD sim_pll
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/allddr.vhd 2014/04/16.17:51:33 P.49d
+PH techmap/allddr 1590169172 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/allddr.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158 \
+      CD rhumc_iddr_reg CD unisim_iddr_reg CD gen_iddr_reg CD rhumc_oddr_reg \
+      CD ec_oddr_reg CD unisim_oddr_reg CD gen_oddr_reg CD axcel_oddr_reg \
+      CD axcel_iddr_reg CD nextreme_oddr_reg CD nextreme_iddr_reg CD apa3_oddr_reg \
+      CD apa3_iddr_reg CD apa3e_oddr_reg CD apa3e_iddr_reg CD apa3l_oddr_reg \
+      CD apa3l_iddr_reg CD spartan3e_ddr_phy CD virtex4_ddr_phy CD virtex2_ddr_phy \
+      CD stratixii_ddr_phy CD cycloneiii_ddr_phy CD generic_ddr_phy_wo_pads \
+      CD tsmc90_tci_ddr_phy CD virtex5_ddr2_phy_wo_pads CD stratixii_ddr2_phy \
+      CD stratixiii_ddr2_phy CD spartan3a_ddr2_phy CD easic90_ddr2_phy \
+      CD spartan6_ddr2_phy_wo_pads CD generic_ddr2_phy_wo_pads CD n2x_ddr2_phy \
+      CD ut90nhbd_ddr_phy_wo_pads CD generic_lpddr2phy_wo_pads
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/allmem.vhd 2014/04/16.17:51:33 P.49d
+PH techmap/allmem 1590169185 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/allmem.vhd \
+      PB ieee/std_logic_1164 1354696159 CD axcel_syncram CD axcel_syncram_2p \
+      CD proasic_syncram CD proasic_syncram_2p CD proasic3_syncram \
+      CD proasic3_syncram_2p CD proasic3_syncram_dp CD proasic3e_syncram \
+      CD proasic3e_syncram_2p CD proasic3e_syncram_dp CD proasic3l_syncram \
+      CD proasic3l_syncram_2p CD saed32_syncram_2p CD dare_syncram_2p \
+      CD rhumc_syncram_2p CD proasic3l_syncram_dp CD proasic3_from \
+      CD proasic3e_from CD proasic3l_from CD from CD fusion_syncram \
+      CD fusion_syncram_2p CD fusion_syncram_dp CD fusion_from CD altera_syncram \
+      CD altera_syncram_dp CD altera_fifo_dp CD generic_syncram \
+      CD generic_syncram_2p CD generic_syncram_reg CD generic_syncram_2p_reg \
+      CD generic_regfile_3p CD ihp25_syncram CD ec_syncram CD ec_syncram_dp \
+      CD rh_lib18t_syncram_2p CD rh_lib18t_syncram CD umc_syncram CD rhumc_syncram \
+      CD saed32_syncram CD saed32_syncram_dp CD dare_syncram CD dare_syncram_dp \
+      CD virage_syncram CD virage_syncram_dp CD virage90_syncram CD virtex_syncram \
+      CD virtex_syncram_dp CD unisim_syncram CD unisim_syncram_dp \
+      CD unisim_syncram64 CD virage90_syncram_dp CD ut025crh_syncram \
+      CD ut025crh_syncram_2p CD ut130hbd_syncram CD ut130hbd_syncram_2p \
+      CD peregrine_regfile_3p CD eclipse_syncram_2p CD nextreme_syncram_2p \
+      CD custom1_syncram_2p CD artisan_syncram_2p CD smic13_syncram_2p \
+      CD ihp25rh_syncram CD peregrine_syncram CD artisan_syncram CD smic13_syncram \
+      CD custom1_syncram CD nextreme_syncram CD unisim_syncram_2p \
+      CD virage_syncram_2p CD atc18rha_syncram CD atc18rha_syncram_dp \
+      CD atc18rha_syncram_2p CD artisan_syncram_dp CD smic13_syncram_dp \
+      CD tm65gplus_syncram CD tm65gplus_syncram_dp CD tm65gplus_syncram_2p \
+      CD generic_regfile_4p CD cmos9sf_syncram CD cmos9sf_syncram_2p CD n2x_syncram \
+      CD n2x_syncram_dp CD n2x_syncram_2p CD n2x_syncram_we CD n2x_syncram_be \
+      CD n2x_syncram_dp_be CD n2x_syncram_2p_be CD ut90nhbd_syncram \
+      CD ut90nhbd_syncram_2p CD ut90nhbd_syncram_dp CD rh_lib13t_syncram_2p \
+      CD rh_lib13t_syncram
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/allmul.vhd 2014/04/16.17:51:33 P.49d
+PH techmap/allmul 1590169286 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/allmul.vhd \
+      PB ieee/std_logic_1164 1354696159 CD mul_dw CD gen_mult_pipe \
+      CD axcel_mul_33x33_signed
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/allpads.vhd 2014/04/16.17:51:33 P.49d
+PH techmap/allpads 1590169218 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/allpads.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158 \
+      CD apa3_clkpad CD apa3_clkpad_ds CD apa3_inpad CD apa3_inpad_ds CD apa3_iopad \
+      CD apa3_iopad_ds CD apa3_odpad CD apa3_outpad CD apa3_outpad_ds \
+      CD apa3_toutpad CD apa3_toutpad_ds CD apa3e_clkpad CD apa3e_clkpad_ds \
+      CD apa3e_inpad CD apa3e_inpad_ds CD apa3e_iopad CD apa3e_iopad_ds \
+      CD apa3e_odpad CD apa3e_outpad CD apa3e_outpad_ds CD apa3e_toutpad \
+      CD apa3e_toutpad_ds CD apa3l_clkpad CD apa3l_clkpad_ds CD apa3l_inpad \
+      CD apa3l_inpad_ds CD apa3l_iopad CD apa3l_iopad_ds CD apa3l_odpad \
+      CD apa3l_outpad CD apa3l_outpad_ds CD apa3l_toutpad CD apa3l_toutpad_ds \
+      CD fusion_clkpad CD fusion_clkpad_ds CD fusion_inpad CD fusion_inpad_ds \
+      CD fusion_iopad CD fusion_iopad_ds CD fusion_odpad CD fusion_outpad \
+      CD fusion_outpad_ds CD fusion_toutpad CD fusion_toutpad_ds CD axcel_inpad \
+      CD axcel_iopad CD axcel_outpad CD axcel_odpad CD axcel_toutpad CD axcel_clkpad \
+      CD axcel_inpad_ds CD axcel_outpad_ds CD atc18_inpad CD atc18_iopad \
+      CD atc18_outpad CD atc18_odpad CD atc18_toutpad CD atc18_clkpad CD ihp25_inpad \
+      CD ihp25rh_inpad CD ihp25_iopad CD ihp25rh_iopad CD ihp25_outpad \
+      CD ihp25rh_outpad CD ihp25_toutpad CD ihp25rh_toutpad CD ihp25_clkpad \
+      CD ihp25rh_clkpad CD rhumc_inpad CD rhumc_iopad CD rhumc_outpad \
+      CD rhumc_toutpad CD saed32_inpad CD saed32_iopad CD saed32_outpad \
+      CD saed32_toutpad CD dare_inpad CD dare_iopad CD dare_outpad CD dare_toutpad \
+      CD umc_inpad CD umc_iopad CD umc_outpad CD umc_toutpad CD unisim_inpad \
+      CD unisim_iopad CD unisim_outpad CD unisim_odpad CD unisim_toutpad \
+      CD unisim_skew_outpad CD unisim_clkpad CD unisim_inpad_ds CD unisim_iopad_ds \
+      CD unisim_outpad_ds CD unisim_clkpad_ds CD virtex4_inpad_ds \
+      CD virtex4_clkpad_ds CD rh_lib18t_inpad CD rh_lib18t_iopad \
+      CD rh_lib18t_inpad_ds CD rh_lib18t_outpad_ds CD ut025crh_inpad \
+      CD ut025crh_iopad CD ut025crh_outpad CD ut025crh_toutpad \
+      CD ut025crh_lvds_combo CD ut130hbd_inpad CD ut130hbd_iopad CD ut130hbd_outpad \
+      CD ut130hbd_toutpad CD ut130hbd_lvds_combo CD ut90nhbd_inpad \
+      CD ut90nhbd_iopad CD ut90nhbd_outpad CD ut90nhbd_toutpad CD rhumc_lvds_combo \
+      CD umc_lvds_combo CD peregrine_inpad CD peregrine_iopad CD peregrine_toutpad \
+      CD nextreme_inpad CD nextreme_iopad CD nextreme_toutpad CD atc18rha_inpad \
+      CD atc18rha_iopad CD atc18rha_outpad CD atc18rha_odpad CD atc18rha_toutpad \
+      CD atc18rha_clkpad CD n2x_inpad CD n2x_iopad CD n2x_outpad CD n2x_toutpad \
+      CD n2x_inpad_ds CD n2x_iopad_ds CD n2x_outpad_ds CD n2x_inpad_ddr \
+      CD n2x_inpad_ddrv CD n2x_sdram_phy
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/alltap.vhd 2014/04/16.17:51:33 P.49d
+PH techmap/alltap 1590169283 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/alltap.vhd \
+      PB ieee/std_logic_1164 1354696159 CD tap_gen CD virtex_tap CD virtex2_tap \
+      CD virtex4_tap CD virtex5_tap CD spartan3_tap CD altera_tap CD fusion_tap \
+      CD proasic3_tap CD proasic3e_tap CD proasic3l_tap CD virtex6_tap \
+      CD spartan6_tap CD virtex7_tap CD kintex7_tap CD artix7_tap CD zynq_tap \
+      CD scanregi_inf CD scanrego_inf CD scanregio_inf
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/clkand.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/clkand 1590169361 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/clkand.vhd \
+      PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158 \
+      PH techmap/allclkgen 1590169171
+AR techmap/clkand/rtl 1590169362 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/clkand.vhd \
+      EN techmap/clkand 1590169361 CP clkand_unisim CP clkand_ut025crh \
+      CP clkand_rh_lib18t CP clkand_ut130hbd CP clkand_ut90nhbd CP clkand_n2x \
+      CP clkand_saed32 CP clkand_dare
+EN techmap/clkrand 1590169363 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/clkand.vhd \
+      PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158 \
+      PH techmap/allclkgen 1590169171
+AR techmap/clkrand/rtl 1590169364 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/clkand.vhd \
+      EN techmap/clkrand 1590169363 CP clkrand_ut130hbd CP clkand
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/clkgen.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/clkgen 1590169357 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/clkgen.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158 \
+      PH techmap/allclkgen 1590169171
+AR techmap/clkgen/struct 1590169358 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/clkgen.vhd \
+      EN techmap/clkgen 1590169357 CP clkgen_virtex2 CP clkgen_virtex5 \
+      CP clkgen_virtex7 CP clkgen_spartan3 CP clkgen_altera_mf CP clkgen_stratixii \
+      CP clkgen_cycloneiii CP clkgen_stratixiii CP clkgen_axcelerator \
+      CP clkgen_rh_lib18t CP clkgen_proasic3 CP clkgen_proasic3e \
+      CP clkgen_proasic3l CP clkgen_fusion CP clkgen_rhumc CP clkgen_saed32 \
+      CP clkgen_dare CP clkgen_easic90 CP clkgen_n2x CP clkgen_ut130hbd \
+      CP clkgen_ut90nhbd
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/clkinv.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/clkinv 1590169359 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/clkinv.vhd \
+      PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158 \
+      PH techmap/allclkgen 1590169171
+AR techmap/clkinv/rtl 1590169360 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/clkinv.vhd \
+      EN techmap/clkinv 1590169359 CP clkinv_saed32 CP clkinv_dare
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/clkmux.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/clkmux 1590169327 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/clkmux.vhd \
+      PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158 \
+      PH techmap/allclkgen 1590169171
+AR techmap/clkmux/rtl 1590169328 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/clkmux.vhd \
+      EN techmap/clkmux 1590169327 CP clkmux_unisim CP clkmux_rhlib18t \
+      CP clkmux_ut130hbd CP clkmux_n2x CP clkmux_ut90nhbd CP clkmux_saed32 \
+      CP clkmux_dare CP clkmux_rhumc
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/clkpad.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/clkpad 1590169267 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/clkpad.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158 \
+      PH techmap/allpads 1590169218
+AR techmap/clkpad/rtl 1590169268 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/clkpad.vhd \
+      EN techmap/clkpad 1590169267 CP unisim_clkpad CP axcel_clkpad CP apa3_clkpad \
+      CP apa3e_clkpad CP apa3l_clkpad CP fusion_clkpad CP atc18_clkpad \
+      CP atc18rha_clkpad CP umc_inpad CP rhumc_inpad CP saed32_inpad CP dare_inpad \
+      CP ihp25_clkpad CP rh_lib18t_inpad CP ut025crh_inpad CP ut130hbd_inpad \
+      CP ut90nhbd_inpad CP peregrine_inpad CP n2x_inpad
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/clkpad_ds.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/clkpad_ds 1590169389 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/clkpad_ds.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158 \
+      PH techmap/allpads 1590169218
+AR techmap/clkpad_ds/rtl 1590169390 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/clkpad_ds.vhd \
+      EN techmap/clkpad_ds 1590169389 CP unisim_clkpad_ds CP virtex4_clkpad_ds \
+      CP axcel_inpad_ds CP apa3_clkpad_ds CP apa3e_clkpad_ds CP apa3l_clkpad_ds \
+      CP fusion_clkpad_ds CP rh_lib18t_inpad_ds
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/cpu_disas_net.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/cpu_disas_net 1590169417 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/cpu_disas_net.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR techmap/cpu_disas_net/behav 1590169418 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/cpu_disas_net.vhd \
+      EN techmap/cpu_disas_net 1590169417
+EN techmap/fpu_disas_net 1590169419 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/cpu_disas_net.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR techmap/fpu_disas_net/behav 1590169420 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/cpu_disas_net.vhd \
+      EN techmap/fpu_disas_net 1590169419
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/ddrphy.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/ddrphy 1590169365 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/ddrphy.vhd \
+      PB ieee/std_logic_1164 1354696159 LB grlib PB grlib/stdlib 1590169014 \
+      LB techmap PH techmap/gencomp 1590169158 PH techmap/allddr 1590169172
+AR techmap/ddrphy/rtl 1590169366 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/ddrphy.vhd \
+      EN techmap/ddrphy 1590169365 CP stratixii_ddr_phy CP cycloneiii_ddr_phy \
+      CP virtex2_ddr_phy CP virtex4_ddr_phy CP spartan3e_ddr_phy CP ddrphy_wo_pads \
+      CP ddrpads
+EN techmap/ddrphy_wo_pads 1590169367 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/ddrphy.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158 \
+      PH techmap/allddr 1590169172
+AR techmap/ddrphy_wo_pads/rtl 1590169368 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/ddrphy.vhd \
+      EN techmap/ddrphy_wo_pads 1590169367 CP ut90nhbd_ddr_phy_wo_pads \
+      CP generic_ddr_phy_wo_pads
+EN techmap/ddrpads 1590169369 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/ddrphy.vhd \
+      PB ieee/std_logic_1164 1354696159 LB grlib PB grlib/stdlib 1590169014 \
+      LB techmap PH techmap/gencomp 1590169158 PH techmap/allddr 1590169172
+AR techmap/ddrpads/rtl 1590169370 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/ddrphy.vhd \
+      EN techmap/ddrpads 1590169369 CP outpad CP inpad CP outpad_ds CP iopad
+EN techmap/ddr2pads 1590169371 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/ddrphy.vhd \
+      PB ieee/std_logic_1164 1354696159 LB grlib PB grlib/stdlib 1590169014 \
+      LB techmap PH techmap/gencomp 1590169158 PH techmap/allddr 1590169172
+AR techmap/ddr2pads/rtl 1590169372 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/ddrphy.vhd \
+      EN techmap/ddr2pads 1590169371 CP outpad CP inpad CP outpad_ds CP iopad_ds \
+      CP iopad
+EN techmap/ddr2phy 1590169373 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/ddrphy.vhd \
+      PB ieee/std_logic_1164 1354696159 LB grlib PB grlib/stdlib 1590169014 \
+      LB techmap PH techmap/gencomp 1590169158 PH techmap/allddr 1590169172 \
+      PH techmap/allpads 1590169218
+AR techmap/ddr2phy/rtl 1590169374 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/ddrphy.vhd \
+      EN techmap/ddr2phy 1590169373 CP stratixii_ddr2_phy CP stratixiii_ddr2_phy \
+      CP spartan3a_ddr2_phy CP easic90_ddr2_phy CP n2x_ddr2_phy CP ddr2phy_wo_pads \
+      CP ddr2pads
+EN techmap/ddr2phy_wo_pads 1590169375 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/ddrphy.vhd \
+      PB ieee/std_logic_1164 1354696159 LB grlib PB grlib/stdlib 1590169014 \
+      LB techmap PH techmap/gencomp 1590169158 PH techmap/allddr 1590169172
+AR techmap/ddr2phy_wo_pads/rtl 1590169376 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/ddrphy.vhd \
+      EN techmap/ddr2phy_wo_pads 1590169375 CP virtex5_ddr2_phy_wo_pads \
+      CP spartan6_ddr2_phy_wo_pads CP generic_ddr2_phy_wo_pads
+EN techmap/lpddr2phy_wo_pads 1590169377 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/ddrphy.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158 \
+      PH techmap/allddr 1590169172
+AR techmap/lpddr2phy_wo_pads/tmap 1590169378 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/ddrphy.vhd \
+      EN techmap/lpddr2phy_wo_pads 1590169377 CP generic_lpddr2phy_wo_pads
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/ddr_ireg.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/ddr_ireg 1590169216 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/ddr_ireg.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158 \
+      PH techmap/allddr 1590169172
+AR techmap/ddr_ireg/rtl 1590169217 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/ddr_ireg.vhd \
+      EN techmap/ddr_ireg 1590169216 CP gen_iddr_reg CP axcel_iddr_reg \
+      CP apa3_iddr_reg CP apa3e_iddr_reg CP apa3l_iddr_reg CP unisim_iddr_reg \
+      CP rhumc_iddr_reg
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/ddr_oreg.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/ddr_oreg 1590169214 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/ddr_oreg.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158 \
+      PH techmap/allddr 1590169172
+AR techmap/ddr_oreg/rtl 1590169215 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/ddr_oreg.vhd \
+      EN techmap/ddr_oreg 1590169214 CP gen_oddr_reg CP axcel_oddr_reg \
+      CP apa3_oddr_reg CP apa3e_oddr_reg CP apa3l_oddr_reg CP ec_oddr_reg \
+      CP unisim_oddr_reg
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/grfpw_net.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/grfpw_net 1590169411 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/grfpw_net.vhd \
+      PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158
+AR techmap/grfpw_net/rtl 1590169412 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/grfpw_net.vhd \
+      EN techmap/grfpw_net 1590169411 CP grfpw_0_unisim CP grfpw_0_stratixii \
+      CP grfpw_0_stratixiii CP grfpw_0_cycloneiii CP grfpw_tsmc90 \
+      CP grfpw_tm65gplus CP grfpw_cust1
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/grgates.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/grmux2 1590169186 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/grgates.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158 \
+      PH techmap/allclkgen 1590169171
+AR techmap/grmux2/rtl 1590169187 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/grgates.vhd \
+      EN techmap/grmux2 1590169186 CP clkmux_rhlib18t CP ut130hbd_mux2 \
+      CP mux2_ut90nhbd
+EN techmap/grmux2v 1590169188 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/grgates.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158
+AR techmap/grmux2v/rtl 1590169189 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/grgates.vhd \
+      EN techmap/grmux2v 1590169188 CP grmux2
+EN techmap/grdff 1590169190 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/grgates.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158
+AR techmap/grdff/rtl 1590169191 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/grgates.vhd \
+      EN techmap/grdff 1590169190 CP ut130hbd_dff CP dff_ut90nhbd
+EN techmap/gror2 1590169192 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/grgates.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158
+AR techmap/gror2/rtl 1590169193 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/grgates.vhd \
+      EN techmap/gror2 1590169192 CP ut130hbd_or2 CP or2_ut90nhbd
+EN techmap/grand12 1590169194 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/grgates.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158
+AR techmap/grand12/rtl 1590169195 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/grgates.vhd \
+      EN techmap/grand12 1590169194 CP ut130hbd_and12 CP and12_ut90nhbd
+EN techmap/grnand2 1590169196 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/grgates.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158
+AR techmap/grnand2/rtl 1590169197 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/grgates.vhd \
+      EN techmap/grnand2 1590169196
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/grlfpw_net.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/grlfpw_net 1590169409 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/grlfpw_net.vhd \
+      PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158
+AR techmap/grlfpw_net/rtl 1590169410 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/grlfpw_net.vhd \
+      EN techmap/grlfpw_net 1590169409 CP grlfpw_0_stratixii \
+      CP grlfpw_0_stratixiii CP grlfpw_0_cycloneiii CP grlfpw_0_axcelerator \
+      CP grlfpw_0_actfus CP grlfpw_0_proasic3 CP grlfpw_0_proasic3l \
+      CP grlfpw_0_proasic3e CP grlfpw_0_unisim
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/inpad.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/inpad 1590169293 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/inpad.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158 \
+      PH techmap/allpads 1590169218
+AR techmap/inpad/rtl 1590169294 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/inpad.vhd \
+      EN techmap/inpad 1590169293 CP unisim_inpad CP axcel_inpad CP apa3_inpad \
+      CP apa3e_inpad CP apa3l_inpad CP fusion_inpad CP atc18_inpad CP atc18rha_inpad \
+      CP umc_inpad CP rhumc_inpad CP saed32_inpad CP dare_inpad CP ihp25_inpad \
+      CP ihp25rh_inpad CP rh_lib18t_inpad CP ut025crh_inpad CP ut130hbd_inpad \
+      CP peregrine_inpad CP nextreme_inpad CP n2x_inpad CP ut90nhbd_inpad
+EN techmap/inpadv 1590169295 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/inpad.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158
+AR techmap/inpadv/rtl 1590169296 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/inpad.vhd \
+      EN techmap/inpadv 1590169295 CP inpad
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/inpad_ddr.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/inpad_ddr 1590169425 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/inpad_ddr.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158 \
+      PH techmap/allddr 1590169172 PH techmap/allpads 1590169218
+AR techmap/inpad_ddr/rtl 1590169426 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/inpad_ddr.vhd \
+      EN techmap/inpad_ddr 1590169425 CP inpad CP ddr_ireg CP nextreme_inpad \
+      CP nextreme_iddr_reg CP n2x_inpad_ddr
+EN techmap/inpad_ddrv 1590169427 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/inpad_ddr.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158 \
+      PH techmap/allpads 1590169218
+AR techmap/inpad_ddrv/rtl 1590169428 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/inpad_ddr.vhd \
+      EN techmap/inpad_ddrv 1590169427 CP n2x_inpad_ddrv CP inpad_ddr
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/inpad_ds.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/inpad_ds 1590169303 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/inpad_ds.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158 \
+      PH techmap/allpads 1590169218
+AR techmap/inpad_ds/rtl 1590169304 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/inpad_ds.vhd \
+      EN techmap/inpad_ds 1590169303 CP unisim_inpad_ds CP virtex4_inpad_ds \
+      CP axcel_inpad_ds CP apa3_inpad_ds CP apa3e_inpad_ds CP apa3l_inpad_ds \
+      CP fusion_inpad_ds CP rh_lib18t_inpad_ds CP n2x_inpad_ds
+EN techmap/inpad_dsv 1590169305 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/inpad_ds.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158
+AR techmap/inpad_dsv/rtl 1590169306 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/inpad_ds.vhd \
+      EN techmap/inpad_dsv 1590169305 CP inpad_ds
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/iodpad.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/iodpad 1590169391 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/iodpad.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158 \
+      PH techmap/allpads 1590169218
+AR techmap/iodpad/rtl 1590169392 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/iodpad.vhd \
+      EN techmap/iodpad 1590169391 CP unisim_iopad CP axcel_iopad CP apa3_iopad \
+      CP apa3e_iopad CP apa3l_iopad CP fusion_iopad CP atc18_iopad CP atc18rha_iopad \
+      CP umc_iopad CP rhumc_iopad CP ihp25_iopad CP rh_lib18t_iopad \
+      CP ut025crh_iopad CP ut130hbd_iopad CP peregrine_iopad
+EN techmap/iodpadv 1590169393 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/iodpad.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158
+AR techmap/iodpadv/rtl 1590169394 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/iodpad.vhd \
+      EN techmap/iodpadv 1590169393 CP iodpad
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/iopad.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/iopad 1590169275 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/iopad.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158 \
+      PH techmap/allpads 1590169218
+AR techmap/iopad/rtl 1590169276 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/iopad.vhd \
+      EN techmap/iopad 1590169275 CP unisim_iopad CP axcel_iopad CP apa3_iopad \
+      CP apa3e_iopad CP apa3l_iopad CP fusion_iopad CP atc18_iopad CP atc18rha_iopad \
+      CP umc_iopad CP rhumc_iopad CP saed32_iopad CP dare_iopad CP ihp25_iopad \
+      CP ihp25rh_iopad CP rh_lib18t_iopad CP ut025crh_iopad CP ut130hbd_iopad \
+      CP peregrine_iopad CP nextreme_iopad CP n2x_iopad CP ut90nhbd_iopad
+EN techmap/iopadv 1590169277 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/iopad.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158
+AR techmap/iopadv/rtl 1590169278 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/iopad.vhd \
+      EN techmap/iopadv 1590169277 CP iopad
+EN techmap/iopadvv 1590169279 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/iopad.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158
+AR techmap/iopadvv/rtl 1590169280 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/iopad.vhd \
+      EN techmap/iopadvv 1590169279 CP iopad
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/iopad_ddr.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/iopad_ddr 1590169433 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/iopad_ddr.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158 \
+      PH techmap/allddr 1590169172 PH techmap/allpads 1590169218
+AR techmap/iopad_ddr/rtl 1590169434 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/iopad_ddr.vhd \
+      EN techmap/iopad_ddr 1590169433 CP iopad CP ddr_ireg CP ddr_oreg \
+      CP nextreme_iopad CP nextreme_iddr_reg CP nextreme_oddr_reg
+EN techmap/iopad_ddrv 1590169435 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/iopad_ddr.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158
+AR techmap/iopad_ddrv/rtl 1590169436 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/iopad_ddr.vhd \
+      EN techmap/iopad_ddrv 1590169435 CP iopad_ddr
+EN techmap/iopad_ddrvv 1590169437 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/iopad_ddr.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158
+AR techmap/iopad_ddrvv/rtl 1590169438 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/iopad_ddr.vhd \
+      EN techmap/iopad_ddrvv 1590169437 CP iopad_ddr
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/iopad_ds.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/iopad_ds 1590169269 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/iopad_ds.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158 \
+      PH techmap/allpads 1590169218
+AR techmap/iopad_ds/rtl 1590169270 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/iopad_ds.vhd \
+      EN techmap/iopad_ds 1590169269 CP unisim_iopad_ds CP apa3_iopad_ds \
+      CP apa3e_iopad_ds CP apa3l_iopad_ds CP fusion_iopad_ds CP n2x_iopad_ds
+EN techmap/iopad_dsv 1590169271 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/iopad_ds.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158
+AR techmap/iopad_dsv/rtl 1590169272 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/iopad_ds.vhd \
+      EN techmap/iopad_dsv 1590169271 CP iopad_ds
+EN techmap/iopad_dsvv 1590169273 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/iopad_ds.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158
+AR techmap/iopad_dsvv/rtl 1590169274 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/iopad_ds.vhd \
+      EN techmap/iopad_dsvv 1590169273 CP iopad_ds
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/leon4_net.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/leon4_net 1590169413 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/leon4_net.vhd \
+      PB ieee/std_logic_1164 1354696159 LB grlib PB grlib/amba 1590169016 \
+      PB grlib/stdlib 1590169014 PH grlib/devices 1590169017 PH techmap/gencomp 1590169158
+AR techmap/leon4_net/rtl 1590169414 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/leon4_net.vhd \
+      EN techmap/leon4_net 1590169413 CP leon4_ut90nhbd
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/lvds_combo.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/lvds_combo 1590169395 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/lvds_combo.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158 \
+      PH techmap/allpads 1590169218
+AR techmap/lvds_combo/rtl 1590169396 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/lvds_combo.vhd \
+      EN techmap/lvds_combo 1590169395 CP outpad_ds CP inpad_ds \
+      CP ut025crh_lvds_combo CP ut130hbd_lvds_combo CP umc_lvds_combo \
+      CP rhumc_lvds_combo
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/mul_61x61.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/mul_61x61 1590169415 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/mul_61x61.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158
+AR techmap/mul_61x61/rtl 1590169416 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/mul_61x61.vhd \
+      EN techmap/mul_61x61 1590169415 CP gen_mul_61x61 CP dw_mul_61x61 \
+      CP axcel_mul_61x61 CP virtex4_mul_61x61 CP virtex6_mul_61x61
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/nandtree.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/nandtree 1590169387 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/nandtree.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158
+AR techmap/nandtree/rtl 1590169388 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/nandtree.vhd \
+      EN techmap/nandtree 1590169387 CP rh_lib18t_nand_tree
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/odpad.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/odpad 1590169397 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/odpad.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158 \
+      PH techmap/allpads 1590169218
+AR techmap/odpad/rtl 1590169398 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/odpad.vhd \
+      EN techmap/odpad 1590169397 CP unisim_toutpad CP axcel_toutpad \
+      CP apa3_toutpad CP apa3e_toutpad CP apa3l_toutpad CP fusion_toutpad \
+      CP atc18_toutpad CP atc18rha_toutpad CP umc_toutpad CP rhumc_toutpad \
+      CP ihp25_toutpad CP rh_lib18t_iopad CP ut025crh_iopad CP ut130hbd_iopad \
+      CP peregrine_iopad CP nextreme_toutpad CP n2x_toutpad
+EN techmap/odpadv 1590169399 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/odpad.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158
+AR techmap/odpadv/rtl 1590169400 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/odpad.vhd \
+      EN techmap/odpadv 1590169399 CP odpad
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/outpad.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/outpad 1590169263 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/outpad.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158 \
+      PH techmap/allpads 1590169218
+AR techmap/outpad/rtl 1590169264 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/outpad.vhd \
+      EN techmap/outpad 1590169263 CP unisim_outpad CP axcel_outpad CP apa3_outpad \
+      CP apa3e_outpad CP apa3l_outpad CP fusion_outpad CP atc18_outpad \
+      CP atc18rha_outpad CP umc_outpad CP rhumc_outpad CP saed32_outpad \
+      CP dare_outpad CP ihp25_outpad CP ihp25rh_outpad CP rh_lib18t_iopad \
+      CP ut025crh_outpad CP ut130hbd_outpad CP peregrine_toutpad \
+      CP nextreme_toutpad CP n2x_outpad CP ut90nhbd_outpad
+EN techmap/outpadv 1590169265 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/outpad.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158
+AR techmap/outpadv/rtl 1590169266 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/outpad.vhd \
+      EN techmap/outpadv 1590169265 CP outpad
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/outpad_ddr.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/outpad_ddr 1590169429 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/outpad_ddr.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158 \
+      PH techmap/allddr 1590169172 PH techmap/allpads 1590169218
+AR techmap/outpad_ddr/rtl 1590169430 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/outpad_ddr.vhd \
+      EN techmap/outpad_ddr 1590169429 CP ddr_oreg CP outpad CP nextreme_oddr_reg \
+      CP nextreme_toutpad
+EN techmap/outpad_ddrv 1590169431 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/outpad_ddr.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158
+AR techmap/outpad_ddrv/rtl 1590169432 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/outpad_ddr.vhd \
+      EN techmap/outpad_ddrv 1590169431 CP outpad_ddr
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/outpad_ds.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/outpad_ds 1590169259 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/outpad_ds.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158 \
+      PH techmap/allpads 1590169218
+AR techmap/outpad_ds/rtl 1590169260 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/outpad_ds.vhd \
+      EN techmap/outpad_ds 1590169259 CP unisim_outpad_ds CP axcel_outpad_ds \
+      CP apa3_outpad_ds CP apa3e_outpad_ds CP apa3l_outpad_ds CP fusion_outpad_ds \
+      CP rh_lib18t_outpad_ds CP n2x_outpad_ds
+EN techmap/outpad_dsv 1590169261 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/outpad_ds.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158
+AR techmap/outpad_dsv/rtl 1590169262 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/outpad_ds.vhd \
+      EN techmap/outpad_dsv 1590169261 CP outpad_ds
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/regfile_3p.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/regfile_3p 1590169383 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/regfile_3p.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158 \
+      PH techmap/allmem 1590169185
+AR techmap/regfile_3p/rtl 1590169384 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/regfile_3p.vhd \
+      EN techmap/regfile_3p 1590169383 CP generic_regfile_3p \
+      CP peregrine_regfile_3p CP syncram_2p
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/ringosc.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/ringosc 1590169421 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/ringosc.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158
+AR techmap/ringosc/rtl 1590169422 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/ringosc.vhd \
+      EN techmap/ringosc 1590169421 CP ringosc_rhumc CP ringosc_ut130hbd
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/scanreg.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/scanregi 1590169451 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/scanreg.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158 \
+      PH techmap/alltap 1590169283
+AR techmap/scanregi/tmap 1590169452 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/scanreg.vhd \
+      EN techmap/scanregi 1590169451 CP scanregi_inf CP grmux2 CP grdff CP gror2
+EN techmap/scanrego 1590169453 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/scanreg.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158 \
+      PH techmap/alltap 1590169283
+AR techmap/scanrego/tmap 1590169454 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/scanreg.vhd \
+      EN techmap/scanrego 1590169453 CP scanrego_inf CP grmux2 CP grdff
+EN techmap/scanregto 1590169455 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/scanreg.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158 \
+      PH techmap/alltap 1590169283
+AR techmap/scanregto/tmap 1590169456 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/scanreg.vhd \
+      EN techmap/scanregto 1590169455 CP scanrego CP gror2 CP grand12
+EN techmap/scanregio 1590169457 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/scanreg.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158 \
+      PH techmap/alltap 1590169283
+AR techmap/scanregio/tmap 1590169458 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/scanreg.vhd \
+      EN techmap/scanregio 1590169457 CP scanregio_inf CP scanregi CP scanregto
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/sdram_phy.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/sdram_phy 1590169463 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/sdram_phy.vhd \
+      PB ieee/std_logic_1164 1354696159 LB grlib PB grlib/stdlib 1590169014 \
+      LB techmap PH techmap/gencomp 1590169158 PH techmap/allpads 1590169218
+AR techmap/sdram_phy/rtl 1590169464 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/sdram_phy.vhd \
+      EN techmap/sdram_phy 1590169463 CP outpadv CP iopadvv CP outpad \
+      CP n2x_sdram_phy
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/skew_outpad.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/skew_outpad 1590169407 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/skew_outpad.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158 \
+      PH techmap/allpads 1590169218
+AR techmap/skew_outpad/rtl 1590169408 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/skew_outpad.vhd \
+      EN techmap/skew_outpad 1590169407 CP unisim_skew_outpad
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/spictrl_net.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/spictrl_net 1590169449 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/spictrl_net.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158
+AR techmap/spictrl_net/rtl 1590169450 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/spictrl_net.vhd \
+      EN techmap/spictrl_net 1590169449 CP spictrl_unisim
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/syncfifo_2p.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/syncfifo_2p 1590169381 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/syncfifo_2p.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158 \
+      PH techmap/allmem 1590169185 LB grlib PH grlib/config 1590169012 \
+      PH grlib/config_types 1590169011 PB grlib/stdlib 1590169014
+AR techmap/syncfifo_2p/rtl 1590169382 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/syncfifo_2p.vhd \
+      EN techmap/syncfifo_2p 1590169381 CP altera_fifo_dp
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/syncram.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/syncram 1590169243 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/syncram.vhd \
+      PB ieee/std_logic_1164 1354696159 LB grlib PH grlib/config 1590169012 \
+      PH grlib/config_types 1590169011 PB grlib/stdlib 1590169014 \
+      PH techmap/gencomp 1590169158 PH techmap/allmem 1590169185
+AR techmap/syncram/rtl 1590169244 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/syncram.vhd \
+      EN techmap/syncram 1590169243 CP grmux2 CP generic_syncram CP virtex_syncram \
+      CP unisim_syncram CP virage_syncram CP atc18rha_syncram CP axcel_syncram \
+      CP proasic_syncram CP umc_syncram CP rhumc_syncram CP saed32_syncram \
+      CP dare_syncram CP proasic3_syncram CP proasic3e_syncram CP proasic3l_syncram \
+      CP fusion_syncram CP ihp25_syncram CP ihp25rh_syncram CP altera_syncram \
+      CP rh_lib18t_syncram CP ec_syncram CP ut025crh_syncram CP ut90nhbd_syncram \
+      CP ut130hbd_syncram CP peregrine_syncram CP artisan_syncram \
+      CP custom1_syncram CP eclipse_syncram_2p CP virage90_syncram \
+      CP nextreme_syncram CP smic13_syncram CP tm65gplus_syncram CP cmos9sf_syncram \
+      CP n2x_syncram CP rh_lib13t_syncram
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/syncram128.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/syncram128 1590169443 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/syncram128.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158 \
+      PH techmap/allmem 1590169185 LB grlib PH grlib/config 1590169012 \
+      PH grlib/config_types 1590169011 PB grlib/stdlib 1590169014
+AR techmap/syncram128/rtl 1590169444 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/syncram128.vhd \
+      EN techmap/syncram128 1590169443 CP unisim_syncram128 CP n2x_syncram_we \
+      CP syncram64
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/syncram128bw.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/syncram128bw 1590169439 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/syncram128bw.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158 \
+      LB grlib PH grlib/config 1590169012 PH grlib/config_types 1590169011 \
+      PB grlib/stdlib 1590169014
+AR techmap/syncram128bw/rtl 1590169440 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/syncram128bw.vhd \
+      EN techmap/syncram128bw 1590169439 CP unisim_syncram128bw \
+      CP altera_syncram128bw CP tm65gplus_syncram128bw CP ut90nhbd_syncram128bw \
+      CP syncram
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/syncram156bw.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/syncram156bw 1590169445 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/syncram156bw.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158 \
+      LB grlib PH grlib/config 1590169012 PH grlib/config_types 1590169011 \
+      PB grlib/stdlib 1590169014
+AR techmap/syncram156bw/rtl 1590169446 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/syncram156bw.vhd \
+      EN techmap/syncram156bw 1590169445 CP cust1_syncram156bw \
+      CP ut90nhbd_syncram156bw CP syncram
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/syncram256bw.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/syncram256bw 1590169441 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/syncram256bw.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158 \
+      LB grlib PH grlib/config 1590169012 PH grlib/config_types 1590169011 \
+      PB grlib/stdlib 1590169014
+AR techmap/syncram256bw/rtl 1590169442 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/syncram256bw.vhd \
+      EN techmap/syncram256bw 1590169441 CP unisim_syncram128bw \
+      CP altera_syncram256bw CP tm65gplus_syncram256bw CP cmos9sf_syncram256bw \
+      CP syncram
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/syncram64.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/syncram64 1590169291 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/syncram64.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158 \
+      PH techmap/allmem 1590169185 LB grlib PH grlib/config 1590169012 \
+      PH grlib/config_types 1590169011 PB grlib/stdlib 1590169014
+AR techmap/syncram64/rtl 1590169292 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/syncram64.vhd \
+      EN techmap/syncram64 1590169291 CP unisim_syncram64 CP artisan_syncram64 \
+      CP custom1_syncram64 CP smic13_syncram64 CP n2x_syncram_we CP syncram
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/syncrambw.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/syncrambw 1590169459 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/syncrambw.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158 \
+      PH techmap/allmem 1590169185 LB grlib PH grlib/config 1590169012 \
+      PH grlib/config_types 1590169011 PB grlib/stdlib 1590169014
+AR techmap/syncrambw/rtl 1590169460 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/syncrambw.vhd \
+      EN techmap/syncrambw 1590169459 CP grmux2 CP n2x_syncram_be CP syncram
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/syncram_2p.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/syncram_2p 1590169281 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/syncram_2p.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158 \
+      PH techmap/allmem 1590169185 LB grlib PH grlib/config 1590169012 \
+      PH grlib/config_types 1590169011 PB grlib/stdlib 1590169014
+AR techmap/syncram_2p/rtl 1590169282 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/syncram_2p.vhd \
+      EN techmap/syncram_2p 1590169281 CP grmux2 CP generic_syncram_2p \
+      CP virtex_syncram_dp CP unisim_syncram_2p CP virage_syncram_2p \
+      CP virage_syncram_dp CP atc18rha_syncram_2p CP axcel_syncram_2p \
+      CP proasic_syncram_2p CP proasic3_syncram_2p CP proasic3e_syncram_2p \
+      CP proasic3l_syncram_2p CP dare_syncram_2p CP rhumc_syncram_2p \
+      CP fusion_syncram_2p CP altera_syncram_dp CP rh_lib18t_syncram_2p \
+      CP ec_syncram_dp CP ut025crh_syncram_2p CP ut90nhbd_syncram_2p \
+      CP ut130hbd_syncram_2p CP artisan_syncram_2p CP custom1_syncram_2p \
+      CP eclipse_syncram_2p CP virage90_syncram_dp CP nextreme_syncram_2p \
+      CP smic13_syncram_2p CP tm65gplus_syncram_2p CP cmos9sf_syncram_2p \
+      CP n2x_syncram_2p CP rh_lib13t_syncram_2p
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/syncram_2pbw.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/syncram_2pbw 1590169461 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/syncram_2pbw.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158 \
+      PH techmap/allmem 1590169185 LB grlib PH grlib/config 1590169012 \
+      PH grlib/config_types 1590169011 PB grlib/stdlib 1590169014
+AR techmap/syncram_2pbw/rtl 1590169462 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/syncram_2pbw.vhd \
+      EN techmap/syncram_2pbw 1590169461 CP grmux2 CP n2x_syncram_2p_be \
+      CP syncram_2p
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/syncram_dp.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/syncram_dp 1590169379 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/syncram_dp.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158 \
+      PH techmap/allmem 1590169185 LB grlib PH grlib/config 1590169012 \
+      PH grlib/config_types 1590169011 PB grlib/stdlib 1590169014
+AR techmap/syncram_dp/rtl 1590169380 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/syncram_dp.vhd \
+      EN techmap/syncram_dp 1590169379 CP virtex_syncram_dp CP unisim_syncram_dp \
+      CP virage_syncram_dp CP artisan_syncram_dp CP proasic3_syncram_dp \
+      CP proasic3e_syncram_dp CP proasic3l_syncram_dp CP saed32_syncram_dp \
+      CP dare_syncram_dp CP fusion_syncram_dp CP altera_syncram_dp CP ec_syncram_dp \
+      CP virage90_syncram_dp CP atc18rha_syncram_dp CP smic13_syncram_dp \
+      CP tm65gplus_syncram_dp CP n2x_syncram_dp CP ut90nhbd_syncram_dp
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/syncreg.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/syncreg 1590169465 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/syncreg.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158
+AR techmap/syncreg/tmap 1590169466 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/syncreg.vhd \
+      EN techmap/syncreg 1590169465 CP grdff
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/system_monitor.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/system_monitor 1590169423 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/system_monitor.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158
+AR techmap/system_monitor/struct 1590169424 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/system_monitor.vhd \
+      EN techmap/system_monitor 1590169423 CP sysmon_virtex5 CP sysmon
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/tap.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/tap 1590169385 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/tap.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158 \
+      PH techmap/alltap 1590169283 LB grlib PB grlib/stdlib 1590169014
+AR techmap/tap/rtl 1590169386 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/tap.vhd \
+      EN techmap/tap 1590169385 CP virtex_tap CP virtex2_tap CP virtex4_tap \
+      CP virtex5_tap CP virtex6_tap CP virtex7_tap CP kintex7_tap CP artix7_tap \
+      CP spartan3_tap CP spartan6_tap CP altera_tap CP proasic3_tap CP proasic3e_tap \
+      CP proasic3l_tap CP fusion_tap CP clkmux CP grmux2 CP techbuf CP tap_gen
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/techbuf.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/techbuf 1590169329 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/techbuf.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158 \
+      PH techmap/allclkgen 1590169171
+AR techmap/techbuf/rtl 1590169330 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/techbuf.vhd \
+      EN techmap/techbuf 1590169329 CP clkbuf_fusion CP clkbuf_apa3 CP clkbuf_apa3e \
+      CP clkbuf_apa3l CP clkbuf_actel CP clkbuf_xilinx CP clkbuf_ut025crh \
+      CP clkbuf_ut130hbd CP clkand_ut90nhbd CP clkbuf_nextreme CP clkbuf_n2x
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/techmult.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/techmult 1590169447 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/techmult.vhd \
+      PB ieee/std_logic_1164 1354696159 LB grlib PB grlib/stdlib 1590169014 \
+      PH grlib/multlib 1590169020 LB techmap PH techmap/allmul 1590169286 \
+      PH techmap/gencomp 1590169158
+AR techmap/techmult/rtl 1590169448 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/techmult.vhd \
+      EN techmap/techmult 1590169447 CP mul_17_17 CP mul_33_17 CP mul_33_9 \
+      CP mul_33_33 CP axcel_mul_33x33_signed CP mul_dw CP gen_mult_pipe
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/toutpad.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/toutpad 1590169401 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/toutpad.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158 \
+      PH techmap/allpads 1590169218
+AR techmap/toutpad/rtl 1590169402 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/toutpad.vhd \
+      EN techmap/toutpad 1590169401 CP unisim_toutpad CP axcel_toutpad \
+      CP apa3_toutpad CP apa3e_toutpad CP apa3l_toutpad CP fusion_toutpad \
+      CP atc18_toutpad CP atc18rha_toutpad CP umc_toutpad CP rhumc_toutpad \
+      CP saed32_toutpad CP dare_toutpad CP ihp25_toutpad CP ihp25rh_toutpad \
+      CP rh_lib18t_iopad CP ut025crh_toutpad CP ut130hbd_toutpad \
+      CP peregrine_toutpad CP nextreme_toutpad CP n2x_toutpad CP ut90nhbd_toutpad
+EN techmap/toutpadv 1590169403 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/toutpad.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158
+AR techmap/toutpadv/rtl 1590169404 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/toutpad.vhd \
+      EN techmap/toutpadv 1590169403 CP toutpad
+EN techmap/toutpadvv 1590169405 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/toutpad.vhd \
+      LB techmap PB ieee/std_logic_1164 1354696159 PH techmap/gencomp 1590169158
+AR techmap/toutpadvv/rtl 1590169406 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/maps/toutpad.vhd \
+      EN techmap/toutpadvv 1590169405 CP toutpad
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/buffer_unisim.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/clkbuf_xilinx 1590169245 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/buffer_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR techmap/clkbuf_xilinx/rtl 1590169246 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/buffer_unisim.vhd \
+      EN techmap/clkbuf_xilinx 1590169245 CP BUFGMUX CP BUFG
+EN techmap/clkmux_xilinx 1590169247 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/buffer_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR techmap/clkmux_xilinx/rtl 1590169248 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/buffer_unisim.vhd \
+      EN techmap/clkmux_xilinx 1590169247 CP BUFGMUX
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/clkgen_unisim.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/clkgen_virtex5 1590169249 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/clkgen_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158
+AR techmap/clkgen_virtex5/struct 1590169250 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/clkgen_unisim.vhd \
+      EN techmap/clkgen_virtex5 1590169249 CP BUFG CP BUFGMUX CP DCM
+EN techmap/clkgen_virtex7 1590169251 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/clkgen_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158
+AR techmap/clkgen_virtex7/struct 1590169252 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/clkgen_unisim.vhd \
+      EN techmap/clkgen_virtex7 1590169251 CP PLLE2_ADV CP BUFG
+EN techmap/clkand_unisim 1590169253 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/clkgen_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR techmap/clkand_unisim/rtl 1590169254 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/clkgen_unisim.vhd \
+      EN techmap/clkand_unisim 1590169253 CP bufgce
+EN techmap/clkmux_unisim 1590169255 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/clkgen_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR techmap/clkmux_unisim/rtl 1590169256 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/clkgen_unisim.vhd \
+      EN techmap/clkmux_unisim 1590169255 CP BUFGMUX
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/clkgen_virtex.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/clkgen_virtex 1590169347 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/clkgen_virtex.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158
+AR techmap/clkgen_virtex/rtl 1590169348 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/clkgen_virtex.vhd \
+      EN techmap/clkgen_virtex 1590169347 CP BUFGDLL CP BUFG CP CLKDLL
+EN techmap/clkgen_virtex2 1590169349 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/clkgen_virtex.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158
+AR techmap/clkgen_virtex2/struct 1590169350 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/clkgen_virtex.vhd \
+      EN techmap/clkgen_virtex2 1590169349 CP BUFGDLL CP BUFG CP IBUFG CP DCM \
+      CP BUFGMUX
+EN techmap/clkmul_virtex2 1590169351 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/clkgen_virtex.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158
+AR techmap/clkmul_virtex2/struct 1590169352 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/clkgen_virtex.vhd \
+      EN techmap/clkmul_virtex2 1590169351 CP BUFG CP DCM
+EN techmap/clkgen_spartan3 1590169353 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/clkgen_virtex.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158
+AR techmap/clkgen_spartan3/struct 1590169354 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/clkgen_virtex.vhd \
+      EN techmap/clkgen_spartan3 1590169353 CP BUFGDLL CP BUFG CP BUFGMUX CP DCM
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/ddr_phy_unisim.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/virtex4_ddr_phy 1590169331 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/ddr_phy_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159 LB grlib PB grlib/stdlib 1590169014 \
+      LB techmap PH techmap/gencomp 1590169158
+AR techmap/virtex4_ddr_phy/rtl 1590169332 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/ddr_phy_unisim.vhd \
+      EN techmap/virtex4_ddr_phy 1590169331 CP BUFG CP DCM CP clkpad CP ODDR \
+      CP outpad CP outpad_ds CP FD CP iopad CP IDDR
+EN techmap/virtex2_ddr_phy 1590169333 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/ddr_phy_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159 LB grlib PB grlib/stdlib 1590169014 \
+      LB techmap PH techmap/gencomp 1590169158 EN techmap/oddrv2 1590169181
+AR techmap/virtex2_ddr_phy/rtl 1590169334 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/ddr_phy_unisim.vhd \
+      EN techmap/virtex2_ddr_phy 1590169333 CP BUFG CP DCM CP FDDRRSE CP outpad CP FD \
+      CP oddrv2 CP iopad CP clkpad CP IFDDRRSE
+EN techmap/spartan3e_ddr_phy 1590169335 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/ddr_phy_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159 LB grlib PB grlib/stdlib 1590169014 \
+      LB techmap PH techmap/gencomp 1590169158 EN techmap/oddrc3e 1590169183
+AR techmap/spartan3e_ddr_phy/rtl 1590169336 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/ddr_phy_unisim.vhd \
+      EN techmap/spartan3e_ddr_phy 1590169335 CP BUFG CP DCM CP ODDR2 CP outpad CP FD \
+      CP oddrc3e CP iopad CP clkpad CP IDDR2
+EN techmap/virtex5_ddr2_phy_wo_pads 1590169337 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/ddr_phy_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159 LB grlib PB grlib/stdlib 1590169014 \
+      LB techmap PH techmap/gencomp 1590169158
+AR techmap/virtex5_ddr2_phy_wo_pads/rtl 1590169338 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/ddr_phy_unisim.vhd \
+      EN techmap/virtex5_ddr2_phy_wo_pads 1590169337 CP BUFG CP DCM CP IDELAYCTRL \
+      CP ODDR CP FD CP IDELAY CP IDDR
+EN techmap/spartan3a_ddr2_phy 1590169339 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/ddr_phy_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159 LB grlib PB grlib/stdlib 1590169014 \
+      LB techmap PH techmap/gencomp 1590169158
+AR techmap/spartan3a_ddr2_phy/rtl 1590169340 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/ddr_phy_unisim.vhd \
+      EN techmap/spartan3a_ddr2_phy 1590169339 CP BUFG CP DCM CP ODDR2 CP outpad \
+      CP clkpad CP FD CP iopad_ds CP IDDR2 CP iopad
+EN techmap/spartan6_ddr2_phy_wo_pads 1590169341 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/ddr_phy_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159 LB grlib PB grlib/stdlib 1590169014 \
+      LB techmap PH techmap/gencomp 1590169158
+AR techmap/spartan6_ddr2_phy_wo_pads/rtl 1590169342 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/ddr_phy_unisim.vhd \
+      EN techmap/spartan6_ddr2_phy_wo_pads 1590169341 CP BUFG CP DCM_SP CP ODDR2 \
+      CP FD CP IODELAY2 CP IDDR2
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/ddr_unisim.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/unisim_iddr_reg 1590169177 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/ddr_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158
+AR techmap/unisim_iddr_reg/rtl 1590169178 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/ddr_unisim.vhd \
+      EN techmap/unisim_iddr_reg 1590169177 CP IDDR CP IDDR2
+EN techmap/unisim_oddr_reg 1590169179 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/ddr_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158
+AR techmap/unisim_oddr_reg/rtl 1590169180 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/ddr_unisim.vhd \
+      EN techmap/unisim_oddr_reg 1590169179 CP ODDR CP FDDRRSE CP ODDR2
+EN techmap/oddrv2 1590169181 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/ddr_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158
+AR techmap/oddrv2/rtl 1590169182 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/ddr_unisim.vhd \
+      EN techmap/oddrv2 1590169181 CP FD CP FDDRRSE
+EN techmap/oddrc3e 1590169183 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/ddr_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158
+AR techmap/oddrc3e/rtl 1590169184 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/ddr_unisim.vhd \
+      EN techmap/oddrc3e 1590169183 CP FD CP ODDR2
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/memory_unisim.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/unisim_syncram 1590169202 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/memory_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159 LB grlib PH grlib/config_types 1590169011 \
+      PH grlib/config 1590169012
+AR techmap/unisim_syncram/behav 1590169203 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/memory_unisim.vhd \
+      EN techmap/unisim_syncram 1590169202 CP generic_syncram CP RAMB16_S36_S36 \
+      CP RAMB16_S36 CP RAMB16_S18 CP RAMB16_S9 CP RAMB16_S4 CP RAMB16_S2 CP RAMB16_S1
+EN techmap/unisim_syncram_dp 1590169204 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/memory_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR techmap/unisim_syncram_dp/behav 1590169205 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/memory_unisim.vhd \
+      EN techmap/unisim_syncram_dp 1590169204 CP RAMB16_S36_S36 CP RAMB16_S18_S18 \
+      CP RAMB16_S9_S9 CP RAMB16_S4_S4 CP RAMB16_S2_S2 CP RAMB16_S1_S1
+EN techmap/unisim_syncram_2p 1590169206 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/memory_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159 LB grlib PH grlib/config_types 1590169011 \
+      PH grlib/config 1590169012
+AR techmap/unisim_syncram_2p/behav 1590169207 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/memory_unisim.vhd \
+      EN techmap/unisim_syncram_2p 1590169206 CP generic_syncram_2p \
+      CP unisim_syncram_dp
+EN techmap/unisim_syncram64 1590169208 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/memory_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR techmap/unisim_syncram64/behav 1590169209 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/memory_unisim.vhd \
+      EN techmap/unisim_syncram64 1590169208 CP RAMB16_S36_S36 CP unisim_syncram
+EN techmap/unisim_syncram128 1590169210 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/memory_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR techmap/unisim_syncram128/behav 1590169211 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/memory_unisim.vhd \
+      EN techmap/unisim_syncram128 1590169210 CP unisim_syncram64
+EN techmap/unisim_syncram128bw 1590169212 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/memory_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR techmap/unisim_syncram128bw/behav 1590169213 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/memory_unisim.vhd \
+      EN techmap/unisim_syncram128bw 1590169212 CP RAMB16_S9_S9 CP unisim_syncram
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/memory_virtex.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/virtex_syncram 1590169198 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/memory_virtex.vhd \
+      PB ieee/std_logic_1164 1354696159 LB grlib PH grlib/config_types 1590169011 \
+      PH grlib/config 1590169012 LB techmap PH techmap/gencomp 1590169158
+AR techmap/virtex_syncram/behav 1590169199 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/memory_virtex.vhd \
+      EN techmap/virtex_syncram 1590169198 CP generic_syncram CP RAMB4_S16_S16 \
+      CP RAMB4_S16 CP RAMB4_S8 CP RAMB4_S4 CP RAMB4_S2 CP RAMB4_S1
+EN techmap/virtex_syncram_dp 1590169200 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/memory_virtex.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR techmap/virtex_syncram_dp/behav 1590169201 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/memory_virtex.vhd \
+      EN techmap/virtex_syncram_dp 1590169200 CP RAMB4_S16_S16 CP RAMB4_S8_S8 \
+      CP RAMB4_S4_S4 CP RAMB4_S2_S2 CP RAMB4_S1_S1
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/mul_unisim.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/virtex4_mul_61x61 1590169299 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/mul_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159 LB unisim PH unisim/VCOMPONENTS 1354696165
+AR techmap/virtex4_mul_61x61/beh 1590169300 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/mul_unisim.vhd \
+      EN techmap/virtex4_mul_61x61 1590169299 CP LUT2 CP LUT1 CP LUT4 CP LUT3 CP FDE \
+      CP MUXCY CP XORCY CP MUXCY_L CP LUT2_L CP LUT3_L CP DSP48 CP GND CP VCC
+EN techmap/virtex6_mul_61x61 1590169301 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/mul_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159 LB unisim PH unisim/VCOMPONENTS 1354696165
+AR techmap/virtex6_mul_61x61/beh 1590169302 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/mul_unisim.vhd \
+      EN techmap/virtex6_mul_61x61 1590169301 CP LUT2 CP LUT4 CP LUT1 CP LUT3 CP FDE \
+      CP MUXCY CP XORCY CP LUT1_L CP MUXCY_L CP LUT2_L CP LUT3_L CP LUT4_L CP DSP48 \
+      CP GND CP VCC
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/pads_unisim.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/unisim_inpad 1590169219 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/pads_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158
+AR techmap/unisim_inpad/rtl 1590169220 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/pads_unisim.vhd \
+      EN techmap/unisim_inpad 1590169219 CP IBUF
+EN techmap/unisim_iopad 1590169221 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/pads_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158
+AR techmap/unisim_iopad/rtl 1590169222 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/pads_unisim.vhd \
+      EN techmap/unisim_iopad 1590169221 CP IOBUF
+EN techmap/unisim_outpad 1590169223 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/pads_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158
+AR techmap/unisim_outpad/rtl 1590169224 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/pads_unisim.vhd \
+      EN techmap/unisim_outpad 1590169223 CP OBUF
+EN techmap/unisim_toutpad 1590169225 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/pads_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158
+AR techmap/unisim_toutpad/rtl 1590169226 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/pads_unisim.vhd \
+      EN techmap/unisim_toutpad 1590169225 CP OBUFT
+EN techmap/unisim_skew_outpad 1590169227 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/pads_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158
+AR techmap/unisim_skew_outpad/rtl 1590169228 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/pads_unisim.vhd \
+      EN techmap/unisim_skew_outpad 1590169227 CP DCM CP BUFG CP OBUF
+EN techmap/unisim_clkpad 1590169229 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/pads_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158
+AR techmap/unisim_clkpad/rtl 1590169230 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/pads_unisim.vhd \
+      EN techmap/unisim_clkpad 1590169229 CP IBUFG CP IBUF CP BUFGMUX CP BUFG \
+      CP DCM_SP CP CLKDLL CP CLKDLLHF CP BUFR
+EN techmap/unisim_inpad_ds 1590169231 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/pads_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158
+AR techmap/unisim_inpad_ds/rtl 1590169232 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/pads_unisim.vhd \
+      EN techmap/unisim_inpad_ds 1590169231 CP IBUFDS_LVDS_33 CP IBUFDS_LVDS_25
+EN techmap/unisim_clkpad_ds 1590169233 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/pads_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158
+AR techmap/unisim_clkpad_ds/rtl 1590169234 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/pads_unisim.vhd \
+      EN techmap/unisim_clkpad_ds 1590169233 CP IBUFGDS_LVDS_33 CP IBUFGDS_LVDS_25 \
+      CP IBUFGDS
+EN techmap/virtex4_inpad_ds 1590169235 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/pads_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158
+AR techmap/virtex4_inpad_ds/rtl 1590169236 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/pads_unisim.vhd \
+      EN techmap/virtex4_inpad_ds 1590169235 CP IBUFDS
+EN techmap/virtex4_clkpad_ds 1590169237 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/pads_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158
+AR techmap/virtex4_clkpad_ds/rtl 1590169238 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/pads_unisim.vhd \
+      EN techmap/virtex4_clkpad_ds 1590169237 CP IBUFGDS
+EN techmap/unisim_iopad_ds 1590169239 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/pads_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158
+AR techmap/unisim_iopad_ds/rtl 1590169240 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/pads_unisim.vhd \
+      EN techmap/unisim_iopad_ds 1590169239 CP IOBUFDS
+EN techmap/unisim_outpad_ds 1590169241 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/pads_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159 LB techmap PH techmap/gencomp 1590169158
+AR techmap/unisim_outpad_ds/rtl 1590169242 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/pads_unisim.vhd \
+      EN techmap/unisim_outpad_ds 1590169241 CP OBUFDS
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/spictrl_unisim.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/spictrl_unisim 1590169284 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/spictrl_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164
+AR techmap/spictrl_unisim/rtl 1590169285 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/spictrl_unisim.vhd \
+      EN techmap/spictrl_unisim 1590169284 CP spictrl_unisim_comb0 \
+      CP spictrl_unisim_comb1
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/sysmon_unisim.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/sysmon_virtex5 1590169297 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/sysmon_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR techmap/sysmon_virtex5/struct 1590169298 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/sysmon_unisim.vhd \
+      EN techmap/sysmon_virtex5 1590169297 CP sysmon
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/tap_unisim.vhd 2014/04/16.17:51:33 P.49d
+EN techmap/virtex_tap 1590169307 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/tap_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR techmap/virtex_tap/rtl 1590169308 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/tap_unisim.vhd \
+      EN techmap/virtex_tap 1590169307 CP BSCAN_VIRTEX
+EN techmap/virtex2_tap 1590169309 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/tap_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR techmap/virtex2_tap/rtl 1590169310 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/tap_unisim.vhd \
+      EN techmap/virtex2_tap 1590169309 CP BSCAN_VIRTEX2
+EN techmap/spartan3_tap 1590169311 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/tap_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR techmap/spartan3_tap/rtl 1590169312 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/tap_unisim.vhd \
+      EN techmap/spartan3_tap 1590169311 CP BSCAN_SPARTAN3
+EN techmap/virtex4_tap 1590169313 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/tap_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR techmap/virtex4_tap/rtl 1590169314 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/tap_unisim.vhd \
+      EN techmap/virtex4_tap 1590169313 CP BSCAN_VIRTEX4
+EN techmap/virtex5_tap 1590169315 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/tap_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR techmap/virtex5_tap/rtl 1590169316 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/tap_unisim.vhd \
+      EN techmap/virtex5_tap 1590169315 CP BSCAN_VIRTEX5
+EN techmap/virtex6_tap 1590169317 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/tap_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR techmap/virtex6_tap/rtl 1590169318 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/tap_unisim.vhd \
+      EN techmap/virtex6_tap 1590169317 CP BSCAN_VIRTEX6
+EN techmap/spartan6_tap 1590169319 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/tap_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR techmap/spartan6_tap/rtl 1590169320 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/tap_unisim.vhd \
+      EN techmap/spartan6_tap 1590169319 CP BSCAN_SPARTAN6
+EN techmap/virtex7_tap 1590169321 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/tap_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR techmap/virtex7_tap/rtl 1590169322 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/tap_unisim.vhd \
+      EN techmap/virtex7_tap 1590169321 CP BSCANE2
+EN techmap/kintex7_tap 1590169323 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/tap_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR techmap/kintex7_tap/rtl 1590169324 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/tap_unisim.vhd \
+      EN techmap/kintex7_tap 1590169323 CP BSCANE2
+EN techmap/artix7_tap 1590169325 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/tap_unisim.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR techmap/artix7_tap/rtl 1590169326 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/techmap/unisim/tap_unisim.vhd \
+      EN techmap/artix7_tap 1590169325 CP BSCANE2

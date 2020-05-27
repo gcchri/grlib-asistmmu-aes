@@ -1,0 +1,876 @@
+Release 14.4 Physical Synthesis Report P.49d (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc. All rights reserved.
+
+TABLE OF CONTENTS
+  1) Physical Synthesis Options Summary
+  2) Optimizations statistics and details
+
+
+=========================================================================
+*                 Physical Synthesis Options Summary                    *
+=========================================================================
+---- Options
+Global Optimization                 : OFF
+    Retiming                        : OFF
+    Equivalent Register Removal     : OFF
+Timing-Driven Packing and Placement : ON
+    Logic Optimization              : ON
+    Register Duplication            : ON
+
+---- Intelligent clock gating       : OFF
+
+---- Target Parameters
+Target Device                       : 6vlx240tff1156-1
+
+=========================================================================
+
+
+=========================================================================
+*                        Optimizations                                  *
+=========================================================================
+---- Statistics
+   Number of registers added by Replication                  | 261             
+   Number of LUTs added by Replication                       | 571             
+
+   Overall change in number of design objects                | +832             
+
+
+---- Details
+
+New or modified components                             | Optimization             | Objective           
+-------------------------------------------------------|--------------------------|----------------------
+ahb0/Mmux_comb.hrdata107_REPLICA_783                   | Replication              | Fanout Optimization
+ahb0/Mmux_comb.hrdata107_REPLICA_784                   | Replication              | Fanout Optimization
+ahb0/Mmux_comb.hrdata107_REPLICA_785                   | Replication              | Fanout Optimization
+ahb0/Mmux_comb.hrdata107_REPLICA_786                   | Replication              | Fanout Optimization
+ahb0/Mmux_comb.hrdata107_REPLICA_787                   | Replication              | Fanout Optimization
+ahb0/Mmux_comb.hrdata107_REPLICA_788                   | Replication              | Fanout Optimization
+ahb0/Mmux_comb.hrdata107_REPLICA_789                   | Replication              | Fanout Optimization
+ahb0/Mmux_comb.hrdata107_REPLICA_790                   | Replication              | Fanout Optimization
+ahb0/Mmux_comb.hrdata107_REPLICA_791                   | Replication              | Fanout Optimization
+ahb0/Mmux_comb.hrdata107_REPLICA_792                   | Replication              | Fanout Optimization
+ahb0/Mmux_comb.hrdata107_REPLICA_793                   | Replication              | Fanout Optimization
+ahb0/Mmux_comb.hrdata107_REPLICA_794                   | Replication              | Fanout Optimization
+ahb0/Mmux_comb.hrdata107_REPLICA_795                   | Replication              | Fanout Optimization
+ahb0/Mmux_comb.hrdata107_REPLICA_796                   | Replication              | Fanout Optimization
+ahb0/Mmux_comb.hrdata107_REPLICA_797                   | Replication              | Fanout Optimization
+ahb0/Mmux_comb.hrdata107_REPLICA_798                   | Replication              | Fanout Optimization
+ahb0/Mmux_comb.hrdata1243_REPLICA_827                  | Replication              | Fanout Optimization
+ahb0/r_cfgsel_REPLICA_744                              | Replication              | Fanout Optimization
+ahb0/r_cfgsel_REPLICA_745                              | Replication              | Fanout Optimization
+ahb0/r_cfgsel_REPLICA_746                              | Replication              | Fanout Optimization
+ahb0/r_cfgsel_REPLICA_747                              | Replication              | Fanout Optimization
+ahb0/r_cfgsel_REPLICA_748                              | Replication              | Fanout Optimization
+ahb0/r_cfgsel_REPLICA_749                              | Replication              | Fanout Optimization
+ahb0/r_cfgsel_REPLICA_750                              | Replication              | Fanout Optimization
+ahb0/r_cfgsel_REPLICA_751                              | Replication              | Fanout Optimization
+ahb0/r_cfgsel_REPLICA_752                              | Replication              | Fanout Optimization
+ahb0/r_cfgsel_REPLICA_753                              | Replication              | Fanout Optimization
+ahb0/r_cfgsel_REPLICA_754                              | Replication              | Fanout Optimization
+ahb0/r_cfgsel_REPLICA_755                              | Replication              | Fanout Optimization
+ahb0/r_cfgsel_REPLICA_756                              | Replication              | Fanout Optimization
+ahb0/r_cfgsel_REPLICA_757                              | Replication              | Fanout Optimization
+ahb0/r_cfgsel_REPLICA_758                              | Replication              | Fanout Optimization
+ahb0/r_cfgsel_REPLICA_759                              | Replication              | Fanout Optimization
+ahb0/r_cfgsel_REPLICA_760                              | Replication              | Fanout Optimization
+ahb0/r_hslave[1]_REPLICA_296                           | Replication              | Fanout Optimization
+ahb0/r_hslave[1]_REPLICA_297                           | Replication              | Fanout Optimization
+ahb0/r_hslave[1]_REPLICA_298                           | Replication              | Fanout Optimization
+ahb0/r_hslave[1]_REPLICA_299                           | Replication              | Fanout Optimization
+ahb0/r_hslave[1]_REPLICA_300                           | Replication              | Fanout Optimization
+ahb0/r_hslave[1]_REPLICA_301                           | Replication              | Fanout Optimization
+ahb0/r_hslave[1]_REPLICA_302                           | Replication              | Fanout Optimization
+ahb0/r_hslave[1]_REPLICA_303                           | Replication              | Fanout Optimization
+ahb0/r_hslave[1]_REPLICA_304                           | Replication              | Fanout Optimization
+ahb0/r_hslave[1]_REPLICA_305                           | Replication              | Fanout Optimization
+ahb0/r_hslave[1]_REPLICA_306                           | Replication              | Fanout Optimization
+ahb0/r_hslave[1]_REPLICA_307                           | Replication              | Fanout Optimization
+ahb0/r_hslave[1]_REPLICA_308                           | Replication              | Fanout Optimization
+ahb0/r_hslave[1]_REPLICA_309                           | Replication              | Fanout Optimization
+ahb0/r_hslave[1]_REPLICA_310                           | Replication              | Fanout Optimization
+ahb0/r_hslave[1]_REPLICA_311                           | Replication              | Fanout Optimization
+ahb0/r_hslave[1]_REPLICA_312                           | Replication              | Fanout Optimization
+ahb0/r_hslave[1]_REPLICA_313                           | Replication              | Fanout Optimization
+ahb0/r_hslave[1]_REPLICA_314                           | Replication              | Fanout Optimization
+ahb0/r_hslave[1]_REPLICA_315                           | Replication              | Fanout Optimization
+ahb0/r_hslave[1]_REPLICA_316                           | Replication              | Fanout Optimization
+ahb0/r_hslave[1]_REPLICA_317                           | Replication              | Fanout Optimization
+ahbmi_hready_REPLICA_0                                 | Replication              | Fanout Optimization
+ahbmi_hready_REPLICA_1                                 | Replication              | Fanout Optimization
+ahbmi_hready_REPLICA_2                                 | Replication              | Fanout Optimization
+mg2.sr1/Mmux_ctrl.v_writedata6021_REPLICA_823          | Replication              | Fanout Optimization
+mg2.sr1/r_busw[0]_REPLICA_345                          | Replication              | Fanout Optimization
+mg2.sr1/r_busw[0]_REPLICA_346                          | Replication              | Fanout Optimization
+mg2.sr1/r_busw[0]_REPLICA_347                          | Replication              | Fanout Optimization
+mg2.sr1/r_busw[0]_REPLICA_348                          | Replication              | Fanout Optimization
+mg2.sr1/r_busw[0]_REPLICA_349                          | Replication              | Fanout Optimization
+mg2.sr1/r_busw[0]_REPLICA_350                          | Replication              | Fanout Optimization
+mg2.sr1/r_busw[0]_REPLICA_351                          | Replication              | Fanout Optimization
+mg2.sr1/r_busw[0]_REPLICA_352                          | Replication              | Fanout Optimization
+mg2.sr1/r_busw[0]_REPLICA_353                          | Replication              | Fanout Optimization
+mg2.sr1/r_busw[1]_REPLICA_655                          | Replication              | Fanout Optimization
+mg2.sr1/r_busw[1]_REPLICA_656                          | Replication              | Fanout Optimization
+mg2.sr1/r_busw[1]_REPLICA_657                          | Replication              | Fanout Optimization
+mg2.sr1/r_busw[1]_REPLICA_658                          | Replication              | Fanout Optimization
+mg2.sr1/r_busw[1]_REPLICA_659                          | Replication              | Fanout Optimization
+mg2.sr1/r_busw[1]_REPLICA_660                          | Replication              | Fanout Optimization
+mg2.sr1/r_busw[1]_REPLICA_661                          | Replication              | Fanout Optimization
+mg2.sr1/r_busw[1]_REPLICA_662                          | Replication              | Fanout Optimization
+mg2.sr1/r_busw[1]_REPLICA_663                          | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o2_REPLICA_257| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o2_REPLICA_258| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o2_REPLICA_259| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o2_REPLICA_260| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o2_REPLICA_261| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o2_REPLICA_262| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o2_REPLICA_263| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o2_REPLICA_264| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o2_REPLICA_265| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o2_REPLICA_266| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o2_REPLICA_267| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o2_REPLICA_268| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o2_REPLICA_269| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o2_REPLICA_270| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o2_REPLICA_271| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o2_REPLICA_272| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o2_REPLICA_273| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o2_REPLICA_274| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o2_REPLICA_275| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o2_REPLICA_276| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o3_REPLICA_238| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o3_REPLICA_239| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o3_REPLICA_240| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o3_REPLICA_241| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o3_REPLICA_242| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o3_REPLICA_243| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o3_REPLICA_244| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o3_REPLICA_245| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o3_REPLICA_246| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o3_REPLICA_247| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o3_REPLICA_248| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o3_REPLICA_249| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o3_REPLICA_250| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o3_REPLICA_251| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o3_REPLICA_252| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o3_REPLICA_253| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o3_REPLICA_254| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o3_REPLICA_255| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/cmem0/wrfst_gen.no_contention_check.wfrstblocknoc.r_write_wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr[7]_AND_3721_o3_REPLICA_256| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/Mmux_dctrl.ddiagwrite1212_REPLICA_815| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/Mmux_dctrl.v_wb_addr1014_REPLICA_761| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/Mmux_dctrl.v_wb_addr1014_REPLICA_762| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/Mmux_dctrl.v_wb_addr1014_REPLICA_763| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/Mmux_dctrl.v_wb_addr1014_REPLICA_764| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/Mmux_dctrl.v_wb_addr1014_REPLICA_765| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/Mmux_dctrl.v_wb_addr1014_REPLICA_766| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/Mmux_dctrl.v_wb_addr1014_REPLICA_767| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/Mmux_dctrl.v_wb_addr1014_REPLICA_768| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/Mmux_dctrl.v_wb_addr1014_REPLICA_769| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/Mmux_dctrl.v_wb_addr1014_REPLICA_770| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/Mmux_dctrl.v_wb_addr1014_REPLICA_771| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/Mmux_dctrl.v_wb_addr7321_REPLICA_816| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/Mmux_dctrl.v_xaddress110_REPLICA_799| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/Mmux_dctrl.v_xaddress110_REPLICA_800| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/Mmux_dctrl.v_xaddress110_REPLICA_801| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/Mmux_dctrl.v_xaddress110_REPLICA_802| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/Mmux_dctrl.v_xaddress110_REPLICA_803| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/Mmux_dctrl.v_xaddress110_REPLICA_804| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/Mmux_dctrl.v_xaddress110_REPLICA_805| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/dctrl.maddress[4]_REPLICA_135| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/dctrl.maddress[4]_REPLICA_136| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/dctrl.maddress[4]_REPLICA_137| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/dctrl.maddress[4]_REPLICA_138| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/dctrl.maddress[4]_REPLICA_139| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/dctrl.maddress[4]_REPLICA_140| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/dctrl.maddress[4]_REPLICA_141| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/dctrl.maddress[4]_REPLICA_142| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/dctrl.maddress[4]_REPLICA_143| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/dctrl.maddress[4]_REPLICA_144| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/dctrl.maddress[4]_REPLICA_145| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/dctrl.maddress[5]_REPLICA_124| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/dctrl.maddress[5]_REPLICA_125| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/dctrl.maddress[5]_REPLICA_126| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/dctrl.maddress[5]_REPLICA_127| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/dctrl.maddress[5]_REPLICA_128| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/dctrl.maddress[5]_REPLICA_129| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/dctrl.maddress[5]_REPLICA_130| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/dctrl.maddress[5]_REPLICA_131| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/dctrl.maddress[5]_REPLICA_132| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/dctrl.maddress[5]_REPLICA_133| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/dctrl.maddress[5]_REPLICA_134| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/dcache0/r_dstate_FSM_FFd2-In311_REPLICA_829| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/Mmux_ictrl.v_waddress482_REPLICA_772| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/Mmux_ictrl.v_waddress482_REPLICA_773| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/Mmux_ictrl.v_waddress482_REPLICA_774| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/Mmux_ictrl.v_waddress482_REPLICA_775| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/Mmux_ictrl.v_waddress482_REPLICA_776| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/Mmux_ictrl.v_waddress482_REPLICA_777| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/Mmux_ictrl.v_waddress482_REPLICA_778| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/Mmux_ictrl.v_waddress482_REPLICA_779| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/Mmux_ictrl.v_waddress482_REPLICA_780| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/Mmux_ictrl.v_waddress482_REPLICA_781| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/Mmux_ictrl.v_waddress482_REPLICA_782| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[0]_REPLICA_466| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[0]_REPLICA_467| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[0]_REPLICA_468| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[0]_REPLICA_469| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[0]_REPLICA_470| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[0]_REPLICA_471| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[0]_REPLICA_472| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[0]_REPLICA_473| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[0]_REPLICA_474| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[0]_REPLICA_475| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[0]_REPLICA_476| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[0]_REPLICA_477| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[0]_REPLICA_478| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[0]_REPLICA_479| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[0]_REPLICA_480| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[10]_REPLICA_377| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[10]_REPLICA_378| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[10]_REPLICA_379| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[10]_REPLICA_380| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[10]_REPLICA_381| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[10]_REPLICA_382| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[11]_REPLICA_369| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[11]_REPLICA_370| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[11]_REPLICA_371| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[11]_REPLICA_372| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[11]_REPLICA_373| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[11]_REPLICA_374| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[11]_REPLICA_375| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[11]_REPLICA_376| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[12]_REPLICA_556| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[12]_REPLICA_557| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[13]_REPLICA_558| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[13]_REPLICA_559| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[13]_REPLICA_560| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[13]_REPLICA_561| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[13]_REPLICA_562| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[13]_REPLICA_563| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[13]_REPLICA_564| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[13]_REPLICA_565| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[13]_REPLICA_566| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[14]_REPLICA_573| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[14]_REPLICA_574| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[14]_REPLICA_575| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[14]_REPLICA_576| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[14]_REPLICA_577| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[14]_REPLICA_578| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[14]_REPLICA_579| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[14]_REPLICA_580| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[14]_REPLICA_581| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[15]_REPLICA_567| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[15]_REPLICA_568| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[15]_REPLICA_569| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[15]_REPLICA_570| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[15]_REPLICA_571| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[15]_REPLICA_572| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[16]_REPLICA_405| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[16]_REPLICA_406| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[16]_REPLICA_407| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[16]_REPLICA_408| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[16]_REPLICA_409| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[16]_REPLICA_410| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[16]_REPLICA_411| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[16]_REPLICA_412| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[16]_REPLICA_413| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[16]_REPLICA_414| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[16]_REPLICA_415| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[16]_REPLICA_416| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[16]_REPLICA_417| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[16]_REPLICA_418| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[16]_REPLICA_419| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[16]_REPLICA_420| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[16]_REPLICA_421| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[17]_REPLICA_422| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[17]_REPLICA_423| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[17]_REPLICA_424| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[17]_REPLICA_425| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[17]_REPLICA_426| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[17]_REPLICA_427| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[17]_REPLICA_428| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[17]_REPLICA_429| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[17]_REPLICA_430| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[17]_REPLICA_431| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[17]_REPLICA_432| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[17]_REPLICA_433| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[17]_REPLICA_434| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[17]_REPLICA_435| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[17]_REPLICA_436| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[17]_REPLICA_437| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[17]_REPLICA_438| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[18]_REPLICA_455| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[18]_REPLICA_456| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[18]_REPLICA_457| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[18]_REPLICA_458| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[18]_REPLICA_459| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[18]_REPLICA_460| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[18]_REPLICA_461| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[18]_REPLICA_462| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[18]_REPLICA_463| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[18]_REPLICA_464| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[18]_REPLICA_465| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[19]_REPLICA_439| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[19]_REPLICA_440| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[19]_REPLICA_441| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[19]_REPLICA_442| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[19]_REPLICA_443| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[19]_REPLICA_444| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[19]_REPLICA_445| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[19]_REPLICA_446| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[19]_REPLICA_447| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[19]_REPLICA_448| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[19]_REPLICA_449| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[19]_REPLICA_450| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[19]_REPLICA_451| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[19]_REPLICA_452| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[19]_REPLICA_453| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[19]_REPLICA_454| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[1]_REPLICA_481| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[1]_REPLICA_482| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[1]_REPLICA_483| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[1]_REPLICA_484| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[1]_REPLICA_485| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[1]_REPLICA_486| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[1]_REPLICA_487| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[1]_REPLICA_488| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[1]_REPLICA_489| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[1]_REPLICA_490| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[1]_REPLICA_491| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[1]_REPLICA_492| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[1]_REPLICA_493| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[1]_REPLICA_494| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[1]_REPLICA_495| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[20]_REPLICA_621| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[20]_REPLICA_622| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[20]_REPLICA_623| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[20]_REPLICA_624| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[20]_REPLICA_625| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[20]_REPLICA_626| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[20]_REPLICA_627| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[20]_REPLICA_628| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[20]_REPLICA_629| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[20]_REPLICA_630| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[21]_REPLICA_631| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[21]_REPLICA_632| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[21]_REPLICA_633| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[21]_REPLICA_634| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[21]_REPLICA_635| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[21]_REPLICA_636| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[21]_REPLICA_637| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[21]_REPLICA_638| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[22]_REPLICA_647| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[22]_REPLICA_648| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[22]_REPLICA_649| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[22]_REPLICA_650| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[22]_REPLICA_651| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[22]_REPLICA_652| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[22]_REPLICA_653| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[22]_REPLICA_654| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[23]_REPLICA_639| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[23]_REPLICA_640| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[23]_REPLICA_641| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[23]_REPLICA_642| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[23]_REPLICA_643| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[23]_REPLICA_644| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[23]_REPLICA_645| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[23]_REPLICA_646| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[24]_REPLICA_519| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[24]_REPLICA_520| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[24]_REPLICA_521| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[24]_REPLICA_522| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[24]_REPLICA_523| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[24]_REPLICA_524| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[24]_REPLICA_525| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[24]_REPLICA_526| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[25]_REPLICA_527| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[25]_REPLICA_528| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[25]_REPLICA_529| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[25]_REPLICA_530| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[25]_REPLICA_531| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[25]_REPLICA_532| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[25]_REPLICA_533| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[25]_REPLICA_534| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[25]_REPLICA_535| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[25]_REPLICA_536| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[26]_REPLICA_546| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[26]_REPLICA_547| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[26]_REPLICA_548| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[26]_REPLICA_549| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[26]_REPLICA_550| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[26]_REPLICA_551| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[26]_REPLICA_552| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[26]_REPLICA_553| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[26]_REPLICA_554| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[26]_REPLICA_555| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[27]_REPLICA_537| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[27]_REPLICA_538| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[27]_REPLICA_539| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[27]_REPLICA_540| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[27]_REPLICA_541| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[27]_REPLICA_542| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[27]_REPLICA_543| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[27]_REPLICA_544| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[27]_REPLICA_545| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[28]_REPLICA_582| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[28]_REPLICA_583| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[28]_REPLICA_584| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[28]_REPLICA_585| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[28]_REPLICA_586| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[28]_REPLICA_587| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[28]_REPLICA_588| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[28]_REPLICA_589| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[28]_REPLICA_590| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[29]_REPLICA_591| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[29]_REPLICA_592| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[29]_REPLICA_593| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[29]_REPLICA_594| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[29]_REPLICA_595| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[29]_REPLICA_596| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[29]_REPLICA_597| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[29]_REPLICA_598| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[29]_REPLICA_599| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[29]_REPLICA_600| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[2]_REPLICA_512| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[2]_REPLICA_513| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[2]_REPLICA_514| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[2]_REPLICA_515| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[2]_REPLICA_516| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[2]_REPLICA_517| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[2]_REPLICA_518| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[30]_REPLICA_611| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[30]_REPLICA_612| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[30]_REPLICA_613| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[30]_REPLICA_614| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[30]_REPLICA_615| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[30]_REPLICA_616| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[30]_REPLICA_617| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[30]_REPLICA_618| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[30]_REPLICA_619| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[30]_REPLICA_620| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[31]_REPLICA_601| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[31]_REPLICA_602| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[31]_REPLICA_603| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[31]_REPLICA_604| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[31]_REPLICA_605| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[31]_REPLICA_606| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[31]_REPLICA_607| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[31]_REPLICA_608| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[31]_REPLICA_609| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[31]_REPLICA_610| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[3]_REPLICA_496| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[3]_REPLICA_497| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[3]_REPLICA_498| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[3]_REPLICA_499| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[3]_REPLICA_500| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[3]_REPLICA_501| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[3]_REPLICA_502| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[3]_REPLICA_503| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[3]_REPLICA_504| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[3]_REPLICA_505| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[3]_REPLICA_506| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[3]_REPLICA_507| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[3]_REPLICA_508| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[3]_REPLICA_509| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[3]_REPLICA_510| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[3]_REPLICA_511| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[4]_REPLICA_383| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[4]_REPLICA_384| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[4]_REPLICA_385| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[4]_REPLICA_386| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[4]_REPLICA_387| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[5]_REPLICA_388| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[5]_REPLICA_389| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[5]_REPLICA_390| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[5]_REPLICA_391| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[5]_REPLICA_392| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[5]_REPLICA_393| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[6]_REPLICA_399| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[6]_REPLICA_400| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[6]_REPLICA_401| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[6]_REPLICA_402| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[6]_REPLICA_403| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[6]_REPLICA_404| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[7]_REPLICA_394| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[7]_REPLICA_395| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[7]_REPLICA_396| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[7]_REPLICA_397| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[7]_REPLICA_398| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[8]_REPLICA_354| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[8]_REPLICA_355| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[8]_REPLICA_356| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[8]_REPLICA_357| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[8]_REPLICA_358| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[8]_REPLICA_359| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[8]_REPLICA_360| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[9]_REPLICA_361| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[9]_REPLICA_362| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[9]_REPLICA_363| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[9]_REPLICA_364| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[9]_REPLICA_365| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[9]_REPLICA_366| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[9]_REPLICA_367| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/icache0/ictrl.rdata<0>[9]_REPLICA_368| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[0]_REPLICA_678| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[0]_REPLICA_679| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[0]_REPLICA_680| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[0]_REPLICA_681| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[0]_REPLICA_682| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[0]_REPLICA_683| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[0]_REPLICA_684| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[0]_REPLICA_685| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[0]_REPLICA_686| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[1]_REPLICA_732| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[1]_REPLICA_733| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[1]_REPLICA_734| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[1]_REPLICA_735| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[1]_REPLICA_736| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[2]_REPLICA_708| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[2]_REPLICA_709| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[2]_REPLICA_710| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[2]_REPLICA_711| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[2]_REPLICA_712| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[2]_REPLICA_713| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[2]_REPLICA_714| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[3]_REPLICA_726| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[3]_REPLICA_727| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[3]_REPLICA_728| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[3]_REPLICA_729| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[3]_REPLICA_730| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[3]_REPLICA_731| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[4]_REPLICA_697| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[4]_REPLICA_698| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[4]_REPLICA_699| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[4]_REPLICA_700| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[4]_REPLICA_701| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[4]_REPLICA_702| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[4]_REPLICA_703| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[4]_REPLICA_704| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[4]_REPLICA_705| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[4]_REPLICA_706| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[4]_REPLICA_707| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[5]_REPLICA_737| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[5]_REPLICA_738| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[5]_REPLICA_739| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[5]_REPLICA_740| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[5]_REPLICA_741| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[5]_REPLICA_742| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[5]_REPLICA_743| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[6]_REPLICA_715| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[6]_REPLICA_716| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[6]_REPLICA_717| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[6]_REPLICA_718| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[6]_REPLICA_719| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[6]_REPLICA_720| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[6]_REPLICA_721| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[6]_REPLICA_722| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[6]_REPLICA_723| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[6]_REPLICA_724| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[6]_REPLICA_725| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[7]_REPLICA_687| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[7]_REPLICA_688| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[7]_REPLICA_689| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[7]_REPLICA_690| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[7]_REPLICA_691| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[7]_REPLICA_692| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[7]_REPLICA_693| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[7]_REPLICA_694| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[7]_REPLICA_695| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/c0mmu/mmugen.m0/tlbcomb0.ctlb0/p0.tlbcam_write_op[7]_REPLICA_696| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/dctrl.rdatasel[0]_REPLICA_10| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/dctrl.rdatasel[0]_REPLICA_11| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/dctrl.rdatasel[0]_REPLICA_12| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/dctrl.rdatasel[0]_REPLICA_13| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/dctrl.rdatasel[0]_REPLICA_14| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/dctrl.rdatasel[0]_REPLICA_15| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/dctrl.rdatasel[0]_REPLICA_16| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/dctrl.rdatasel[0]_REPLICA_17| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/dctrl.rdatasel[0]_REPLICA_18| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/dctrl.rdatasel[0]_REPLICA_3| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/dctrl.rdatasel[0]_REPLICA_4| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/dctrl.rdatasel[0]_REPLICA_5| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/dctrl.rdatasel[0]_REPLICA_6| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/dctrl.rdatasel[0]_REPLICA_7| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/dctrl.rdatasel[0]_REPLICA_8| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/dctrl.rdatasel[0]_REPLICA_9| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/dctrl.rdatasel[2]_REPLICA_60| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/dctrl.rdatasel[2]_REPLICA_61| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/dctrl.rdatasel[2]_REPLICA_62| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/dctrl.rdatasel[2]_REPLICA_63| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/dctrl.rdatasel[2]_REPLICA_64| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/dctrl.rdatasel[2]_REPLICA_65| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/dctrl.rdatasel[2]_REPLICA_66| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/dctrl.rdatasel[2]_REPLICA_67| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/dctrl.rdatasel[2]_REPLICA_68| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/dctrl.rdatasel[2]_REPLICA_69| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/dctrl.rdatasel[2]_REPLICA_70| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/dctrl.rdatasel[2]_REPLICA_71| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/dctrl.rdatasel[2]_REPLICA_72| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/dctrl.rdatasel[2]_REPLICA_73| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/dctrl.rdatasel[2]_REPLICA_74| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/dctrl.rdatasel[2]_REPLICA_75| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/dctrl.rdatasel[2]_REPLICA_76| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/dctrl.rdatasel[2]_REPLICA_77| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/dctrl.rdatasel[2]_REPLICA_78| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/dctrl.rdatasel[2]_REPLICA_79| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/dctrl.rdatasel[2]_REPLICA_80| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/ici_su_REPLICA_146       | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/ici_su_REPLICA_147       | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/ici_su_REPLICA_148       | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/ici_su_REPLICA_149       | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/ici_su_REPLICA_150       | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/ici_su_REPLICA_151       | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/ici_su_REPLICA_152       | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/ici_su_REPLICA_153       | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/ici_su_REPLICA_154       | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/ici_su_REPLICA_155       | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/ici_su_REPLICA_156       | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/ici_su_REPLICA_157       | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/ici_su_REPLICA_158       | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/ici_su_REPLICA_159       | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/ici_su_REPLICA_160       | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/ici_su_REPLICA_161       | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/ici_su_REPLICA_162       | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/ici_su_REPLICA_163       | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/ici_su_REPLICA_164       | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/ici_su_REPLICA_165       | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/ici_su_REPLICA_166       | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/ici_su_REPLICA_167       | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/ici_su_REPLICA_168       | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/ici_su_REPLICA_169       | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/ici_su_REPLICA_170       | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/Mmux_comb.ex_op1141_REPLICA_820| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/Mmux_comb.ex_op1161_REPLICA_822| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/Mmux_comb.ex_op1171_REPLICA_831| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/_n5437_inv_REPLICA_664| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/_n5437_inv_REPLICA_665| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/_n5437_inv_REPLICA_666| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/_n5437_inv_REPLICA_667| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/_n5437_inv_REPLICA_668| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/_n5437_inv_REPLICA_669| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/_n5437_inv_REPLICA_670| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/_n5437_inv_REPLICA_671| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/_n5437_inv_REPLICA_672| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/_n5437_inv_REPLICA_673| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/_n5437_inv_REPLICA_674| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/_n5437_inv_REPLICA_675| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/_n5437_inv_REPLICA_676| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/_n5437_inv_REPLICA_677| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/_n5581_inv_REPLICA_183| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/_n5581_inv_REPLICA_184| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/r_d_set_0_REPLICA_81  | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/r_d_set_0_REPLICA_82  | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/r_d_set_0_REPLICA_83  | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/r_d_set_0_REPLICA_84  | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/r_d_set_0_REPLICA_85  | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/r_d_set_0_REPLICA_86  | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/r_d_set_0_REPLICA_87  | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/r_d_set_0_REPLICA_88  | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/r_d_set_0_REPLICA_89  | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/r_e_jmpl1471_REPLICA_806| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/r_e_jmpl1471_REPLICA_807| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/r_e_jmpl1471_REPLICA_808| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/r_e_jmpl1471_REPLICA_809| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/r_e_jmpl1471_REPLICA_810| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/r_e_jmpl1471_REPLICA_811| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/r_e_jmpl1471_REPLICA_812| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/r_e_jmpl1471_REPLICA_813| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/r_e_jmpl1471_REPLICA_814| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/r_x_ctrl_ld_REPLICA_336| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/r_x_ctrl_ld_REPLICA_337| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/r_x_ctrl_ld_REPLICA_338| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/r_x_ctrl_ld_REPLICA_339| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/r_x_ctrl_ld_REPLICA_340| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/r_x_ctrl_ld_REPLICA_341| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/r_x_ctrl_ld_REPLICA_342| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/r_x_ctrl_ld_REPLICA_343| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/iu/r_x_ctrl_ld_REPLICA_344| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_invop2_REPLICA_216   | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_invop2_REPLICA_217   | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_invop2_REPLICA_218   | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_invop2_REPLICA_219   | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_invop2_REPLICA_220   | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_invop2_REPLICA_221   | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_invop2_REPLICA_222   | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_invop2_REPLICA_223   | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_invop2_REPLICA_223_REPLICA_826| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_invop2_REPLICA_224   | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_invop2_REPLICA_224_REPLICA_824| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_invop2_REPLICA_225   | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_invop2_REPLICA_226   | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_invop2_REPLICA_227   | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_invop2_REPLICA_228   | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_invop2_REPLICA_229   | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_invop2_REPLICA_230   | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_invop2_REPLICA_231   | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_invop2_REPLICA_231_REPLICA_817| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_invop2_REPLICA_232   | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_invop2_REPLICA_233   | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_invop2_REPLICA_234   | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_invop2_REPLICA_235   | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_invop2_REPLICA_236   | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_invop2_REPLICA_237   | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp1_REPLICA_100    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp1_REPLICA_101    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp1_REPLICA_102    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp1_REPLICA_103    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp1_REPLICA_104    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp1_REPLICA_105    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp1_REPLICA_106    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp1_REPLICA_107    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp1_REPLICA_108    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp1_REPLICA_109    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp1_REPLICA_110    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp1_REPLICA_111    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp1_REPLICA_112    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp1_REPLICA_113    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp1_REPLICA_113_REPLICA_818| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp1_REPLICA_114    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp1_REPLICA_115    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp1_REPLICA_116    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp1_REPLICA_117    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp1_REPLICA_118    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp1_REPLICA_119    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp1_REPLICA_120    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp1_REPLICA_121    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp1_REPLICA_122    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp1_REPLICA_123    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp1_REPLICA_90     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp1_REPLICA_91     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp1_REPLICA_92     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp1_REPLICA_92_REPLICA_821| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp1_REPLICA_93     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp1_REPLICA_94     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp1_REPLICA_94_REPLICA_819| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp1_REPLICA_95     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp1_REPLICA_96     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp1_REPLICA_97     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp1_REPLICA_98     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp1_REPLICA_99     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp2_REPLICA_185    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp2_REPLICA_186    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp2_REPLICA_187    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp2_REPLICA_188    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp2_REPLICA_189    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp2_REPLICA_190    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp2_REPLICA_191    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp2_REPLICA_192    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp2_REPLICA_193    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp2_REPLICA_194    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp2_REPLICA_195    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp2_REPLICA_196    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp2_REPLICA_197    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp2_REPLICA_197_REPLICA_830| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp2_REPLICA_198    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp2_REPLICA_199    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp2_REPLICA_199_REPLICA_828| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp2_REPLICA_200    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp2_REPLICA_201    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp2_REPLICA_202    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp2_REPLICA_203    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp2_REPLICA_204    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp2_REPLICA_205    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp2_REPLICA_206    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp2_REPLICA_207    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp2_REPLICA_208    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_e_ldbp2_REPLICA_209    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_m_ctrl_inst_21_REPLICA_210| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_m_ctrl_inst_21_REPLICA_211| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_m_ctrl_inst_21_REPLICA_212| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_m_ctrl_inst_21_REPLICA_213| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_m_ctrl_inst_21_REPLICA_214| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/p0/r_m_ctrl_inst_21_REPLICA_215| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_2_REPLICA_40     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_2_REPLICA_41     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_2_REPLICA_42     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_2_REPLICA_43     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_2_REPLICA_44     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_2_REPLICA_45     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_2_REPLICA_46     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_2_REPLICA_47     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_2_REPLICA_48     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_2_REPLICA_49     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_2_REPLICA_50     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_2_REPLICA_51     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_2_REPLICA_52     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_2_REPLICA_53     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_2_REPLICA_54     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_2_REPLICA_55     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_2_REPLICA_56     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_2_REPLICA_57     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_2_REPLICA_58     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_2_REPLICA_58_REPLICA_825| Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_2_REPLICA_59     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_3_REPLICA_19     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_3_REPLICA_20     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_3_REPLICA_21     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_3_REPLICA_22     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_3_REPLICA_23     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_3_REPLICA_24     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_3_REPLICA_25     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_3_REPLICA_26     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_3_REPLICA_27     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_3_REPLICA_28     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_3_REPLICA_29     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_3_REPLICA_30     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_3_REPLICA_31     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_3_REPLICA_32     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_3_REPLICA_33     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_3_REPLICA_34     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_3_REPLICA_35     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_3_REPLICA_36     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_3_REPLICA_37     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_3_REPLICA_38     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_3_REPLICA_39     | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_4_REPLICA_171    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_4_REPLICA_172    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_4_REPLICA_173    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_4_REPLICA_174    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_4_REPLICA_175    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_4_REPLICA_176    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_4_REPLICA_177    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_4_REPLICA_178    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_4_REPLICA_179    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_4_REPLICA_180    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_4_REPLICA_181    | Replication              | Fanout Optimization
+nosh.cpu[0].l3s.u0/leon3x0/r_m_result_4_REPLICA_182    | Replication              | Fanout Optimization
+r_hmaster_1_REPLICA_318                                | Replication              | Fanout Optimization
+r_hmaster_1_REPLICA_319                                | Replication              | Fanout Optimization
+r_hmaster_1_REPLICA_320                                | Replication              | Fanout Optimization
+r_hmaster_1_REPLICA_321                                | Replication              | Fanout Optimization
+r_hmaster_1_REPLICA_322                                | Replication              | Fanout Optimization
+r_hmaster_1_REPLICA_323                                | Replication              | Fanout Optimization
+r_hmaster_1_REPLICA_324                                | Replication              | Fanout Optimization
+r_hmaster_1_REPLICA_325                                | Replication              | Fanout Optimization
+r_hmaster_1_REPLICA_326                                | Replication              | Fanout Optimization
+r_hmaster_1_REPLICA_327                                | Replication              | Fanout Optimization
+r_hmaster_1_REPLICA_328                                | Replication              | Fanout Optimization
+r_hmaster_1_REPLICA_329                                | Replication              | Fanout Optimization
+r_hmaster_1_REPLICA_330                                | Replication              | Fanout Optimization
+r_hmaster_1_REPLICA_331                                | Replication              | Fanout Optimization
+r_hmaster_1_REPLICA_332                                | Replication              | Fanout Optimization
+r_hmaster_1_REPLICA_333                                | Replication              | Fanout Optimization
+r_hmaster_1_REPLICA_334                                | Replication              | Fanout Optimization
+r_hmaster_1_REPLICA_335                                | Replication              | Fanout Optimization
+r_retry_3_REPLICA_277                                  | Replication              | Fanout Optimization
+r_retry_3_REPLICA_278                                  | Replication              | Fanout Optimization
+r_retry_3_REPLICA_279                                  | Replication              | Fanout Optimization
+r_retry_3_REPLICA_280                                  | Replication              | Fanout Optimization
+r_retry_3_REPLICA_281                                  | Replication              | Fanout Optimization
+r_retry_3_REPLICA_282                                  | Replication              | Fanout Optimization
+r_retry_3_REPLICA_283                                  | Replication              | Fanout Optimization
+r_retry_3_REPLICA_284                                  | Replication              | Fanout Optimization
+r_retry_3_REPLICA_285                                  | Replication              | Fanout Optimization
+r_retry_3_REPLICA_286                                  | Replication              | Fanout Optimization
+r_retry_3_REPLICA_287                                  | Replication              | Fanout Optimization
+r_retry_3_REPLICA_288                                  | Replication              | Fanout Optimization
+r_retry_3_REPLICA_289                                  | Replication              | Fanout Optimization
+r_retry_3_REPLICA_290                                  | Replication              | Fanout Optimization
+r_retry_3_REPLICA_291                                  | Replication              | Fanout Optimization
+r_retry_3_REPLICA_292                                  | Replication              | Fanout Optimization
+r_retry_3_REPLICA_293                                  | Replication              | Fanout Optimization
+r_retry_3_REPLICA_294                                  | Replication              | Fanout Optimization
+r_retry_3_REPLICA_295                                  | Replication              | Fanout Optimization
+
+   Flops added for Enable Generation                       
+-------------------------

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;OFFSET = IN 20 ns BEFORE COMP &quot;clk_33&quot;;&gt; [leon3mp.pcf(43044)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;OFFSET = IN 5 ns BEFORE COMP &quot;erx_clk&quot;;&gt; [leon3mp.pcf(43046)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;OFFSET = IN 8 ns BEFORE COMP &quot;etx_clk&quot;;&gt; [leon3mp.pcf(43048)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="info" file="Timing" num="3386" delta="new" >Intersecting Constraints found and resolved.  For more information, see the TSI report.  Please consult the Xilinx Command Line Tools User Guide for information on generating a TSI report.</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_mem_intfc/phy_top0/u_phy_data_io/gen_dqs[0].u_phy_dqs_iob/u_iobuf_dqs/OB</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_mem_intfc/phy_top0/u_phy_data_io/gen_dqs[1].u_phy_dqs_iob/u_iobuf_dqs/OB</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_mem_intfc/phy_top0/u_phy_data_io/gen_dqs[2].u_phy_dqs_iob/u_iobuf_dqs/OB</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_mem_intfc/phy_top0/u_phy_data_io/gen_dqs[3].u_phy_dqs_iob/u_iobuf_dqs/OB</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_mem_intfc/phy_top0/u_phy_data_io/gen_dqs[4].u_phy_dqs_iob/u_iobuf_dqs/OB</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_mem_intfc/phy_top0/u_phy_data_io/gen_dqs[5].u_phy_dqs_iob/u_iobuf_dqs/OB</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_mem_intfc/phy_top0/u_phy_data_io/gen_dqs[6].u_phy_dqs_iob/u_iobuf_dqs/OB</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_mem_intfc/phy_top0/u_phy_data_io/gen_dqs[7].u_phy_dqs_iob/u_iobuf_dqs/OB</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_mem_intfc/mc0/col_mach0/read_fifo.fifo_ram[0].RAM32M0_RAMA_D1_DPO</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_mem_intfc/mc0/col_mach0/read_fifo.fifo_ram[0].RAM32M0_RAMB_D1_DPO</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_mem_intfc/mc0/col_mach0/read_fifo.fifo_ram[0].RAM32M0_RAMC_D1_DPO</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_mem_intfc/mc0/col_mach0/read_fifo.fifo_ram[0].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[45].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[9].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[8].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[46].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[43].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[47].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[44].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[26].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[29].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[19].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[6].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[7].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[37].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[5].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[40].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[42].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[41].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[20].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[39].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[17].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[16].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[2].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[4].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[38].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[28].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[18].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[34].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[30].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[10].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[1].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[27].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[0].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/pointer_ram.rams[1].RAM32M0_RAMA_D1_DPO</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/pointer_ram.rams[1].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/pointer_ram.rams[0].RAM32M0_RAMA_D1_DPO</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/pointer_ram.rams[0].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[31].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[33].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[36].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[23].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[21].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[25].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[3].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[15].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[35].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[14].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[32].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[22].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[11].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[12].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[24].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="288" delta="new" >The signal <arg fmt="%s" index="1">ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[13].RAM32M0_RAMD_D1_O</arg> has no load.  PAR will not attempt to route this signal.
+</msg>
+
+<msg type="warning" file="Par" num="468" delta="new" >Your design did not meet timing.  The following are some suggestions to assist you to meet timing in your design.
+
+Review the timing report using Timing Analyzer (In ISE select &quot;Post-Place &amp;
+Route Static Timing Report&quot;). Go to the failing constraint(s) and evaluate the failing paths for each constraint.
+
+Try the Design Goal and Strategies for Timing Performance(In ISE select Project -&gt; Design Goals &amp; Strategies) to ensure the best options are set in the tools for timing closure.
+
+</msg>
+
+<msg type="info" file="Timing" num="2761" delta="new" >N/A entries in the Constraints List may indicate that the constraint is not analyzed due to the following: No paths covered by this constraint; Other constraints intersect with this constraint; or This constraint was disabled by a Path Tracing Control. Please run the Timespec Interaction Report (TSI) via command line (trce tsi) or Timing Analyzer GUI.</msg>
+
+<msg type="warning" file="ParHelpers" num="361" delta="new" >There are <arg fmt="%d" index="1">64</arg> loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+
+</msg>
+
+<msg type="warning" file="Par" num="283" delta="new" >There are <arg fmt="%d" index="1">64</arg> loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+
+</msg>
+
+</messages>
+

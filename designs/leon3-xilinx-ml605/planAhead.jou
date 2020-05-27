@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.4 (64-bit)
+# Build 222254 by xbuild on Tue Dec 18 05:21:09 MST 2012
+# Start of session at: Wed Jul 08 13:00:20 2015
+# Process ID: 4244
+# Log file: C:/cygwin64/home/gchri/grlib-gpl-1.3.7-b4144-XOR_TSP-decode/designs/leon3-xilinx-ml605/planAhead.log
+# Journal file: C:/cygwin64/home/gchri/grlib-gpl-1.3.7-b4144-XOR_TSP-decode/designs/leon3-xilinx-ml605\planAhead.jou
+#-----------------------------------------------------------
+source ./planahead/leon3mp_planAhead.tcl
+source ./planahead/leon3mp_planAhead_run.tcl
+source ./planahead/leon3mp_planAhead_end.tcl

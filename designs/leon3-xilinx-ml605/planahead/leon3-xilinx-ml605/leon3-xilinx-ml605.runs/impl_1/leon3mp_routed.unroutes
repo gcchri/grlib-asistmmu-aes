@@ -1,0 +1,76 @@
+Release 14.4 - par P.49d (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Wed Jul 08 13:28:51 2015
+
+All signals are completely routed.
+
+WARNING:ParHelpers:361 - There are 64 loadless signals in this design. This design will cause Bitgen to issue DRC
+   warnings.
+
+   ddr3ctrl/u_memc_ui_top/u_mem_intfc/mc0/col_mach0/read_fifo.fifo_ram[0].RAM32M0_RAMA_D1_DPO
+   ddr3ctrl/u_memc_ui_top/u_mem_intfc/mc0/col_mach0/read_fifo.fifo_ram[0].RAM32M0_RAMB_D1_DPO
+   ddr3ctrl/u_memc_ui_top/u_mem_intfc/mc0/col_mach0/read_fifo.fifo_ram[0].RAM32M0_RAMC_D1_DPO
+   ddr3ctrl/u_memc_ui_top/u_mem_intfc/mc0/col_mach0/read_fifo.fifo_ram[0].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_mem_intfc/phy_top0/u_phy_data_io/gen_dqs[0].u_phy_dqs_iob/u_iobuf_dqs/OB
+   ddr3ctrl/u_memc_ui_top/u_mem_intfc/phy_top0/u_phy_data_io/gen_dqs[1].u_phy_dqs_iob/u_iobuf_dqs/OB
+   ddr3ctrl/u_memc_ui_top/u_mem_intfc/phy_top0/u_phy_data_io/gen_dqs[2].u_phy_dqs_iob/u_iobuf_dqs/OB
+   ddr3ctrl/u_memc_ui_top/u_mem_intfc/phy_top0/u_phy_data_io/gen_dqs[3].u_phy_dqs_iob/u_iobuf_dqs/OB
+   ddr3ctrl/u_memc_ui_top/u_mem_intfc/phy_top0/u_phy_data_io/gen_dqs[4].u_phy_dqs_iob/u_iobuf_dqs/OB
+   ddr3ctrl/u_memc_ui_top/u_mem_intfc/phy_top0/u_phy_data_io/gen_dqs[5].u_phy_dqs_iob/u_iobuf_dqs/OB
+   ddr3ctrl/u_memc_ui_top/u_mem_intfc/phy_top0/u_phy_data_io/gen_dqs[6].u_phy_dqs_iob/u_iobuf_dqs/OB
+   ddr3ctrl/u_memc_ui_top/u_mem_intfc/phy_top0/u_phy_data_io/gen_dqs[7].u_phy_dqs_iob/u_iobuf_dqs/OB
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/pointer_ram.rams[0].RAM32M0_RAMA_D1_DPO
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/pointer_ram.rams[0].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/pointer_ram.rams[1].RAM32M0_RAMA_D1_DPO
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/pointer_ram.rams[1].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[0].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[10].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[11].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[12].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[13].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[14].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[15].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[16].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[17].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[18].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[19].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[1].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[20].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[21].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[22].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[23].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[24].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[25].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[26].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[27].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[28].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[29].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[2].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[30].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[31].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[32].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[33].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[34].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[35].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[36].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[37].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[38].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[39].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[3].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[40].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[41].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[42].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[43].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[44].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[45].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[46].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[47].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[4].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[5].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[6].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[7].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[8].RAM32M0_RAMD_D1_O
+   ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[9].RAM32M0_RAMD_D1_O
+
+

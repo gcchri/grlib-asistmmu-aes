@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2012.4 (64-bit)
+# Build 222254 by xbuild on Tue Dec 18 05:21:09 MST 2012
+# Start of session at: Fri May 22 16:00:08 2020
+# Process ID: 8140
+# Log file: C:/cygwin64/home/Chri/grlib-asistmmu-aes/designs/leon3-xilinx-ml50x/vivado.log
+# Journal file: C:/cygwin64/home/Chri/grlib-asistmmu-aes/designs/leon3-xilinx-ml50x\vivado.jou
+#-----------------------------------------------------------
+INFO: [Common 17-81] Feature available: Implementation
+INFO: [Common 17-81] Feature available: Synthesis
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source ./vivado/leon3mp_vivado.tcl
+# create_project  ./vivado/ -part xc5vlx110t-ff1136-1 -force
+ERROR: [Coretcl 2-106] Specified part could not be found.
+
+    while executing
+"create_project  ./vivado/ -part xc5vlx110t-ff1136-1 -force"
+    (file "./vivado/leon3mp_vivado.tcl" line 1)
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri May 22 16:02:10 2020...

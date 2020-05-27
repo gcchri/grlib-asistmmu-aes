@@ -1,0 +1,10 @@
+--- leon3mp.ucf	2014-04-16 17:50:08.000000000 +0300
++++ leon3mp.ucf	2014-08-07 13:42:38.070023600 +0300
+@@ -209,6 +209,7 @@ NET  "ddr3_dq(60)"
+ NET  "ddr3_dq(61)"                               LOC = "A30" ;          #Bank 25
+ NET  "ddr3_dq(62)"                               LOC = "E29" ;          #Bank 25
+ NET  "ddr3_dq(63)"                               LOC = "F29" ;          #Bank 25
++NET  "ddr3_addr(13)"                             LOC = "J15" ;          #Bank 36
+ NET  "ddr3_addr(12)"                             LOC = "H15" ;          #Bank 36
+ NET  "ddr3_addr(11)"                             LOC = "M15" ;          #Bank 36
+ NET  "ddr3_addr(10)"                             LOC = "M16" ;          #Bank 36

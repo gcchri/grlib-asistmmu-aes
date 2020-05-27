@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "C:/cygwin64/home/grlib-asistmmu-aes/designs/leon3-xilinx-ml50x/leon3mp.xst" -ofn "C:/cygwin64/home/grlib-asistmmu-aes/designs/leon3-xilinx-ml50x/leon3mp.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../netlists/xilinx/Virtex5 -aul -nt timestamp -uc leon3mp.ucf -uc ddr2spa.ucf -uc svga.ucf -p xc5vlx110t-ff1136-1 leon3mp_cs.ngc leon3mp.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr b -m -lc off -power off -o leon3mp_map.ncd leon3mp.ngd leon3mp.pcf 
+xst -intstyle ise -ifn "C:/cygwin64/home/grlib-asistmmu-aes/designs/leon3-xilinx-ml50x/leon3mp.xst" -ofn "C:/cygwin64/home/grlib-asistmmu-aes/designs/leon3-xilinx-ml50x/leon3mp.syr" 
+xst -intstyle ise -ifn "C:/cygwin64/home/grlib-asistmmu-aes/designs/leon3-xilinx-ml50x/leon3mp.xst" -ofn "C:/cygwin64/home/grlib-asistmmu-aes/designs/leon3-xilinx-ml50x/leon3mp.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../netlists/xilinx/Virtex5 -aul -nt timestamp -uc leon3mp.ucf -uc ddr2spa.ucf -uc svga.ucf -p xc5vlx110t-ff1136-1 leon3mp_cs.ngc leon3mp.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr b -m -lc off -power off -o leon3mp_map.ncd leon3mp.ngd leon3mp.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ../../netlists/xilinx/Virtex5 -aul -nt timestamp -uc leon3mp.ucf -uc ddr2spa.ucf -uc svga.ucf -p xc5vlx110t-ff1136-1 leon3mp_cs.ngc leon3mp.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr b -m -lc off -power off -o leon3mp_map.ncd leon3mp.ngd leon3mp.pcf 
+par -w -intstyle ise -ol high -mt off leon3mp_map.ncd leon3mp.ncd leon3mp.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml leon3mp.twx leon3mp.ncd -o leon3mp.twr leon3mp.pcf -ucf leon3mp.ucf -ucf ddr2spa.ucf -ucf svga.ucf 
+bitgen -intstyle ise -f leon3mp.ut leon3mp.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ../../netlists/xilinx/Virtex5 -aul -nt timestamp -uc leon3mp.ucf -uc ddr2spa.ucf -uc svga.ucf -p xc5vlx110t-ff1136-1 leon3mp_cs.ngc leon3mp.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr b -m -lc off -power off -o leon3mp_map.ncd leon3mp.ngd leon3mp.pcf 
+par -w -intstyle ise -ol high -mt off leon3mp_map.ncd leon3mp.ncd leon3mp.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml leon3mp.twx leon3mp.ncd -o leon3mp.twr leon3mp.pcf -ucf leon3mp.ucf -ucf ddr2spa.ucf -ucf svga.ucf 
+bitgen -intstyle ise -f leon3mp.ut leon3mp.ncd 

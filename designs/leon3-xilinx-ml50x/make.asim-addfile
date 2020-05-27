@@ -1,0 +1,8 @@
+
+addfile -vhdl ../../../../lib/gaisler/pcie/pcie.vhd
+addfile -vhdl ../../config.vhd
+addfile -vhdl ../../ahb2mig_ml50x.vhd
+addfile -vhdl ../../ahbrom.vhd
+addfile -vhdl ../../svga2ch7301c.vhd
+addfile -vhdl ../../leon3mp.vhd
+addfile -vhdl ../../testbench.vhd

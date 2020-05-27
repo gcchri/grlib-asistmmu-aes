@@ -1,0 +1,11 @@
+set -loop_iteration_limit 1000
+run
+-ifn leon3mp.prj
+-top leon3mp
+-p xc6vlx240tff1156-1
+-ofn leon3mp.ngc
+-opt_mode speed
+-opt_level 2
+-register_balancing yes
+-iob true
+-netlist_hierarchy rebuilt

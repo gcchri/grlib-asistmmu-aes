@@ -1,0 +1,13 @@
+--- leon3mp.vhd	2014-04-16 17:51:32.000000000 +0300
++++ leon3mp.vhd	2014-08-07 13:30:59.575498700 +0300
+@@ -429,8 +429,8 @@ begin
+ --  mig_gen : if (CFG_MIG_DDR2 = 1) generate
+ 
+     ahb2mig0 : ahb2mig_ml605
+-      generic map ( hindex => 0, haddr => 16#400#, hmask => 16#E00#,
+-    MHz => 400, Mbyte => 512, nosync => boolean'pos(CFG_MIG_CLK4=12)) --CFG_CLKDIV/12)
++      generic map ( hindex => 0, haddr => 16#400#, hmask => 16#C00#,
++    MHz => 400, Mbyte => 1024, nosync => boolean'pos(CFG_MIG_CLK4=12)) --CFG_CLKDIV/12)
+       port map (
+     rst => rstn, clk_ahb => clkm, clk_ddr => clk_ddr,
+     ahbsi => ahbsi, ahbso => ahbso(0), migi => migi, migo => migo);

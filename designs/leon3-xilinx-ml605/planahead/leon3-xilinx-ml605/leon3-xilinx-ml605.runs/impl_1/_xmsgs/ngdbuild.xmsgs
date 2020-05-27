@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">TNM_clk_ref</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_clk_ref</arg>&apos;, was traced into <arg fmt="%s" index="4">MMCM_ADV</arg> instance <arg fmt="%s" index="5">u_mmcm_adv</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">MMCM_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_ddr3ctrl_u_infrastructure_clk_mem_pll = PERIOD &quot;ddr3ctrl_u_infrastructure_clk_mem_pll&quot; TS_clk_ref / 2 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">TNM_clk_ref</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_clk_ref</arg>&apos;, was traced into <arg fmt="%s" index="4">MMCM_ADV</arg> instance <arg fmt="%s" index="5">u_mmcm_adv</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">MMCM_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT1</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_ddr3ctrl_u_infrastructure_clk_pll = PERIOD &quot;ddr3ctrl_u_infrastructure_clk_pll&quot; TS_clk_ref HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">TNM_clk_ref</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_clk_ref</arg>&apos;, was traced into <arg fmt="%s" index="4">MMCM_ADV</arg> instance <arg fmt="%s" index="5">u_mmcm_adv</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">MMCM_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT2</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_ddr3ctrl_clk_rd_base = PERIOD &quot;ddr3ctrl_clk_rd_base&quot; TS_clk_ref / 2 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">TNM_clk_ref</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_clk_ref</arg>&apos;, was traced into <arg fmt="%s" index="4">MMCM_ADV</arg> instance <arg fmt="%s" index="5">u_mmcm_adv</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">MMCM_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT3</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_ddr3ctrl_u_infrastructure_clk_pll_100 = PERIOD &quot;ddr3ctrl_u_infrastructure_clk_pll_100&quot; TS_clk_ref / 0.5 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">TNM_clk_ref</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_clk_ref</arg>&apos;, was traced into <arg fmt="%s" index="4">MMCM_ADV</arg> instance <arg fmt="%s" index="5">u_mmcm_adv</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">MMCM_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT4</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_ddr3ctrl_u_infrastructure_clk_pll_amba = PERIOD &quot;ddr3ctrl_u_infrastructure_clk_pll_amba&quot; TS_clk_ref / 0.6 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="0" >The Period constraint &lt;NET &quot;clk_33&quot; PERIOD = 30 ns;&gt; [leon3mp.ucf(293)], is specified using the Net Period method which is not recommended. Please use the Timespec PERIOD method.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="0" >The Period constraint &lt;NET &quot;erx_clk&quot; PERIOD = 8 ns;&gt; [leon3mp.ucf(304)], is specified using the Net Period method which is not recommended. Please use the Timespec PERIOD method.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="0" >The Period constraint &lt;NET &quot;etx_clk&quot; PERIOD = 40 ns;&gt; [leon3mp.ucf(308)], is specified using the Net Period method which is not recommended. Please use the Timespec PERIOD method.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="0" >The Period constraint &lt;NET &quot;gmiiclk_p&quot; PERIOD = 8 ns;&gt; [leon3mp.ucf(321)], is specified using the Net Period method which is not recommended. Please use the Timespec PERIOD method.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;OFFSET = IN 20 ns BEFORE &quot;clk_33&quot;;&gt; [leon3mp.ucf(294)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;OFFSET = IN 5 ns BEFORE &quot;erx_clk&quot;;&gt; [leon3mp.ucf(305)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;OFFSET = IN 8 ns BEFORE &quot;etx_clk&quot;;&gt; [leon3mp.ucf(310)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+</messages>
+

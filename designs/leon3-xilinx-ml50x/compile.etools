@@ -1,0 +1,63 @@
+set vhdlList {
+{grlib  ../../lib/grlib/stdlib/version.vhd ../../lib/grlib/stdlib/config_types.vhd grlib_config.vhd ../../lib/grlib/stdlib/stdlib.vhd ../../lib/grlib/sparc/sparc.vhd ../../lib/grlib/modgen/multlib.vhd ../../lib/grlib/modgen/leaves.vhd ../../lib/grlib/amba/amba.vhd ../../lib/grlib/amba/devices.vhd ../../lib/grlib/amba/defmst.vhd ../../lib/grlib/amba/apbctrl.vhd ../../lib/grlib/amba/ahbctrl.vhd ../../lib/grlib/amba/dma2ahb_pkg.vhd ../../lib/grlib/amba/dma2ahb.vhd ../../lib/grlib/amba/ahbmst.vhd}
+{techmap  ../../lib/techmap/gencomp/gencomp.vhd ../../lib/techmap/gencomp/netcomp.vhd ../../lib/techmap/inferred/memory_inferred.vhd ../../lib/techmap/inferred/ddr_inferred.vhd ../../lib/techmap/inferred/mul_inferred.vhd ../../lib/techmap/inferred/ddr_phy_inferred.vhd ../../lib/techmap/inferred/ddrphy_datapath.vhd ../../lib/techmap/maps/allclkgen.vhd ../../lib/techmap/maps/allddr.vhd ../../lib/techmap/maps/allmem.vhd ../../lib/techmap/maps/allmul.vhd ../../lib/techmap/maps/allpads.vhd ../../lib/techmap/maps/alltap.vhd ../../lib/techmap/maps/clkgen.vhd ../../lib/techmap/maps/clkmux.vhd ../../lib/techmap/maps/clkinv.vhd ../../lib/techmap/maps/clkand.vhd ../../lib/techmap/maps/ddr_ireg.vhd ../../lib/techmap/maps/ddr_oreg.vhd ../../lib/techmap/maps/ddrphy.vhd ../../lib/techmap/maps/syncram.vhd ../../lib/techmap/maps/syncram64.vhd ../../lib/techmap/maps/syncram_2p.vhd ../../lib/techmap/maps/syncram_dp.vhd ../../lib/techmap/maps/syncfifo_2p.vhd ../../lib/techmap/maps/regfile_3p.vhd ../../lib/techmap/maps/tap.vhd ../../lib/techmap/maps/techbuf.vhd ../../lib/techmap/maps/nandtree.vhd ../../lib/techmap/maps/clkpad.vhd ../../lib/techmap/maps/clkpad_ds.vhd ../../lib/techmap/maps/inpad.vhd ../../lib/techmap/maps/inpad_ds.vhd ../../lib/techmap/maps/iodpad.vhd ../../lib/techmap/maps/iopad.vhd ../../lib/techmap/maps/iopad_ds.vhd ../../lib/techmap/maps/lvds_combo.vhd ../../lib/techmap/maps/odpad.vhd ../../lib/techmap/maps/outpad.vhd ../../lib/techmap/maps/outpad_ds.vhd ../../lib/techmap/maps/toutpad.vhd ../../lib/techmap/maps/skew_outpad.vhd ../../lib/techmap/maps/grlfpw_net.vhd ../../lib/techmap/maps/grfpw_net.vhd ../../lib/techmap/maps/leon4_net.vhd ../../lib/techmap/maps/mul_61x61.vhd ../../lib/techmap/maps/cpu_disas_net.vhd ../../lib/techmap/maps/ringosc.vhd ../../lib/techmap/maps/system_monitor.vhd ../../lib/techmap/maps/grgates.vhd ../../lib/techmap/maps/inpad_ddr.vhd ../../lib/techmap/maps/outpad_ddr.vhd ../../lib/techmap/maps/iopad_ddr.vhd ../../lib/techmap/maps/syncram128bw.vhd ../../lib/techmap/maps/syncram256bw.vhd ../../lib/techmap/maps/syncram128.vhd ../../lib/techmap/maps/syncram156bw.vhd ../../lib/techmap/maps/techmult.vhd ../../lib/techmap/maps/spictrl_net.vhd ../../lib/techmap/maps/scanreg.vhd ../../lib/techmap/maps/syncrambw.vhd ../../lib/techmap/maps/syncram_2pbw.vhd ../../lib/techmap/maps/sdram_phy.vhd ../../lib/techmap/maps/syncreg.vhd ../../lib/techmap/maps/clkinv.vhd}
+{eth  ../../lib/eth/comp/ethcomp.vhd ../../lib/eth/core/greth_pkg.vhd ../../lib/eth/core/eth_rstgen.vhd ../../lib/eth/core/eth_edcl_ahb_mst.vhd ../../lib/eth/core/eth_ahb_mst.vhd ../../lib/eth/core/greth_tx.vhd ../../lib/eth/core/greth_rx.vhd ../../lib/eth/core/grethc.vhd ../../lib/eth/wrapper/greth_gen.vhd ../../lib/eth/wrapper/greth_gbit_gen.vhd}
+{opencores  ../../lib/opencores/i2c/i2c_master_bit_ctrl.vhd ../../lib/opencores/i2c/i2c_master_byte_ctrl.vhd ../../lib/opencores/i2c/i2coc.vhd}
+{gaisler  ../../lib/gaisler/arith/arith.vhd ../../lib/gaisler/arith/mul32.vhd ../../lib/gaisler/arith/div32.vhd ../../lib/gaisler/memctrl/memctrl.vhd ../../lib/gaisler/memctrl/sdctrl.vhd ../../lib/gaisler/memctrl/sdctrl64.vhd ../../lib/gaisler/memctrl/sdmctrl.vhd ../../lib/gaisler/memctrl/srctrl.vhd ../../lib/gaisler/srmmu/mmuconfig.vhd ../../lib/gaisler/srmmu/mmuiface.vhd ../../lib/gaisler/srmmu/libmmu.vhd ../../lib/gaisler/srmmu/mmutlbcam.vhd ../../lib/gaisler/srmmu/mmulrue.vhd ../../lib/gaisler/srmmu/mmulru.vhd ../../lib/gaisler/srmmu/mmutlb.vhd ../../lib/gaisler/srmmu/mmutw.vhd ../../lib/gaisler/srmmu/mmu.vhd ../../lib/gaisler/leon3/leon3.vhd ../../lib/gaisler/leon3/grfpushwx.vhd ../../lib/gaisler/leon3v3/tbufmem.vhd ../../lib/gaisler/leon3v3/dsu3x.vhd ../../lib/gaisler/leon3v3/dsu3.vhd ../../lib/gaisler/leon3v3/dsu3_mb.vhd ../../lib/gaisler/leon3v3/libfpu.vhd ../../lib/gaisler/leon3v3/libiu.vhd ../../lib/gaisler/leon3v3/libcache.vhd ../../lib/gaisler/leon3v3/libleon3.vhd ../../lib/gaisler/leon3v3/regfile_3p_l3.vhd ../../lib/gaisler/leon3v3/mmu_acache.vhd ../../lib/gaisler/leon3v3/mmu_icache.vhd ../../lib/gaisler/leon3v3/asist_mmu.vhd ../../lib/gaisler/leon3v3/mmu_dcache.vhd ../../lib/gaisler/leon3v3/cachemem.vhd ../../lib/gaisler/leon3v3/mmu_cache.vhd ../../lib/gaisler/leon3v3/grfpwx.vhd ../../lib/gaisler/leon3v3/grlfpwx.vhd ../../lib/gaisler/leon3v3/iu3.vhd ../../lib/gaisler/leon3v3/proc3.vhd ../../lib/gaisler/leon3v3/leon3cg.vhd ../../lib/gaisler/leon3v3/leon3s.vhd ../../lib/gaisler/leon3v3/leon3sh.vhd ../../lib/gaisler/leon3v3/leon3x.vhd ../../lib/gaisler/leon3v3/grfpwxsh.vhd ../../lib/gaisler/irqmp/irqmp.vhd ../../lib/gaisler/l2cache/v2-pkg/l2cache.vhd ../../lib/gaisler/misc/misc.vhd ../../lib/gaisler/misc/rstgen.vhd ../../lib/gaisler/misc/gptimer.vhd ../../lib/gaisler/misc/ahbram.vhd ../../lib/gaisler/misc/ahbdpram.vhd ../../lib/gaisler/misc/ahbtrace_mmb.vhd ../../lib/gaisler/misc/ahbtrace_mb.vhd ../../lib/gaisler/misc/ahbtrace.vhd ../../lib/gaisler/misc/grgpio.vhd ../../lib/gaisler/misc/ahbstat.vhd ../../lib/gaisler/misc/logan.vhd ../../lib/gaisler/misc/apbps2.vhd ../../lib/gaisler/misc/charrom_package.vhd ../../lib/gaisler/misc/charrom.vhd ../../lib/gaisler/misc/apbvga.vhd ../../lib/gaisler/misc/svgactrl.vhd ../../lib/gaisler/misc/grsysmon.vhd ../../lib/gaisler/misc/gracectrl.vhd ../../lib/gaisler/misc/grgpreg.vhd ../../lib/gaisler/misc/ahb_mst_iface.vhd ../../lib/gaisler/misc/grgprbank.vhd ../../lib/gaisler/net/net.vhd ../../lib/gaisler/pci/pci.vhd ../../lib/gaisler/pci/pcipads.vhd ../../lib/gaisler/pci/pcitrace/pcitrace.vhd ../../lib/gaisler/pci/grpci1/pcilib.vhd ../../lib/gaisler/pci/grpci1/pciahbmst.vhd ../../lib/gaisler/pci/grpci1/pci_target.vhd ../../lib/gaisler/pci/grpci1/pci_mt.vhd ../../lib/gaisler/pci/grpci1/dmactrl.vhd ../../lib/gaisler/pci/grpci1/pci_mtf.vhd ../../lib/gaisler/pci/grpci1/pcidma.vhd ../../lib/gaisler/uart/uart.vhd ../../lib/gaisler/uart/libdcom.vhd ../../lib/gaisler/uart/apbuart.vhd ../../lib/gaisler/uart/dcom.vhd ../../lib/gaisler/uart/dcom_uart.vhd ../../lib/gaisler/uart/ahbuart.vhd ../../lib/gaisler/jtag/jtag.vhd ../../lib/gaisler/jtag/libjtagcom.vhd ../../lib/gaisler/jtag/jtagcom.vhd ../../lib/gaisler/jtag/ahbjtag.vhd ../../lib/gaisler/jtag/ahbjtag_bsd.vhd ../../lib/gaisler/jtag/bscanregs.vhd ../../lib/gaisler/jtag/bscanregsbd.vhd ../../lib/gaisler/jtag/jtagcom2.vhd ../../lib/gaisler/greth/ethernet_mac.vhd ../../lib/gaisler/greth/greth.vhd ../../lib/gaisler/greth/greth_mb.vhd ../../lib/gaisler/greth/greth_gbit.vhd ../../lib/gaisler/greth/greth_gbit_mb.vhd ../../lib/gaisler/greth/grethm.vhd ../../lib/gaisler/greth/rgmii.vhd ../../lib/gaisler/ddr/ddrpkg.vhd ../../lib/gaisler/ddr/ddrintpkg.vhd ../../lib/gaisler/ddr/ddrphy_wrap.vhd ../../lib/gaisler/ddr/ddrspa.vhd ../../lib/gaisler/ddr/ddr2spa.vhd ../../lib/gaisler/ddr/ddr2buf.vhd ../../lib/gaisler/ddr/ddr2spax.vhd ../../lib/gaisler/ddr/ddr2spax_ahb.vhd ../../lib/gaisler/ddr/ddr2spax_ddr.vhd ../../lib/gaisler/ddr/ddr1spax.vhd ../../lib/gaisler/ddr/ddr1spax_ddr.vhd ../../lib/gaisler/ddr/ahb2mig_series7_pkg.vhd ../../lib/gaisler/ddr/ahb2mig_series7.vhd ../../lib/gaisler/ddr/ahb2avl_async.vhd ../../lib/gaisler/ddr/ahb2avl_async_be.vhd ../../lib/gaisler/i2c/i2c.vhd ../../lib/gaisler/i2c/i2cmst.vhd ../../lib/gaisler/i2c/i2cmst_gen.vhd ../../lib/gaisler/i2c/i2cslv.vhd ../../lib/gaisler/i2c/i2c2ahbx.vhd ../../lib/gaisler/i2c/i2c2ahb.vhd ../../lib/gaisler/i2c/i2c2ahb_apb.vhd ../../lib/gaisler/i2c/i2c2ahb_gen.vhd ../../lib/gaisler/i2c/i2c2ahb_apb_gen.vhd ../../lib/gaisler/spi/spi.vhd ../../lib/gaisler/spi/spimctrl.vhd ../../lib/gaisler/spi/spictrlx.vhd ../../lib/gaisler/spi/spictrl.vhd ../../lib/gaisler/spi/spi2ahbx.vhd ../../lib/gaisler/spi/spi2ahb.vhd ../../lib/gaisler/spi/spi2ahb_apb.vhd}
+{esa  ../../lib/esa/memoryctrl/memoryctrl.vhd ../../lib/esa/memoryctrl/mctrl.vhd ../../lib/esa/pci/pcicomp.vhd ../../lib/esa/pci/pci_arb_pkg.vhd ../../lib/esa/pci/pci_arb.vhd ../../lib/esa/pci/pciarb.vhd}
+{work  ../../lib/gaisler/pcie/pcie.vhd config.vhd ahb2mig_ml50x.vhd ahbrom.vhd svga2ch7301c.vhd leon3mp.vhd}
+}
+set verilogList {
+../../lib/gaisler/leon3v3/timescale.v
+../../lib/gaisler/leon3v3/aes_inv_cipher_top.v
+../../lib/gaisler/leon3v3/aes_inv_sbox.v
+../../lib/gaisler/leon3v3/aes_key_expand_128.v
+../../lib/gaisler/leon3v3/aes_rcon.v
+../../lib/gaisler/leon3v3/aes_sbox.v
+pcie/endpoint_blk_plus_v1_14/source/use_newinterrupt.v
+pcie/endpoint_blk_plus_v1_14/source/pcie_blk_if.v
+pcie/endpoint_blk_plus_v1_14/source/pcie_blk_ll.v
+pcie/endpoint_blk_plus_v1_14/source/pcie_blk_ll_tx.v
+pcie/endpoint_blk_plus_v1_14/source/pcie_blk_ll_tx_arb.v
+pcie/endpoint_blk_plus_v1_14/source/pcie_blk_plus_ll_tx.v
+pcie/endpoint_blk_plus_v1_14/source/pcie_blk_plus_ll_rx.v
+pcie/endpoint_blk_plus_v1_14/source/tlm_rx_data_snk.v
+pcie/endpoint_blk_plus_v1_14/source/tlm_rx_data_snk_mal.v
+pcie/endpoint_blk_plus_v1_14/source/tlm_rx_data_snk_bar.v
+pcie/endpoint_blk_plus_v1_14/source/tlm_rx_data_snk_pwr_mgmt.v
+pcie/endpoint_blk_plus_v1_14/source/cmm_decoder.v
+pcie/endpoint_blk_plus_v1_14/source/pcie_blk_ll_oqbqfifo.v
+pcie/endpoint_blk_plus_v1_14/source/pcie_blk_ll_arb.v
+pcie/endpoint_blk_plus_v1_14/source/pcie_blk_ll_credit.v
+pcie/endpoint_blk_plus_v1_14/source/pcie_blk_cf.v
+pcie/endpoint_blk_plus_v1_14/source/pcie_blk_cf_mgmt.v
+pcie/endpoint_blk_plus_v1_14/source/pcie_blk_cf_err.v
+pcie/endpoint_blk_plus_v1_14/source/pcie_blk_cf_pwr.v
+pcie/endpoint_blk_plus_v1_14/source/pcie_blk_cf_arb.v
+pcie/endpoint_blk_plus_v1_14/source/cmm_errman_cnt_en.v
+pcie/endpoint_blk_plus_v1_14/source/cmm_errman_cnt_nfl_en.v
+pcie/endpoint_blk_plus_v1_14/source/cmm_errman_cor.v
+pcie/endpoint_blk_plus_v1_14/source/cmm_errman_cpl.v
+pcie/endpoint_blk_plus_v1_14/source/cmm_errman_ftl.v
+pcie/endpoint_blk_plus_v1_14/source/cmm_errman_nfl.v
+pcie/endpoint_blk_plus_v1_14/source/cmm_errman_ram4x26.v
+pcie/endpoint_blk_plus_v1_14/source/cmm_errman_ram8x26.v
+pcie/endpoint_blk_plus_v1_14/source/cmm_intr.v
+pcie/endpoint_blk_plus_v1_14/source/pcie_soft_int.v
+pcie/endpoint_blk_plus_v1_14/source/bram_common.v
+pcie/endpoint_blk_plus_v1_14/source/pcie_clocking.v
+pcie/endpoint_blk_plus_v1_14/source/tx_sync_gtx.v
+pcie/endpoint_blk_plus_v1_14/source/tx_sync_gtp.v
+pcie/endpoint_blk_plus_v1_14/source/pcie_gtx_wrapper.v
+pcie/endpoint_blk_plus_v1_14/source/pcie_gt_wrapper.v
+pcie/endpoint_blk_plus_v1_14/source/pcie_gt_wrapper_top.v
+pcie/endpoint_blk_plus_v1_14/source/pcie_mim_wrapper.v
+pcie/endpoint_blk_plus_v1_14/source/pcie_reset_logic.v
+pcie/endpoint_blk_plus_v1_14/source/pcie_top.v
+pcie/endpoint_blk_plus_v1_14/source/prod_fixes.v
+pcie/endpoint_blk_plus_v1_14/source/sync_fifo.v
+pcie/endpoint_blk_plus_v1_14/source/extend_clk.v
+pcie/endpoint_blk_plus_v1_14/source/pcie_ep.v
+pcie/endpoint_blk_plus_v1_14/source/endpoint_blk_plus_v1_14.v
+/verilog/src/glbl.v
+}

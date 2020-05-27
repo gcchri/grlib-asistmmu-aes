@@ -1,0 +1,2035 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DARoots Version="1" Minor="26">
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../../../../lib/grlib/stdlib/version.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="grlib"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/grlib/stdlib/config_types.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="grlib"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/grlib/stdlib/stdlib.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="grlib"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../grlib_config.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="grlib"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/gencomp/gencomp.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/grlib/amba/amba.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="grlib"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/srmmu/mmuconfig.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/allclkgen.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/inferred/memory_inferred.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/srmmu/mmuiface.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/leon3/leon3.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/unisim/memory_virtex.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/unisim/memory_unisim.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/grgates.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/allmem.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/srmmu/mmulrue.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/srmmu/libmmu.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/leon3v3/libfpu.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/arith/arith.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/controller/round_robin_arb.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/syncram.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/srmmu/mmutlbcam.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/srmmu/mmulru.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/leon3v3/libiu.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/phy/rd_bitslip.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/phy/circ_buffer.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/controller/bank_state.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/controller/bank_queue.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/controller/bank_compare.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/controller/arb_select.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/controller/arb_row_col.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/syncram_2p.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/allmul.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/inferred/mul_inferred.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/grlib/sparc/sparc.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="grlib"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/grlib/modgen/multlib.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="grlib"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/grlib/modgen/leaves.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="grlib"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/grlib/amba/devices.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="grlib"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/srmmu/mmutw.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/srmmu/mmutlb.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/leon3v3/libcache.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/phy/phy_rddata_sync.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/phy/phy_rdctrl_sync.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/phy/phy_rdclk_gen.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/phy/phy_pd.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/phy/phy_dq_iob.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/phy/phy_dqs_iob.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/phy/phy_dm_iob.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/phy/phy_ck_iob.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/controller/rank_common.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/controller/rank_cntrl.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/controller/bank_common.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/controller/bank_cntrl.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/controller/arb_mux.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/techmult.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/regfile_3p.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/srmmu/mmu.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/leon3v3/mmu_icache.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/leon3v3/mmu_dcache.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/leon3v3/mmu_acache.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/leon3v3/libleon3.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/eth/core/greth_pkg.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="eth"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/eth/core/eth_rstgen.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="eth"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/phy/phy_wrlvl.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/phy/phy_write.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/phy/phy_read.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/phy/phy_rdlvl.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/phy/phy_pd_top.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/phy/phy_init.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/phy/phy_dly_ctrl.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/phy/phy_data_io.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/phy/phy_control_io.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/phy/phy_clock_io.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/ecc/ecc_merge_enc.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/ecc/ecc_gen.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/ecc/ecc_dec_fix.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/ecc/ecc_buf.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/controller/rank_mach.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/controller/col_mach.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/controller/bank_mach.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/unisim/clkgen_unisim.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/unisim/buffer_unisim.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/syncram_dp.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/syncram64.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/grlfpw_net.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/grfpw_net.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/gencomp/netcomp.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/uart/uart.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/net/net.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/misc/misc.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/leon3v3/regfile_3p_l3.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/leon3v3/mmu_cache.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/leon3v3/iu3.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/arith/mul32.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/arith/div32.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/eth/core/greth_tx.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="eth"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/eth/core/greth_rx.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="eth"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/eth/core/eth_edcl_ahb_mst.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="eth"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/eth/core/eth_ahb_mst.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="eth"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/ui/ui_wr_data.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/ui/ui_rd_data.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/ui/ui_cmd.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/phy/phy_top.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/controller/mc.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/unisim/tap_unisim.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/unisim/ddr_unisim.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/techbuf.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/clkmux.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/clkand.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/alltap.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/allddr.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/inferred/ddr_inferred.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/opencores/i2c/i2c_master_bit_ctrl.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="opencores"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/uart/libdcom.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/memctrl/memctrl.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/leon3v3/tbufmem.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/leon3v3/proc3.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/leon3v3/grlfpwx.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/leon3v3/grfpwxsh.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/leon3v3/grfpwx.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/leon3v3/cachemem.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/jtag/libjtagcom.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/greth/ethernet_mac.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/eth/core/grethc.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="eth"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/eth/comp/ethcomp.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="eth"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/ui/ui_top.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/ip_top/mem_intfc.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/unisim/pads_unisim.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/tap.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/syncreg.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/syncrambw.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/ddr_oreg.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/allpads.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/opencores/i2c/i2c_master_byte_ctrl.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="opencores"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/opencores/i2c/i2coc.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="opencores"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/grlib/amba/ahbmst.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="grlib"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/uart/dcom_uart.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/uart/dcom.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/misc/charrom_package.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/misc/charrom.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/memctrl/sdmctrl.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/leon3v3/leon3x.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/leon3v3/dsu3x.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/jtag/jtagcom2.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/jtag/jtagcom.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/jtag/jtag.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/i2c/i2c.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/greth/greth_gbit.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/greth/greth.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/esa/memoryctrl/memoryctrl.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="esa"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/ip_top/memc_ui_top.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/ip_top/iodelay_ctrl.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/ip_top/infrastructure.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/ip_top/ddr2_ddr3_chipscope.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/outpad.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/odpad.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/iopad.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/inpad.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/clkpad.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/grlib/amba/apbctrl.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="grlib"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/grlib/amba/ahbctrl.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="grlib"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/uart/apbuart.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/uart/ahbuart.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/pcie/pcie.vhd">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/misc/svgactrl.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/misc/rstgen.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/misc/grgpio.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/misc/gracectrl.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/misc/gptimer.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/misc/apbvga.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/misc/ahbram.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/leon3v3/leon3sh.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/leon3v3/leon3s.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/leon3v3/dsu3.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/leon3/grfpushwx.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/jtag/ahbjtag.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/irqmp/irqmp.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/i2c/i2cmst.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/greth/grethm.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/esa/memoryctrl/mctrl.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="esa"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../svga2ch7301c.vhd">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/ip_top/mig.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../gtxclk.vhd">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../config.vhd">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../ahbrom.vhd">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../ahb2mig_ml605.vhd">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../leon3mp.vhd">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/grlib/amba/defmst.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="grlib"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/grlib/amba/dma2ahb_pkg.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="grlib"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/grlib/amba/dma2ahb.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="grlib"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/inferred/ddr_phy_inferred.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/inferred/ddrphy_datapath.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/unisim/clkgen_virtex.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/unisim/ddr_phy_unisim.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/unisim/sysmon_unisim.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/unisim/mul_unisim.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/unisim/spictrl_unisim.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/clkgen.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/clkinv.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/ddr_ireg.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/ddrphy.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/syncfifo_2p.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/nandtree.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/clkpad_ds.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/inpad_ds.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/iodpad.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/iopad_ds.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/lvds_combo.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/outpad_ds.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/toutpad.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/skew_outpad.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/leon4_net.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/mul_61x61.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/cpu_disas_net.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/ringosc.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/system_monitor.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/inpad_ddr.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/outpad_ddr.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/iopad_ddr.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/syncram128bw.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/syncram256bw.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/syncram128.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/syncram156bw.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/spictrl_net.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/scanreg.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/syncram_2pbw.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/techmap/maps/sdram_phy.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="techmap"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/eth/wrapper/greth_gen.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="eth"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/eth/wrapper/greth_gbit_gen.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="eth"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/memctrl/sdctrl.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/memctrl/sdctrl64.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/memctrl/srctrl.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/leon3v3/dsu3_mb.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/leon3v3/leon3cg.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/l2cache/v2-pkg/l2cache.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/misc/ahbdpram.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/misc/ahbtrace_mmb.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/misc/ahbtrace_mb.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/misc/ahbtrace.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/misc/ahbstat.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/misc/logan.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/misc/apbps2.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/misc/grsysmon.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/misc/grgpreg.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/misc/ahb_mst_iface.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/misc/grgprbank.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/pci/pci.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/pci/pcipads.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/pci/pcitrace/pcitrace.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/pci/grpci1/pcilib.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/pci/grpci1/pciahbmst.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/pci/grpci1/pci_target.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/pci/grpci1/pci_mt.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/pci/grpci1/dmactrl.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/pci/grpci1/pci_mtf.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/pci/grpci1/pcidma.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/jtag/ahbjtag_bsd.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/jtag/bscanregs.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/jtag/bscanregsbd.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/greth/greth_mb.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/greth/greth_gbit_mb.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/greth/rgmii.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/ddr/ddrpkg.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/ddr/ddrintpkg.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/ddr/ddrphy_wrap.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/ddr/ddrspa.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/ddr/ddr2spa.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/ddr/ddr2buf.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/ddr/ddr2spax.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/ddr/ddr2spax_ahb.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/ddr/ddr2spax_ddr.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/ddr/ddr1spax.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/ddr/ddr1spax_ddr.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/ddr/ahb2mig_series7_pkg.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/ddr/ahb2mig_series7.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/ddr/ahb2avl_async.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/ddr/ahb2avl_async_be.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/i2c/i2cmst_gen.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/i2c/i2cslv.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/i2c/i2c2ahbx.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/i2c/i2c2ahb.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/i2c/i2c2ahb_apb.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/i2c/i2c2ahb_gen.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/gaisler/i2c/i2c2ahb_apb_gen.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="gaisler"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/esa/pci/pcicomp.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="esa"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/esa/pci/pci_arb_pkg.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="esa"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/esa/pci/pci_arb.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="esa"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../lib/esa/pci/pciarb.vhd">
+      <FileInfo>
+        <Attr Name="Library" Val="esa"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../mig/user_design/rtl/ip_top/clk_ibuf.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../../../../../Xilinx/14.4/ISE_DS/ISE/verilog/src/glbl.v">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="leon3mp"/>
+      <Option Name="TopLib" Val="work"/>
+      <Option Name="TopArchitecture" Val="rtl"/>
+    </Config>
+  </FileSet>
+</DARoots>

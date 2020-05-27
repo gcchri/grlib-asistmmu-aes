@@ -1,0 +1,109 @@
+diff -rupN before/ahb2mig_ml605.vhd after/ahb2mig_ml605.vhd
+--- before/ahb2mig_ml605.vhd	2014-04-16 17:51:32.000000000 +0300
++++ after/ahb2mig_ml605.vhd	2014-08-07 13:30:18.992627200 +0300
+@@ -39,9 +39,9 @@ package ml605 is
+   constant DM_WIDTH  : integer := 8;
+   constant DQ_WIDTH  : integer := 64;
+   constant DQS_WIDTH : integer := 8;
+-  constant ROW_WIDTH : integer := 13;
++  constant ROW_WIDTH : integer := 14;
+   constant PAYLOAD_WIDTH : integer := 64;
+-  constant ADDR_WIDTH    : integer := 27;
++  constant ADDR_WIDTH    : integer := 28;
+ 
+   type mig_app_in_type is record
+       app_wdf_wren  : std_logic;
+@@ -314,7 +314,7 @@ begin
+    ahbso.hresp   <= ra.hresp;
+    ahbso.hrdata <= ahbdrivedata(ra.hrdata);
+ 
+-   migi.app_addr  <= '0' & ra.acc.haddr(28 downto 6) & "000";
++   migi.app_addr  <= '0' & ra.acc.haddr(29 downto 6) & "000";
+ 
+    ddr_ctrl : process(rst, r, ra, migo)
+    variable v        : ddr_reg_type;   -- local variables for registers
+diff -rupN before/leon3mp.ucf after/leon3mp.ucf
+--- before/leon3mp.ucf	2014-04-16 17:50:08.000000000 +0300
++++ after/leon3mp.ucf	2014-08-07 13:42:38.070023600 +0300
+@@ -209,6 +209,7 @@ NET  "ddr3_dq(60)"
+ NET  "ddr3_dq(61)"                               LOC = "A30" ;          #Bank 25
+ NET  "ddr3_dq(62)"                               LOC = "E29" ;          #Bank 25
+ NET  "ddr3_dq(63)"                               LOC = "F29" ;          #Bank 25
++NET  "ddr3_addr(13)"                             LOC = "J15" ;          #Bank 36
+ NET  "ddr3_addr(12)"                             LOC = "H15" ;          #Bank 36
+ NET  "ddr3_addr(11)"                             LOC = "M15" ;          #Bank 36
+ NET  "ddr3_addr(10)"                             LOC = "M16" ;          #Bank 36
+diff -rupN before/leon3mp.vhd after/leon3mp.vhd
+--- before/leon3mp.vhd	2014-04-16 17:51:32.000000000 +0300
++++ after/leon3mp.vhd	2014-08-07 13:30:59.575498700 +0300
+@@ -429,8 +429,8 @@ begin
+ --  mig_gen : if (CFG_MIG_DDR2 = 1) generate
+ 
+     ahb2mig0 : ahb2mig_ml605
+-      generic map ( hindex => 0, haddr => 16#400#, hmask => 16#E00#,
+-    MHz => 400, Mbyte => 512, nosync => boolean'pos(CFG_MIG_CLK4=12)) --CFG_CLKDIV/12)
++      generic map ( hindex => 0, haddr => 16#400#, hmask => 16#C00#,
++    MHz => 400, Mbyte => 1024, nosync => boolean'pos(CFG_MIG_CLK4=12)) --CFG_CLKDIV/12)
+       port map (
+     rst => rstn, clk_ahb => clkm, clk_ddr => clk_ddr,
+     ahbsi => ahbsi, ahbso => ahbso(0), migi => migi, migo => migo);
+diff -rupN before/mig/user_design/par/mig.ucf after/mig/user_design/par/mig.ucf
+--- before/mig/user_design/par/mig.ucf	2014-08-07 13:26:43.557847200 +0300
++++ after/mig/user_design/par/mig.ucf	2014-08-07 13:32:24.494447600 +0300
+@@ -171,6 +171,7 @@ NET  "ddr3_dq[60]"
+ NET  "ddr3_dq[61]"                               LOC = "A30" ;          #Bank 25
+ NET  "ddr3_dq[62]"                               LOC = "E29" ;          #Bank 25
+ NET  "ddr3_dq[63]"                               LOC = "F29" ;          #Bank 25
++NET  "ddr3_addr[13]"                             LOC = "J15" ;          #Bank 36
+ NET  "ddr3_addr[12]"                             LOC = "H15" ;          #Bank 36
+ NET  "ddr3_addr[11]"                             LOC = "M15" ;          #Bank 36
+ NET  "ddr3_addr[10]"                             LOC = "M16" ;          #Bank 36
+diff -rupN before/mig/user_design/rtl/ip_top/mig.v after/mig/user_design/rtl/ip_top/mig.v
+--- before/mig/user_design/rtl/ip_top/mig.v	2014-08-07 13:26:43.573447200 +0300
++++ after/mig/user_design/rtl/ip_top/mig.v	2014-08-07 13:46:16.357508900 +0300
+@@ -135,7 +135,7 @@ module mig_37 #
+                                        // # of Data (DQ) bits.
+    parameter DQS_WIDTH               = 8,
+                                        // # of DQS/DQS# bits.
+-   parameter ROW_WIDTH               = 13,
++   parameter ROW_WIDTH               = 14,
+                                        // # of memory Row Address bits.
+    parameter BURST_MODE              = "OTF",
+                                        // Burst Length (Mode Register 0).
+@@ -191,7 +191,7 @@ module mig_37 #
+                                        // memory tREFI paramter.
+    parameter tZQI                    = 128_000_000,
+                                        // memory tZQI paramter.
+-   parameter ADDR_WIDTH              = 27,
++   parameter ADDR_WIDTH              = 28,
+                                        // # = RANK_WIDTH + BANK_WIDTH
+                                        //     + ROW_WIDTH + COL_WIDTH;
+    parameter ECC                     = "OFF",
+diff -rupN before/mig39.prj after/mig39.prj
+--- before/mig39.prj	2014-08-07 13:26:33.698629900 +0300
++++ after/mig39.prj	2014-08-07 13:31:42.499173800 +0300
+@@ -11,14 +11,14 @@
+     <IODelayHighPerformanceMode>HIGH</IODelayHighPerformanceMode>
+     <InternalVref>0</InternalVref>
+     <Controller number="0" >
+-        <MemoryDevice>DDR3_SDRAM/SODIMMs/MT4JSF6464HY-1G1</MemoryDevice>
++        <MemoryDevice>DDR3_SDRAM/SODIMMs/MT4JSF12864HZ-1G4</MemoryDevice>
+         <TimePeriod>2500</TimePeriod>
+         <DataWidth>64</DataWidth>
+         <DeepMemory>1</DeepMemory>
+         <DataMask>1</DataMask>
+         <CustomPart>FALSE</CustomPart>
+         <NewPartName></NewPartName>
+-        <RowAddress>13</RowAddress>
++        <RowAddress>14</RowAddress>
+         <ColAddress>10</ColAddress>
+         <BankAddress>3</BankAddress>
+         <MasterBanks>25</MasterBanks>
+@@ -47,6 +47,7 @@
+             <Pin SignalName="ddr3_addr[10]" PINNumber="M16" SignalGroup="Address" Bank="36" />
+             <Pin SignalName="ddr3_addr[11]" PINNumber="M15" SignalGroup="Address" Bank="36" />
+             <Pin SignalName="ddr3_addr[12]" PINNumber="H15" SignalGroup="Address" Bank="36" />
++            <Pin SignalName="ddr3_addr[13]" PINNumber="J15" SignalGroup="Address" Bank="36" />
+             <Pin SignalName="ddr3_addr[1]" PINNumber="A16" SignalGroup="Address" Bank="36" />
+             <Pin SignalName="ddr3_addr[2]" PINNumber="B16" SignalGroup="Address" Bank="36" />
+             <Pin SignalName="ddr3_addr[3]" PINNumber="E16" SignalGroup="Address" Bank="36" />

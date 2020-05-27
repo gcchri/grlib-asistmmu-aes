@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\cygwin64\home\grlib-asistmmu-aes\designs\leon3-xilinx-ml50x\leon3mp.ncd
+OUTFILE=C:\cygwin64\home\grlib-asistmmu-aes\designs\leon3-xilinx-ml50x\leon3mp.bit
+FAMILY=Virtex5
+PART=xc5vlx110t-1ff1136
+WORKINGDIR=C:\cygwin64\home\grlib-asistmmu-aes\designs\leon3-xilinx-ml50x
+LICENSE=ISE
+USER_INFO=180529035_180558061_210701292_260

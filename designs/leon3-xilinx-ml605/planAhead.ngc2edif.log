@@ -1,0 +1,746 @@
+Release 14.4 - ngc2edif P.49d (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Reading design leon3mp.ngc ...
+WARNING:NetListWriters:298 - No output is written to leon3mp.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:304 - Port bus ahbmi_hrdata<31 : 0> on block
+   mmutlbcam_NO7 is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus tlbcamo_pteout<31 : 0> on block
+   mmutlbcam_NO7 is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus ahbmi_hrdata<31 : 0> on block
+   mmutlbcam_NO6 is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus tlbcamo_pteout<31 : 0> on block
+   mmutlbcam_NO6 is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus ahbmi_hrdata<31 : 0> on block
+   mmutlbcam_NO5 is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus tlbcamo_pteout<31 : 0> on block
+   mmutlbcam_NO5 is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus ahbmi_hrdata<31 : 0> on block
+   mmutlbcam_NO4 is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus tlbcamo_pteout<31 : 0> on block
+   mmutlbcam_NO4 is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus ahbmi_hrdata<31 : 0> on block
+   mmutlbcam_NO3 is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus tlbcamo_pteout<31 : 0> on block
+   mmutlbcam_NO3 is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus ahbmi_hrdata<31 : 0> on block
+   mmutlbcam_NO2 is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus tlbcamo_pteout<31 : 0> on block
+   mmutlbcam_NO2 is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus ahbmi_hrdata<31 : 0> on block
+   mmutlbcam_NO1 is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus tlbcamo_pteout<31 : 0> on block
+   mmutlbcam_NO1 is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus ahbmi_hrdata<31 : 0> on block mmutlbcam is
+   not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus tlbcamo_pteout<31 : 0> on block mmutlbcam
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus twi_adata<31 : 0> on block mmutlb is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus tlbo_transdata_data<31 : 2> on block
+   mmutlb is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus tlbcamo[6]_pteout[31 : 0] on block
+   mmutlb is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus tlbcamo[7]_pteout[31 : 0] on block
+   mmutlb is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus tlbcamo[5]_pteout[31 : 0] on block
+   mmutlb is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus tlbcamo[4]_pteout[31 : 0] on block
+   mmutlb is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus tlbcamo[2]_pteout[31 : 0] on block
+   mmutlb is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus tlbcamo[3]_pteout[31 : 0] on block
+   mmutlb is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus tlbcamo[1]_pteout[31 : 0] on block
+   mmutlb is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus tlbcamo[0]_pteout[31 : 0] on block
+   mmutlb is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:304 - Port bus twi_adata<31 : 0> on block mmutw is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus mcmmi_data<31 : 0> on block mmutw is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus r_wb_data[31 : 0] on block mmutw is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:304 - Port bus tlbo_a0_transdata_data<31 : 2> on block
+   mmu is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus mcmmi_data<31 : 0> on block mmu is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus twi_a[0]_adata<31 : 0> on block mmu is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:304 - Port bus ostsp<252 : 0> on block mmu_dcache is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus usrtsp<252 : 0> on block mmu_dcache is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus _n7683<31 : 1> on block mmu_dcache is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus dataoutx<28 : 18> on block mmu_dcache is
+   not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus
+   nosh.cpu[0].l3s.u0/leon3x0/cmem0/dme.dtags1.mdt1.fast.mdt0[1].dtags0/dataoutx
+   <27 : 19> on block mmu_dcache is not reconstructed, because there are some
+   missing bus pins.
+WARNING:NetListWriters:304 - Port bus
+   nosh.cpu[0].l3s.u0/leon3x0/cmem0/dme.dtags1.mdt1.fast.mdt0[3].dtags0/dataoutx
+   <27 : 19> on block mmu_dcache is not reconstructed, because there are some
+   missing bus pins.
+WARNING:NetListWriters:304 - Port bus r_e_op1[31]_r_x_result[31]_mux_566_OUT<31
+   : 17> on block mmu_dcache is not reconstructed, because there are some
+   missing bus pins.
+WARNING:NetListWriters:306 - Signal bus dctrl.maddress[11 : 0] on block
+   mmu_dcache is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:304 - Port bus ostsp<252 : 0> on block mmu_icache is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus usrtsp<252 : 0> on block mmu_icache is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus tlbo_a0_transdata_data<31 : 2> on block
+   mmu_icache is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus mcmmi_address<31 : 2> on block mmu_acache
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus mcdi_address<31 : 2> on block mmu_acache
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus mcii_address<31 : 2> on block mmu_acache
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus ahbo_haddr<31 : 2> on block mmu_acache is
+   not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus ahbo_haddr[31 : 2] on block mmu_cache is
+   not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus _n7683[31 : 1] on block mmu_cache is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus dataoutx[28 : 18] on block mmu_cache is
+   not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus
+   nosh.cpu[0].l3s.u0/leon3x0/cmem0/dme.dtags1.mdt1.fast.mdt0[1].dtags0/dataoutx
+   [27 : 19] on block mmu_cache is not reconstructed, because there are some
+   missing bus pins.
+WARNING:NetListWriters:304 - Port bus
+   nosh.cpu[0].l3s.u0/leon3x0/cmem0/dme.dtags1.mdt1.fast.mdt0[3].dtags0/dataoutx
+   [27 : 19] on block mmu_cache is not reconstructed, because there are some
+   missing bus pins.
+WARNING:NetListWriters:304 - Port bus r_e_op1[31]_r_x_result[31]_mux_566_OUT[31
+   : 17] on block mmu_cache is not reconstructed, because there are some missing
+   bus pins.
+WARNING:NetListWriters:306 - Signal bus mcmmi_address<31 : 2> on block mmu_cache
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus mcdi_address<31 : 2> on block mmu_cache
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus mcii_address<31 : 2> on block mmu_cache
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus ostsp<252 : 0> on block mmu_cache is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus usrtsp<252 : 0> on block mmu_cache is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus tlbo_a0_transdata_data<31 : 2> on block
+   mmu_cache is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:304 - Port bus mulo_result<63 : 0> on block iu3 is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus _n7683<31 : 1> on block iu3 is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus r_e_op1[31]_r_x_result[31]_mux_566_OUT<31
+   : 17> on block iu3 is not reconstructed, because there are some missing bus
+   pins.
+WARNING:NetListWriters:304 - Port bus dataoutx<19 : 0> on block iu3 is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus
+   nosh.cpu[0].l3s.u0/leon3x0/cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags1/dataoutx
+   <19 : 0> on block iu3 is not reconstructed, because there are some missing
+   bus pins.
+WARNING:NetListWriters:304 - Port bus
+   nosh.cpu[0].l3s.u0/leon3x0/cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/dataoutx
+   <12 : 2> on block iu3 is not reconstructed, because there are some missing
+   bus pins.
+WARNING:NetListWriters:306 - Signal bus comb.v_a_ctrl_inst<31 : 5> on block iu3
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus r_e_ctrl_inst<31 : 5> on block iu3 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus r_a_ctrl_inst<31 : 0> on block iu3 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus comb.xc_vectt<6 : 0> on block iu3 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus comb.vwpr[0]_addr<31 : 2> on block iu3
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus r_m_ctrl_inst<31 : 0> on block iu3 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus comb.v_a_imm<31 : 0> on block iu3 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus r_a_imm<31 : 0> on block iu3 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus comb.v_e_ctrl_tt<5 : 0> on block iu3 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus comb.ex_shcnt<4 : 0> on block iu3 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   r_e_op1[31]_r_x_result[31]_mux_566_OUT<29 : 0> on block iu3 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:304 - Port bus dataoutx[28 : 0] on block proc3 is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus
+   nosh.cpu[0].l3s.u0/leon3x0/cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags1/dataoutx
+   [19 : 0] on block proc3 is not reconstructed, because there are some missing
+   bus pins.
+WARNING:NetListWriters:304 - Port bus
+   nosh.cpu[0].l3s.u0/leon3x0/cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/dataoutx
+   [27 : 2] on block proc3 is not reconstructed, because there are some missing
+   bus pins.
+WARNING:NetListWriters:304 - Port bus ahbo_haddr[31 : 2] on block proc3 is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus
+   nosh.cpu[0].l3s.u0/leon3x0/cmem0/dme.dtags1.mdt1.fast.mdt0[1].dtags0/dataoutx
+   [27 : 19] on block proc3 is not reconstructed, because there are some missing
+   bus pins.
+WARNING:NetListWriters:304 - Port bus
+   nosh.cpu[0].l3s.u0/leon3x0/cmem0/dme.dtags1.mdt1.fast.mdt0[3].dtags0/dataoutx
+   [27 : 19] on block proc3 is not reconstructed, because there are some missing
+   bus pins.
+WARNING:NetListWriters:306 - Signal bus mulo_result<63 : 0> on block proc3 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus _n7683<31 : 1> on block proc3 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   r_e_op1[31]_r_x_result[31]_mux_566_OUT<31 : 17> on block proc3 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus dataoutx<31 : 0> on block
+   syncram_2p_1_NO1 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:304 - Port bus dataoutx<19 : 0> on block syncram_2p_3_NO3
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus dataoutx<15 : 8> on block
+   syncram_2p_3_NO3 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:304 - Port bus dataoutx<28 : 0> on block syncram_2p_2_NO3
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus dataout<20 : 0> on block syncram_2p_2_NO3
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus
+   wrfst_gen.no_contention_check.wfrstblocknoc.r_datain<20 : 0> on block
+   syncram_2p_2_NO3 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus dataoutx<20 : 1> on block
+   syncram_2p_2_NO3 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr<6 : 1> on block
+   syncram_2p_2_NO3 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   wrfst_gen.no_contention_check.wfrstblocknoc.r_raddr<6 : 1> on block
+   syncram_2p_2_NO3 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus dataoutx<19 : 0> on block
+   syncram_2p_3_NO2 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:304 - Port bus dataout<28 : 0> on block syncram_2p_2_NO2
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus dataoutx<27 : 19> on block
+   syncram_2p_2_NO2 is not reconstructed, because there are some missing bus
+   pins.
+WARNING:NetListWriters:306 - Signal bus
+   wrfst_gen.no_contention_check.wfrstblocknoc.r_datain<28 : 0> on block
+   syncram_2p_2_NO2 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus dataoutx<28 : 0> on block
+   syncram_2p_2_NO2 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr<6 : 1> on block
+   syncram_2p_2_NO2 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   wrfst_gen.no_contention_check.wfrstblocknoc.r_raddr<6 : 1> on block
+   syncram_2p_2_NO2 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus dataoutx<19 : 0> on block
+   syncram_2p_3_NO1 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:304 - Port bus dataout<28 : 0> on block syncram_2p_2_NO1
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus dataoutx<27 : 19> on block
+   syncram_2p_2_NO1 is not reconstructed, because there are some missing bus
+   pins.
+WARNING:NetListWriters:306 - Signal bus
+   wrfst_gen.no_contention_check.wfrstblocknoc.r_datain<28 : 0> on block
+   syncram_2p_2_NO1 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus dataoutx<28 : 0> on block
+   syncram_2p_2_NO1 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   wrfst_gen.no_contention_check.wfrstblocknoc.r_waddr<6 : 1> on block
+   syncram_2p_2_NO1 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   wrfst_gen.no_contention_check.wfrstblocknoc.r_raddr<6 : 1> on block
+   syncram_2p_2_NO1 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus dataoutx<19 : 0> on block syncram_2p_3
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:304 - Port bus dataout<28 : 0> on block syncram_2p_2 is
+   not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus dataoutx<27 : 19> on block syncram_2p_2 is
+   not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus dataoutx[28 : 0] on block syncram_2p_2
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:304 - Port bus dataoutx<28 : 0> on block cachemem is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus
+   nosh.cpu[0].l3s.u0/leon3x0/cmem0/dme.dtags1.mdt1.fast.mdt0[2].dtags0/dataoutx
+   <27 : 19> on block cachemem is not reconstructed, because there are some
+   missing bus pins.
+WARNING:NetListWriters:304 - Port bus
+   nosh.cpu[0].l3s.u0/leon3x0/cmem0/dme.dtags1.mdt1.fast.mdt0[1].dtags0/dataoutx
+   <27 : 19> on block cachemem is not reconstructed, because there are some
+   missing bus pins.
+WARNING:NetListWriters:304 - Port bus
+   nosh.cpu[0].l3s.u0/leon3x0/cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/dataoutx
+   <27 : 19> on block cachemem is not reconstructed, because there are some
+   missing bus pins.
+WARNING:NetListWriters:304 - Port bus
+   nosh.cpu[0].l3s.u0/leon3x0/cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags1/dataoutx
+   <19 : 0> on block cachemem is not reconstructed, because there are some
+   missing bus pins.
+WARNING:NetListWriters:306 - Signal bus itinsel.vdtdatain3[23 : 4] on block
+   cachemem is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus itinsel.vdtdatain[31 : 3] on block
+   cachemem is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:304 - Port bus rfo_data2[31 : 0] on block leon3x is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus ahbo_haddr[31 : 2] on block leon3x is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus cramo_icramo_tag<31 : 0> on block leon3x
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus cramo_dcramo_tag<31 : 0> on block leon3x
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus dataoutx<28 : 0> on block leon3x is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:304 - Port bus rfo_data2[31 : 0] on block leon3s is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus ahbo_haddr[31 : 2] on block leon3s is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus dfi_address1<12 : 3> on block arb_select
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus col_addr<52 : 3> on block arb_select is
+   not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus dfi_address1<12 : 3> on block arb_mux is
+   not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus col_addr<52 : 3> on block arb_mux is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus demand_priority_in<6 : 4> on block
+   bank_state_4 is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus demand_priority_in[6 : 4] on block
+   bank_cntrl_4 is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus demand_priority_in[3 : 1] on block
+   bank_state_1 is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus demand_priority_in<7 : 5> on block
+   bank_cntrl_1 is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus demand_priority_in[4 : 2] on block
+   bank_state_2 is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus bm_end_in[7 : 4] on block bank_cntrl_2 is
+   not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus rb_hit_busy_ns_in[7 : 4] on block
+   bank_cntrl_2 is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus passing_open_bank_in[7 : 4] on block
+   bank_cntrl_2 is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus ras_timer_ns_in[23 : 12] on block
+   bank_cntrl_2 is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus demand_priority_in[6 : 4] on block
+   bank_cntrl_2 is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus demand_priority_in[5 : 3] on block
+   bank_state_3 is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus ras_timer_ns_in[23 : 12] on block
+   bank_cntrl_3 is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus demand_priority_in[7 : 5] on block
+   bank_cntrl_3 is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus bm_end_in[7 : 4] on block bank_cntrl_3 is
+   not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus rb_hit_busy_ns_in[7 : 4] on block
+   bank_cntrl_3 is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus passing_open_bank_in[7 : 4] on block
+   bank_cntrl_3 is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus dfi_address1<12 : 3> on block bank_mach is
+   not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus col_addr<52 : 3> on block bank_mach is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus dfi_address1_ns<12 : 3> on block mc is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:304 - Port bus rdata<98 : 0> on block circ_buffer_1 is
+   not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus n0590<98 : 0> on block phy_rddata_sync
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus dfi_rd_dqs<16 : 0> on block
+   phy_rddata_sync is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus dfi_rd_dqs<16 : 0> on block phy_read is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO71
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO70
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO69
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO68
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO67
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO66
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO65
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO64
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO63
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO62
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO61
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO60
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO59
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO58
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO57
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO56
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO55
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO54
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO53
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO52
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO51
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO50
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO49
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO48
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO47
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO46
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO45
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO44
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO43
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO42
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO41
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO40
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO39
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO38
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO37
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO36
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO35
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO34
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO33
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO32
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO31
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO30
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO29
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO28
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO27
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO26
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO25
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO24
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO23
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO22
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO21
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO20
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO19
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO18
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO17
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO16
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO15
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO14
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO13
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO12
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO11
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO10
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO9
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO8
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO7
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO6
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO5
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO4
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO3
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO2
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip_NO1
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus iserdes_q<5 : 0> on block rd_bitslip is
+   not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus dqs_rst<3 : 0> on block phy_dqs_iob is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus dqs_rst<30 : 0> on block phy_data_io is
+   not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus phy_address0<12 : 0> on block phy_init is
+   not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus phy_wrdata<194 : 0> on block phy_init is
+   not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus address_w<12 : 0> on block phy_init is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus phy_wrdata<65 : 1> on block phy_init is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:304 - Port bus phy_address0<12 : 0> on block
+   phy_control_io is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus mux_addr1<12 : 0> on block
+   phy_control_io is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:304 - Port bus dqs_rst<30 : 0> on block phy_write is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus phy_wrdata<194 : 0> on block phy_write is
+   not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus Mmux__n3517_rs_A<5 : 0> on block
+   phy_rdlvl is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Mmux__n3517_rs_lut<3 : 0> on block
+   phy_rdlvl is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus dbg_rd_bitslip_cnt<22 : 0> on block
+   phy_top is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus dqs_rst<30 : 0> on block phy_top is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus phy_wrdata<194 : 0> on block phy_top is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus phy_address0<12 : 0> on block phy_top is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus dfi_rd_dqs<16 : 0> on block phy_top is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus rst_reg<9 : 3> on block ui_top is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:304 - Port bus rmsti_addr<31 : 2> on block eth_ahb_mst is
+   not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus tmsti_addr<31 : 2> on block eth_ahb_mst is
+   not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus ahbmo_haddr<31 : 2> on block eth_ahb_mst
+   is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus haddr<31 : 2> on block grethc is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus
+   Mmux_r_rxdstate[2]_r_rxcnt[10]_wide_mux_317_OUT_rs_A<10 : 1> on block grethc
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Mmux_r_rxdstate[2]_r_rxcnt[10]_wide_mux_317_OUT_rs_lut<2 : 0> on block grethc
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus r_ctrl_edcldis<11 : 0> on block grethc
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus comb.v_edclip<31 : 0> on block grethc is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Msub_GND_791_o_GND_791_o_sub_173_OUT<8:0>_cy<6 : 0> on block grethc is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Madd_r_tfcnt[8]_GND_791_o_add_108_OUT_cy<4 : 2> on block grethc is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   r_txdstate[3]_r_tfcnt[8]_wide_mux_153_OUT<7 : 4> on block grethc is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus r_rcntm[7]_GND_791_o_add_564_OUT<7 : 2>
+   on block grethc is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   Madd_r_txdstate[3]_GND_791_o_add_628_OUT_lut<7 : 1> on block grethc is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Madd_r_txdstate[3]_GND_791_o_add_628_OUT_cy<6 : 0> on block grethc is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus GND_791_o_GND_791_o_sub_173_OUT<8 : 2>
+   on block grethc is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:304 - Port bus ahbmo_haddr<31 : 2> on block greth is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus ahbmo_haddr<31 : 2> on block grethm is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:305 - Port bus dbgo[0]_ddata has a mismatched property
+   name dbgo on block dsu3x.
+WARNING:NetListWriters:303 - Unable to preserve the ordering for port bus
+   dbgo[0]_ddata on block dsu3x using the data dbgo[0]_ddata<31:0>.
+WARNING:NetListWriters:305 - Port bus dbgo[0]_daddr has a mismatched property
+   name dbgo on block dsu3x.
+WARNING:NetListWriters:303 - Unable to preserve the ordering for port bus
+   dbgo[0]_daddr on block dsu3x using the data dbgo[0]_daddr<23:2>.
+WARNING:NetListWriters:304 - Port bus rfo_data2<31 : 0> on block dsu3x is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus tbo_data<127 : 0> on block dsu3x is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:305 - Port bus dbgo[0]_ddata has a mismatched property
+   name dbgo on block dsu3.
+WARNING:NetListWriters:303 - Unable to preserve the ordering for port bus
+   dbgo[0]_ddata on block dsu3 using the data dbgo[0]_ddata<31:0>.
+WARNING:NetListWriters:305 - Port bus dbgo[0]_daddr has a mismatched property
+   name dbgo on block dsu3.
+WARNING:NetListWriters:303 - Unable to preserve the ordering for port bus
+   dbgo[0]_daddr on block dsu3 using the data dbgo[0]_daddr<23:2>.
+WARNING:NetListWriters:304 - Port bus ahbso_hrdata<41 : 0> on block dsu3 is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus ahbsi_hwdata<63 : 3> on block dsu3 is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus rfo_data2<31 : 0> on block dsu3 is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus dataout2<23 : 3> on block
+   unisim_syncram_dp_5 is not reconstructed, because there are some missing bus
+   pins.
+WARNING:NetListWriters:304 - Port bus dataout<23 : 3> on block
+   unisim_syncram_2p_5 is not reconstructed, because there are some missing bus
+   pins.
+WARNING:NetListWriters:304 - Port bus dataout<23 : 3> on block syncram_2p_5 is
+   not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus ahbo_haddr<31 : 0> on block svgactrl is
+   not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus GND_578_o_GND_578_o_mux_207_OUT<12 : 3>
+   on block svgactrl is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus t_data_out<12 : 3> on block svgactrl is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus dataout_clut<23 : 3> on block svgactrl
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus c_state[4]_X_209_o_wide_mux_33_OUT<4 :
+   0> on block i2c_master_bit_ctrl_NO1 is not reconstructed, because there are
+   some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus s_state<4 : 0> on block
+   i2c_master_bit_ctrl_NO1 is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus s_state<4 : 0> on block
+   i2c_master_bit_ctrl is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus c_state[4]_X_209_o_wide_mux_33_OUT<4 :
+   0> on block i2c_master_bit_ctrl is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:304 - Port bus ahbsi_hwdata[63 : 3] on block
+   ahb2mig_ml605 is not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus ahbsi_hwdata[31 : 0] on block apbctrl is
+   not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus apbi_psel[12 : 1] on block apbctrl is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus apbi_pwdata<28 : 0> on block mctrl is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:305 - Port bus msto[2]_htrans has a mismatched property
+   name msto on block ahbctrl.
+WARNING:NetListWriters:303 - Unable to preserve the ordering for port bus
+   msto[2]_htrans on block ahbctrl using the data msto[2]_htrans<1:0>.
+WARNING:NetListWriters:305 - Port bus msto[0]_htrans has a mismatched property
+   name msto on block ahbctrl.
+WARNING:NetListWriters:303 - Unable to preserve the ordering for port bus
+   msto[0]_htrans on block ahbctrl using the data msto[0]_htrans<1:0>.
+WARNING:NetListWriters:305 - Port bus slvo[0]_hrdata has a mismatched property
+   name slvo on block ahbctrl.
+WARNING:NetListWriters:303 - Unable to preserve the ordering for port bus
+   slvo[0]_hrdata on block ahbctrl using the data slvo[0]_hrdata<63:0>.
+WARNING:NetListWriters:304 - Port bus msto[3]_haddr[31 : 2] on block ahbctrl is
+   not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus msto[2]_haddr[31 : 0] on block ahbctrl is
+   not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus msto[0]_haddr[31 : 2] on block ahbctrl is
+   not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus slvo[1]_hrdata[41 : 0] on block ahbctrl is
+   not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus slvo[2]_hrdata[41 : 0] on block ahbctrl is
+   not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus slvo[7]_hrdata[25 : 0] on block ahbctrl is
+   not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus slvo[5]_hrdata[41 : 0] on block ahbctrl is
+   not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus slvi_hwdata[63 : 3] on block ahbctrl is
+   not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:304 - Port bus slvi_hsel[7 : 0] on block ahbctrl is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus
+   r_haddr[4]_r_haddr[8]_wide_mux_743_OUT<31 : 1> on block ahbctrl is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus r_hrdatas<31 : 1> on block ahbctrl is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   r_haddr[6]_msto[3]_hconfig[0][31]_wide_mux_717_OUT<24 : 5> on block ahbctrl
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus r_hrdatam<24 : 5> on block ahbctrl is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   r_haddr[8]_slvo[15]_hconfig[0][31]_wide_mux_734_OUT<26 : 12> on block ahbctrl
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   r_haddr[8]_slvo[15]_hconfig[4][31]_wide_mux_738_OUT<12 : 1> on block ahbctrl
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus r_tsel[1]_X_203_o_wide_mux_15_OUT[31 :
+   0] on block gptimer is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:305 - Port bus irqi[0]_irl has a mismatched property name
+   irqi on block irqmp.
+WARNING:NetListWriters:303 - Unable to preserve the ordering for port bus
+   irqi[0]_irl on block irqmp using the data irqi[0]_irl<3:0>.
+WARNING:NetListWriters:305 - Port bus irqo[0]_irl has a mismatched property name
+   irqo on block irqmp.
+WARNING:NetListWriters:303 - Unable to preserve the ordering for port bus
+   irqo[0]_irl on block irqmp using the data irqo[0]_irl<3:0>.
+WARNING:NetListWriters:304 - Port bus apbi_pwdata[31 : 1] on block irqmp is not
+   reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus ahbmo[3]_haddr[31 : 2] on block leon3mp
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus ahbsi_hsel[7 : 0] on block leon3mp is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus ahbsi_hwdata[63 : 3] on block leon3mp is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus ahbmo[0]_haddr[31 : 2] on block leon3mp
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus ahbso[2]_hrdata[41 : 0] on block leon3mp
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus ahbso[5]_hrdata[41 : 0] on block leon3mp
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus ahbso[7]_hrdata[25 : 0] on block leon3mp
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus ahbso[1]_hrdata[41 : 0] on block leon3mp
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus apbi_psel[12 : 1] on block leon3mp is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus ahbmo[2]_haddr[31 : 0] on block leon3mp
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus rfo_data2[31 : 0] on block leon3mp is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file leon3mp.edif ...
+ngc2edif: Total memory usage is 175224 kilobytes
+

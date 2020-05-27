@@ -1,0 +1,362 @@
+Release 14.4 Drc P.49d (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Wed Jul 08 13:30:23 2015
+
+drc -z leon3mp_routed.ncd leon3mp.pcf
+
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_mem_intfc/phy_top0/u_phy_data_io/gen_dqs[0].u_phy_d
+   qs_iob/u_iobuf_dqs/OB> is incomplete. The signal does not drive any load pins
+   in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_mem_intfc/phy_top0/u_phy_data_io/gen_dqs[1].u_phy_d
+   qs_iob/u_iobuf_dqs/OB> is incomplete. The signal does not drive any load pins
+   in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_mem_intfc/phy_top0/u_phy_data_io/gen_dqs[2].u_phy_d
+   qs_iob/u_iobuf_dqs/OB> is incomplete. The signal does not drive any load pins
+   in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_mem_intfc/phy_top0/u_phy_data_io/gen_dqs[3].u_phy_d
+   qs_iob/u_iobuf_dqs/OB> is incomplete. The signal does not drive any load pins
+   in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_mem_intfc/phy_top0/u_phy_data_io/gen_dqs[4].u_phy_d
+   qs_iob/u_iobuf_dqs/OB> is incomplete. The signal does not drive any load pins
+   in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_mem_intfc/phy_top0/u_phy_data_io/gen_dqs[5].u_phy_d
+   qs_iob/u_iobuf_dqs/OB> is incomplete. The signal does not drive any load pins
+   in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_mem_intfc/phy_top0/u_phy_data_io/gen_dqs[6].u_phy_d
+   qs_iob/u_iobuf_dqs/OB> is incomplete. The signal does not drive any load pins
+   in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_mem_intfc/phy_top0/u_phy_data_io/gen_dqs[7].u_phy_d
+   qs_iob/u_iobuf_dqs/OB> is incomplete. The signal does not drive any load pins
+   in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_mem_intfc/mc0/col_mach0/read_fifo.fifo_ram[0].RAM32
+   M0_RAMA_D1_DPO> is incomplete. The signal does not drive any load pins in the
+   design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_mem_intfc/mc0/col_mach0/read_fifo.fifo_ram[0].RAM32
+   M0_RAMB_D1_DPO> is incomplete. The signal does not drive any load pins in the
+   design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_mem_intfc/mc0/col_mach0/read_fifo.fifo_ram[0].RAM32
+   M0_RAMC_D1_DPO> is incomplete. The signal does not drive any load pins in the
+   design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_mem_intfc/mc0/col_mach0/read_fifo.fifo_ram[0].RAM32
+   M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in the
+   design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[45].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[9].RA
+   M32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[8].RA
+   M32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[46].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[43].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[47].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[44].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[26].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[29].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[19].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[6].RA
+   M32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[7].RA
+   M32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[37].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[5].RA
+   M32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[40].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[42].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[41].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[20].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[39].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[17].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[16].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[2].RA
+   M32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[4].RA
+   M32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[38].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[28].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[18].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[34].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[30].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[10].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[1].RA
+   M32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[27].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[0].RA
+   M32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/pointer_ram.rams[1].RAM32M0_RAMA
+   _D1_DPO> is incomplete. The signal does not drive any load pins in the
+   design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/pointer_ram.rams[1].RAM32M0_RAMD
+   _D1_O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/pointer_ram.rams[0].RAM32M0_RAMA
+   _D1_DPO> is incomplete. The signal does not drive any load pins in the
+   design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/pointer_ram.rams[0].RAM32M0_RAMD
+   _D1_O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[31].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[33].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[36].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[23].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[21].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[25].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[3].RA
+   M32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[15].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[35].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[14].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[32].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[22].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[11].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[12].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[24].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <ddr3ctrl/u_memc_ui_top/u_ui_top/ui_wr_data0/write_buffer.wr_buffer_ram[13].R
+   AM32M0_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+INFO:PhysDesignRules:2288 - The read port and write port clocks of BRAM
+   instance,
+   nosh.cpu[0].l3s.u0/leon3x0/rf0/s1.rhu/s1.dp.x0/xc2v.x0/a6.x0/a9.x[0].r0, are
+   using the same clock signal (synchronous clocking) with WRITE_FIRST mode
+   specified. This configuration may encounter address collisions if the same
+   address appears on both ports. It is suggested for this configuration to use
+   READ_FIRST mode to avoid any conditions for address collision. See the FPGA
+   Memory Resources User Guide for additional information.
+INFO:PhysDesignRules:2288 - The read port and write port clocks of BRAM
+   instance,
+   nosh.cpu[0].l3s.u0/leon3x0/rf0/s1.rhu/s1.dp.x1/xc2v.x0/a6.x0/a9.x[0].r0, are
+   using the same clock signal (synchronous clocking) with WRITE_FIRST mode
+   specified. This configuration may encounter address collisions if the same
+   address appears on both ports. It is suggested for this configuration to use
+   READ_FIRST mode to avoid any conditions for address collision. See the FPGA
+   Memory Resources User Guide for additional information.
+INFO:PhysDesignRules:2288 - The read port and write port clocks of BRAM
+   instance, eth0.e1/m100.u0/nft.tx_fifo0/xc2v.x0/a6.x0/a9.x[0].r0, are using
+   the same clock signal (synchronous clocking) with WRITE_FIRST mode specified.
+   This configuration may encounter address collisions if the same address
+   appears on both ports. It is suggested for this configuration to use
+   READ_FIRST mode to avoid any conditions for address collision. See the FPGA
+   Memory Resources User Guide for additional information.
+INFO:PhysDesignRules:2288 - The read port and write port clocks of BRAM
+   instance,
+   nosh.cpu[0].l3s.u0/leon3x0/cmem0/dme.dtags1.mdt1.fast.mdt0[3].dtags0/xc2v.x0/
+   a6.x0/a9.x[0].r0, are using the same clock signal (synchronous clocking) with
+   WRITE_FIRST mode specified. This configuration may encounter address
+   collisions if the same address appears on both ports. It is suggested for
+   this configuration to use READ_FIRST mode to avoid any conditions for address
+   collision. See the FPGA Memory Resources User Guide for additional
+   information.
+INFO:PhysDesignRules:2288 - The read port and write port clocks of BRAM
+   instance,
+   nosh.cpu[0].l3s.u0/leon3x0/cmem0/dme.dtags1.mdt1.fast.mdt0[2].dtags0/xc2v.x0/
+   a6.x0/a9.x[0].r0, are using the same clock signal (synchronous clocking) with
+   WRITE_FIRST mode specified. This configuration may encounter address
+   collisions if the same address appears on both ports. It is suggested for
+   this configuration to use READ_FIRST mode to avoid any conditions for address
+   collision. See the FPGA Memory Resources User Guide for additional
+   information.
+INFO:PhysDesignRules:2288 - The read port and write port clocks of BRAM
+   instance,
+   nosh.cpu[0].l3s.u0/leon3x0/cmem0/dme.dtags1.mdt1.fast.mdt0[1].dtags0/xc2v.x0/
+   a6.x0/a9.x[0].r0, are using the same clock signal (synchronous clocking) with
+   WRITE_FIRST mode specified. This configuration may encounter address
+   collisions if the same address appears on both ports. It is suggested for
+   this configuration to use READ_FIRST mode to avoid any conditions for address
+   collision. See the FPGA Memory Resources User Guide for additional
+   information.
+INFO:PhysDesignRules:2288 - The read port and write port clocks of BRAM
+   instance,
+   nosh.cpu[0].l3s.u0/leon3x0/cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags0/xc2v.x0/
+   a6.x0/a9.x[0].r0, are using the same clock signal (synchronous clocking) with
+   WRITE_FIRST mode specified. This configuration may encounter address
+   collisions if the same address appears on both ports. It is suggested for
+   this configuration to use READ_FIRST mode to avoid any conditions for address
+   collision. See the FPGA Memory Resources User Guide for additional
+   information.
+INFO:PhysDesignRules:2288 - The read port and write port clocks of BRAM
+   instance,
+   nosh.cpu[0].l3s.u0/leon3x0/cmem0/dme.dtags1.mdt1.fast.mdt0[3].dtags1/xc2v.x0/
+   a6.x0/a9.x[0].r0, are using the same clock signal (synchronous clocking) with
+   WRITE_FIRST mode specified. This configuration may encounter address
+   collisions if the same address appears on both ports. It is suggested for
+   this configuration to use READ_FIRST mode to avoid any conditions for address
+   collision. See the FPGA Memory Resources User Guide for additional
+   information.
+INFO:PhysDesignRules:2288 - The read port and write port clocks of BRAM
+   instance,
+   nosh.cpu[0].l3s.u0/leon3x0/cmem0/dme.dtags1.mdt1.fast.mdt0[2].dtags1/xc2v.x0/
+   a6.x0/a9.x[0].r0, are using the same clock signal (synchronous clocking) with
+   WRITE_FIRST mode specified. This configuration may encounter address
+   collisions if the same address appears on both ports. It is suggested for
+   this configuration to use READ_FIRST mode to avoid any conditions for address
+   collision. See the FPGA Memory Resources User Guide for additional
+   information.
+INFO:PhysDesignRules:2288 - The read port and write port clocks of BRAM
+   instance,
+   nosh.cpu[0].l3s.u0/leon3x0/cmem0/dme.dtags1.mdt1.fast.mdt0[1].dtags1/xc2v.x0/
+   a6.x0/a9.x[0].r0, are using the same clock signal (synchronous clocking) with
+   WRITE_FIRST mode specified. This configuration may encounter address
+   collisions if the same address appears on both ports. It is suggested for
+   this configuration to use READ_FIRST mode to avoid any conditions for address
+   collision. See the FPGA Memory Resources User Guide for additional
+   information.
+INFO:PhysDesignRules:2288 - The read port and write port clocks of BRAM
+   instance,
+   nosh.cpu[0].l3s.u0/leon3x0/cmem0/dme.dtags1.mdt1.fast.mdt0[0].dtags1/xc2v.x0/
+   a6.x0/a9.x[0].r0, are using the same clock signal (synchronous clocking) with
+   WRITE_FIRST mode specified. This configuration may encounter address
+   collisions if the same address appears on both ports. It is suggested for
+   this configuration to use READ_FIRST mode to avoid any conditions for address
+   collision. See the FPGA Memory Resources User Guide for additional
+   information.
+WARNING:PhysDesignRules:2045 - The MMCM_ADV block
+   <ddr3ctrl/u_infrastructure/u_mmcm_adv> has CLKOUT pins that do not drive the
+   same kind of BUFFER load. Routing from the different buffer types will not be
+   phase aligned. 
+DRC detected 0 errors and 65 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

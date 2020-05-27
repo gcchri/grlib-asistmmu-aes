@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# PlanAhead v14.4 (64-bit)
+# Build 222254 by xbuild on Tue Dec 18 05:21:09 MST 2012
+# Start of session at: Fri May 22 14:28:25 2020
+# Process ID: 10036
+# Log file: C:/cygwin64/home/Chri/grlib-asistmmu-aes/designs/leon3-xilinx-ml50x/planAhead.log
+# Journal file: C:/cygwin64/home/Chri/grlib-asistmmu-aes/designs/leon3-xilinx-ml50x\planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source ./planahead/leon3mp_planAhead.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1

@@ -1,0 +1,125 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\cygwin64\home\Chri\grlib-asistmmu-aes\designs\leon3-xilinx-ml50x
+Pcomponents
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 w1397667092
+Z4 dC:\cygwin64\home\Chri\grlib-asistmmu-aes\designs\leon3-xilinx-ml50x
+8../../lib/micron/sdram/components.vhd
+F../../lib/micron/sdram/components.vhd
+l0
+L25
+VT]^JE7:UFiLDi5WhZJ0>?3
+Z5 OL;C;10.1c;51
+31
+Z6 o-explicit -93 -work micron
+Z7 tShow_source 1 Show_Warning1 0 Show_Warning5 0 Explicit 1 Quiet 1
+!s100 aoL:5?WSI9Ik3cCP12?W@0
+!i10b 1
+!s108 1590155825.857000
+!s90 -reportprogress|300|-explicit|-93|-work|micron|../../lib/micron/sdram/components.vhd|
+!s107 ../../lib/micron/sdram/components.vhd|
+vmobile_sdr
+IDmXKbaHQl<cbSnOXGmY<<2
+V9z<oaz;X`1LjeEg97]feU2
+R4
+w1397667008
+8../../lib/micron/sdram/mobile_sdr.v
+F../../lib/micron/sdram/mobile_sdr.v
+L0 70
+Z8 OL;L;10.1c;51
+r1
+31
+o-quiet -work micron
+tQuiet 1
+!i10b 1
+!s100 Hg=_P9DZd0<m5HGeD71`F0
+!s85 0
+!s108 1588695046.825000
+!s107 ../../lib/micron/sdram/mobile_sdr.v|
+!s90 -quiet|-work|micron|../../lib/micron/sdram/mobile_sdr.v|
+Emt48lc16m16a2
+R3
+Z9 DPx5 grlib 5 stdio 0 22 hCHh6?DFdh?8TNAeheK;B0
+Z10 DPx5 grlib 7 version 0 22 ;XV;g^mQ1^2;1]GjYQ>m73
+Z11 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z12 DPx5 grlib 6 stdlib 0 22 @k>YVagELH>b=]NnPm4Y50
+Z13 DPx4 work 7 mti_pkg 0 22 8Qg>DSf60KVTH02OL:4IA1
+R2
+R1
+R4
+Z14 8../../lib/micron/sdram/mt48lc16m16a2.vhd
+Z15 F../../lib/micron/sdram/mt48lc16m16a2.vhd
+l0
+L205
+VL=V@BiB53?<PQ_[V24]hj2
+!s100 7_YB[HKzm4nJ5PbnYkZK32
+R5
+31
+!i10b 1
+Z16 !s108 1590155825.939000
+Z17 !s90 -reportprogress|300|-explicit|-93|-work|micron|../../lib/micron/sdram/mt48lc16m16a2.vhd|
+Z18 !s107 ../../lib/micron/sdram/mt48lc16m16a2.vhd|
+R6
+R7
+Abehave
+R9
+R10
+R11
+R12
+R13
+R2
+R1
+Z19 DEx4 work 13 mt48lc16m16a2 0 22 L=V@BiB53?<PQ_[V24]hj2
+l278
+L252
+Z20 VcGJQHQGaLYgoeo5;K`JLC3
+Z21 !s100 B6TDC[5eJk:kAB@YL`_Oh0
+R5
+31
+!i10b 1
+R16
+R17
+R18
+R6
+R7
+Pmti_pkg
+R1
+R2
+R3
+R4
+R14
+R15
+l0
+L17
+V8Qg>DSf60KVTH02OL:4IA1
+!s100 ZKZQkBo^GEVC[IKiUWVlQ1
+R5
+31
+b1
+!i10b 1
+R16
+R17
+R18
+R6
+R7
+Bbody
+R13
+R1
+R2
+l0
+L28
+Z22 V[3[d3e8k]56S1=T@H1f]H0
+Z23 !s100 L@mD<gmh]G<P8C1AzlSO>3
+R5
+31
+!i10b 1
+R16
+R17
+R18
+R6
+R7
+nbody

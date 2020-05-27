@@ -1,0 +1,20 @@
+V3 11
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/opencores/i2c/i2coc.vhd 2014/04/16.17:51:32 P.49d
+PH opencores/i2coc 1590169539 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/opencores/i2c/i2coc.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 \
+      CD i2c_master_byte_ctrl
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/opencores/i2c/i2c_master_bit_ctrl.vhd 2014/04/16.17:51:32 P.49d
+EN opencores/i2c_master_bit_ctrl 1590169512 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/opencores/i2c/i2c_master_bit_ctrl.vhd \
+      PB ieee/std_logic_1164 1354696159 LB grlib PB grlib/stdlib 1590169014
+AR opencores/i2c_master_bit_ctrl/structural 1590169513 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/opencores/i2c/i2c_master_bit_ctrl.vhd \
+      EN opencores/i2c_master_bit_ctrl 1590169512
+FL C:/cygwin64/home/grlib-asistmmu-aes/lib/opencores/i2c/i2c_master_byte_ctrl.vhd 2014/04/16.17:51:32 P.49d
+EN opencores/i2c_master_byte_ctrl 1590169537 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/opencores/i2c/i2c_master_byte_ctrl.vhd \
+      PB ieee/std_logic_1164 1354696159 LB grlib PB grlib/stdlib 1590169014
+AR opencores/i2c_master_byte_ctrl/structural 1590169538 \
+      FL C:/cygwin64/home/grlib-asistmmu-aes/lib/opencores/i2c/i2c_master_byte_ctrl.vhd \
+      EN opencores/i2c_master_byte_ctrl 1590169537 CP i2c_master_bit_ctrl

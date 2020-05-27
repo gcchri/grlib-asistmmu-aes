@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;OFFSET = IN 20 ns BEFORE COMP &quot;clk_33&quot;;&gt; [leon3mp.pcf(43044)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;OFFSET = IN 5 ns BEFORE COMP &quot;erx_clk&quot;;&gt; [leon3mp.pcf(43046)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;OFFSET = IN 8 ns BEFORE COMP &quot;etx_clk&quot;;&gt; [leon3mp.pcf(43048)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="info" file="Timing" num="3386" delta="new" >Intersecting Constraints found and resolved.  For more information, see the TSI report.  Please consult the Xilinx Command Line Tools User Guide for information on generating a TSI report.</msg>
+
+<msg type="info" file="Timing" num="3412" delta="new" >To improve timing, see the Timing Closure User Guide (UG612).</msg>
+
+<msg type="info" file="Timing" num="2752" delta="new" >To get complete path coverage, use the unconstrained paths option. All paths that are not constrained will be reported in the unconstrained paths section(s) of the report.</msg>
+
+<msg type="info" file="Timing" num="3339" delta="new" >The clock-to-out numbers in this timing report are based on a 50 Ohm transmission line loading model.  For the details of this model, and for more information on accounting for different loading conditions, please see the device datasheet.</msg>
+
+</messages>
+

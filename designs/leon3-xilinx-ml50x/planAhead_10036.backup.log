@@ -1,0 +1,850 @@
+#-----------------------------------------------------------
+# PlanAhead v14.4 (64-bit)
+# Build 222254 by xbuild on Tue Dec 18 05:21:09 MST 2012
+# Start of session at: Fri May 22 12:23:07 2020
+# Process ID: 9944
+# Log file: C:/cygwin64/home/Chri/grlib-asistmmu-aes/designs/leon3-xilinx-ml50x/planAhead.log
+# Journal file: C:/cygwin64/home/Chri/grlib-asistmmu-aes/designs/leon3-xilinx-ml50x\planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -51 day(s)
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.4/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+INFO: [Common 17-81] Feature available: PartialReconfiguration
+source ./planahead/leon3mp_planAhead.tcl
+# create_project  ./planahead/ -part xc5vlx110t-ff1136-1 -force
+# set_property target_simulator ModelSim [current_project]
+# set_property top_lib work [current_fileset]
+# set_property top_arch rtl [current_fileset]
+# set_property top leon3mp [current_fileset]
+# set_property target_language VHDL [current_project]
+# set_property top testbench [get_filesets sim_1]
+# source ./compile.planAhead
+## read_vhdl -library grlib ../../lib/grlib/stdlib/version.vhd
+## read_vhdl -library grlib ../../lib/grlib/stdlib/config_types.vhd
+## read_vhdl -library grlib grlib_config.vhd
+## read_vhdl -library grlib ../../lib/grlib/stdlib/stdlib.vhd
+## add_files -fileset sim_1 -norecurse ../../lib/grlib/stdlib/stdio.vhd
+## set_property library grlib [get_files ../../lib/grlib/stdlib/stdio.vhd]
+## set_property file_type VHDL [get_files ../../lib/grlib/stdlib/stdio.vhd]
+## add_files -fileset sim_1 -norecurse ../../lib/grlib/stdlib/testlib.vhd
+## set_property library grlib [get_files ../../lib/grlib/stdlib/testlib.vhd]
+## set_property file_type VHDL [get_files ../../lib/grlib/stdlib/testlib.vhd]
+## add_files -fileset sim_1 -norecurse ../../lib/grlib/util/util.vhd
+## set_property library grlib [get_files ../../lib/grlib/util/util.vhd]
+## set_property file_type VHDL [get_files ../../lib/grlib/util/util.vhd]
+## read_vhdl -library grlib ../../lib/grlib/sparc/sparc.vhd
+## add_files -fileset sim_1 -norecurse ../../lib/grlib/sparc/sparc_disas.vhd
+## set_property library grlib [get_files ../../lib/grlib/sparc/sparc_disas.vhd]
+## set_property file_type VHDL [get_files ../../lib/grlib/sparc/sparc_disas.vhd]
+## add_files -fileset sim_1 -norecurse ../../lib/grlib/sparc/cpu_disas.vhd
+## set_property library grlib [get_files ../../lib/grlib/sparc/cpu_disas.vhd]
+## set_property file_type VHDL [get_files ../../lib/grlib/sparc/cpu_disas.vhd]
+## read_vhdl -library grlib ../../lib/grlib/modgen/multlib.vhd
+## read_vhdl -library grlib ../../lib/grlib/modgen/leaves.vhd
+## read_vhdl -library grlib ../../lib/grlib/amba/amba.vhd
+## read_vhdl -library grlib ../../lib/grlib/amba/devices.vhd
+## read_vhdl -library grlib ../../lib/grlib/amba/defmst.vhd
+## read_vhdl -library grlib ../../lib/grlib/amba/apbctrl.vhd
+## read_vhdl -library grlib ../../lib/grlib/amba/ahbctrl.vhd
+## read_vhdl -library grlib ../../lib/grlib/amba/dma2ahb_pkg.vhd
+## read_vhdl -library grlib ../../lib/grlib/amba/dma2ahb.vhd
+## read_vhdl -library grlib ../../lib/grlib/amba/ahbmst.vhd
+## add_files -fileset sim_1 -norecurse ../../lib/grlib/amba/dma2ahb_tp.vhd
+## set_property library grlib [get_files ../../lib/grlib/amba/dma2ahb_tp.vhd]
+## set_property file_type VHDL [get_files ../../lib/grlib/amba/dma2ahb_tp.vhd]
+## add_files -fileset sim_1 -norecurse ../../lib/grlib/amba/amba_tp.vhd
+## set_property library grlib [get_files ../../lib/grlib/amba/amba_tp.vhd]
+## set_property file_type VHDL [get_files ../../lib/grlib/amba/amba_tp.vhd]
+## add_files -fileset sim_1 -norecurse ../../lib/synplify/sim/synplify.vhd
+## set_property library synplify [get_files ../../lib/synplify/sim/synplify.vhd]
+## set_property file_type VHDL [get_files ../../lib/synplify/sim/synplify.vhd]
+## add_files -fileset sim_1 -norecurse ../../lib/synplify/sim/synattr.vhd
+## set_property library synplify [get_files ../../lib/synplify/sim/synattr.vhd]
+## set_property file_type VHDL [get_files ../../lib/synplify/sim/synattr.vhd]
+## read_vhdl -library techmap ../../lib/techmap/gencomp/gencomp.vhd
+## read_vhdl -library techmap ../../lib/techmap/gencomp/netcomp.vhd
+## read_vhdl -library techmap ../../lib/techmap/inferred/memory_inferred.vhd
+## read_vhdl -library techmap ../../lib/techmap/inferred/ddr_inferred.vhd
+## read_vhdl -library techmap ../../lib/techmap/inferred/mul_inferred.vhd
+## read_vhdl -library techmap ../../lib/techmap/inferred/ddr_phy_inferred.vhd
+## read_vhdl -library techmap ../../lib/techmap/inferred/ddrphy_datapath.vhd
+## add_files -fileset sim_1 -norecurse ../../lib/techmap/inferred/sim_pll.vhd
+## set_property library techmap [get_files ../../lib/techmap/inferred/sim_pll.vhd]
+## set_property file_type VHDL [get_files ../../lib/techmap/inferred/sim_pll.vhd]
+## add_files -fileset sim_1 -norecurse ../../lib/techmap/inferred/lpddr2_phy_inferred.vhd
+## set_property library techmap [get_files ../../lib/techmap/inferred/lpddr2_phy_inferred.vhd]
+## set_property file_type VHDL [get_files ../../lib/techmap/inferred/lpddr2_phy_inferred.vhd]
+## read_vhdl -library techmap ../../lib/techmap/unisim/memory_virtex.vhd
+## read_vhdl -library techmap ../../lib/techmap/unisim/memory_unisim.vhd
+## read_vhdl -library techmap ../../lib/techmap/unisim/buffer_unisim.vhd
+## read_vhdl -library techmap ../../lib/techmap/unisim/pads_unisim.vhd
+## read_vhdl -library techmap ../../lib/techmap/unisim/clkgen_virtex.vhd
+## read_vhdl -library techmap ../../lib/techmap/unisim/clkgen_unisim.vhd
+## read_vhdl -library techmap ../../lib/techmap/unisim/tap_unisim.vhd
+## read_vhdl -library techmap ../../lib/techmap/unisim/ddr_unisim.vhd
+## read_vhdl -library techmap ../../lib/techmap/unisim/ddr_phy_unisim.vhd
+## read_vhdl -library techmap ../../lib/techmap/unisim/sysmon_unisim.vhd
+## read_vhdl -library techmap ../../lib/techmap/unisim/mul_unisim.vhd
+## read_vhdl -library techmap ../../lib/techmap/unisim/spictrl_unisim.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/allclkgen.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/allddr.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/allmem.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/allmul.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/allpads.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/alltap.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/clkgen.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/clkmux.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/clkinv.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/clkand.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/ddr_ireg.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/ddr_oreg.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/ddrphy.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/syncram.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/syncram64.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/syncram_2p.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/syncram_dp.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/syncfifo_2p.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/regfile_3p.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/tap.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/techbuf.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/nandtree.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/clkpad.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/clkpad_ds.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/inpad.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/inpad_ds.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/iodpad.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/iopad.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/iopad_ds.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/lvds_combo.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/odpad.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/outpad.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/outpad_ds.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/toutpad.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/skew_outpad.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/grlfpw_net.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/grfpw_net.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/leon4_net.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/mul_61x61.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/cpu_disas_net.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/ringosc.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/system_monitor.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/grgates.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/inpad_ddr.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/outpad_ddr.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/iopad_ddr.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/syncram128bw.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/syncram256bw.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/syncram128.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/syncram156bw.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/techmult.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/spictrl_net.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/scanreg.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/syncrambw.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/syncram_2pbw.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/sdram_phy.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/syncreg.vhd
+## read_vhdl -library techmap ../../lib/techmap/maps/clkinv.vhd
+## read_vhdl -library eth ../../lib/eth/comp/ethcomp.vhd
+## read_vhdl -library eth ../../lib/eth/core/greth_pkg.vhd
+## read_vhdl -library eth ../../lib/eth/core/eth_rstgen.vhd
+## read_vhdl -library eth ../../lib/eth/core/eth_edcl_ahb_mst.vhd
+## read_vhdl -library eth ../../lib/eth/core/eth_ahb_mst.vhd
+## read_vhdl -library eth ../../lib/eth/core/greth_tx.vhd
+## read_vhdl -library eth ../../lib/eth/core/greth_rx.vhd
+## read_vhdl -library eth ../../lib/eth/core/grethc.vhd
+## read_vhdl -library eth ../../lib/eth/wrapper/greth_gen.vhd
+## read_vhdl -library eth ../../lib/eth/wrapper/greth_gbit_gen.vhd
+## read_vhdl -library opencores ../../lib/opencores/i2c/i2c_master_bit_ctrl.vhd
+## read_vhdl -library opencores ../../lib/opencores/i2c/i2c_master_byte_ctrl.vhd
+## read_vhdl -library opencores ../../lib/opencores/i2c/i2coc.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/arith/arith.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/arith/mul32.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/arith/div32.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/memctrl/memctrl.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/memctrl/sdctrl.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/memctrl/sdctrl64.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/memctrl/sdmctrl.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/memctrl/srctrl.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/srmmu/mmuconfig.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/srmmu/mmuiface.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/srmmu/libmmu.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/srmmu/mmutlbcam.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/srmmu/mmulrue.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/srmmu/mmulru.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/srmmu/mmutlb.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/srmmu/mmutw.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/srmmu/mmu.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/leon3/leon3.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/leon3/grfpushwx.vhd
+## read_verilog -library work ../../lib/gaisler/leon3v3/timescale.v
+## set_property file_type Verilog [get_files ../../lib/gaisler/leon3v3/timescale.v]
+## read_verilog -library work ../../lib/gaisler/leon3v3/aes_inv_cipher_top.v
+## set_property file_type Verilog [get_files ../../lib/gaisler/leon3v3/aes_inv_cipher_top.v]
+## read_verilog -library work ../../lib/gaisler/leon3v3/aes_inv_sbox.v
+## set_property file_type Verilog [get_files ../../lib/gaisler/leon3v3/aes_inv_sbox.v]
+## read_verilog -library work ../../lib/gaisler/leon3v3/aes_key_expand_128.v
+## set_property file_type Verilog [get_files ../../lib/gaisler/leon3v3/aes_key_expand_128.v]
+## read_verilog -library work ../../lib/gaisler/leon3v3/aes_rcon.v
+## set_property file_type Verilog [get_files ../../lib/gaisler/leon3v3/aes_rcon.v]
+## read_verilog -library work ../../lib/gaisler/leon3v3/aes_sbox.v
+## set_property file_type Verilog [get_files ../../lib/gaisler/leon3v3/aes_sbox.v]
+## read_vhdl -library gaisler ../../lib/gaisler/leon3v3/tbufmem.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/leon3v3/dsu3x.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/leon3v3/dsu3.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/leon3v3/dsu3_mb.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/leon3v3/libfpu.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/leon3v3/libiu.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/leon3v3/libcache.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/leon3v3/libleon3.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/leon3v3/regfile_3p_l3.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/leon3v3/mmu_acache.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/leon3v3/mmu_icache.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/leon3v3/asist_mmu.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/leon3v3/mmu_dcache.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/leon3v3/cachemem.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/leon3v3/mmu_cache.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/leon3v3/grfpwx.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/leon3v3/grlfpwx.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/leon3v3/iu3.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/leon3v3/proc3.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/leon3v3/leon3cg.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/leon3v3/leon3s.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/leon3v3/leon3sh.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/leon3v3/leon3x.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/leon3v3/grfpwxsh.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/irqmp/irqmp.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/l2cache/v2-pkg/l2cache.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/misc/misc.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/misc/rstgen.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/misc/gptimer.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/misc/ahbram.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/misc/ahbdpram.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/misc/ahbtrace_mmb.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/misc/ahbtrace_mb.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/misc/ahbtrace.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/misc/grgpio.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/misc/ahbstat.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/misc/logan.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/misc/apbps2.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/misc/charrom_package.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/misc/charrom.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/misc/apbvga.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/misc/svgactrl.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/misc/grsysmon.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/misc/gracectrl.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/misc/grgpreg.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/misc/ahb_mst_iface.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/misc/grgprbank.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/net/net.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/pci/pci.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/pci/pcipads.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/pci/pcitrace/pcitrace.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/pci/grpci1/pcilib.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/pci/grpci1/pciahbmst.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/pci/grpci1/pci_target.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/pci/grpci1/pci_mt.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/pci/grpci1/dmactrl.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/pci/grpci1/pci_mtf.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/pci/grpci1/pcidma.vhd
+## add_files -fileset sim_1 -norecurse ../../lib/gaisler/pci/ptf/pt_pkg.vhd
+## set_property library gaisler [get_files ../../lib/gaisler/pci/ptf/pt_pkg.vhd]
+## set_property file_type VHDL [get_files ../../lib/gaisler/pci/ptf/pt_pkg.vhd]
+## add_files -fileset sim_1 -norecurse ../../lib/gaisler/pci/ptf/pt_pci_master.vhd
+## set_property library gaisler [get_files ../../lib/gaisler/pci/ptf/pt_pci_master.vhd]
+## set_property file_type VHDL [get_files ../../lib/gaisler/pci/ptf/pt_pci_master.vhd]
+## add_files -fileset sim_1 -norecurse ../../lib/gaisler/pci/ptf/pt_pci_target.vhd
+## set_property library gaisler [get_files ../../lib/gaisler/pci/ptf/pt_pci_target.vhd]
+## set_property file_type VHDL [get_files ../../lib/gaisler/pci/ptf/pt_pci_target.vhd]
+## add_files -fileset sim_1 -norecurse ../../lib/gaisler/pci/ptf/pt_pci_arb.vhd
+## set_property library gaisler [get_files ../../lib/gaisler/pci/ptf/pt_pci_arb.vhd]
+## set_property file_type VHDL [get_files ../../lib/gaisler/pci/ptf/pt_pci_arb.vhd]
+## read_vhdl -library gaisler ../../lib/gaisler/uart/uart.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/uart/libdcom.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/uart/apbuart.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/uart/dcom.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/uart/dcom_uart.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/uart/ahbuart.vhd
+## add_files -fileset sim_1 -norecurse ../../lib/gaisler/sim/sim.vhd
+## set_property library gaisler [get_files ../../lib/gaisler/sim/sim.vhd]
+## set_property file_type VHDL [get_files ../../lib/gaisler/sim/sim.vhd]
+## add_files -fileset sim_1 -norecurse ../../lib/gaisler/sim/sram.vhd
+## set_property library gaisler [get_files ../../lib/gaisler/sim/sram.vhd]
+## set_property file_type VHDL [get_files ../../lib/gaisler/sim/sram.vhd]
+## add_files -fileset sim_1 -norecurse ../../lib/gaisler/sim/sram16.vhd
+## set_property library gaisler [get_files ../../lib/gaisler/sim/sram16.vhd]
+## set_property file_type VHDL [get_files ../../lib/gaisler/sim/sram16.vhd]
+## add_files -fileset sim_1 -norecurse ../../lib/gaisler/sim/phy.vhd
+## set_property library gaisler [get_files ../../lib/gaisler/sim/phy.vhd]
+## set_property file_type VHDL [get_files ../../lib/gaisler/sim/phy.vhd]
+## add_files -fileset sim_1 -norecurse ../../lib/gaisler/sim/ahbrep.vhd
+## set_property library gaisler [get_files ../../lib/gaisler/sim/ahbrep.vhd]
+## set_property file_type VHDL [get_files ../../lib/gaisler/sim/ahbrep.vhd]
+## add_files -fileset sim_1 -norecurse ../../lib/gaisler/sim/delay_wire.vhd
+## set_property library gaisler [get_files ../../lib/gaisler/sim/delay_wire.vhd]
+## set_property file_type VHDL [get_files ../../lib/gaisler/sim/delay_wire.vhd]
+## add_files -fileset sim_1 -norecurse ../../lib/gaisler/sim/pwm_check.vhd
+## set_property library gaisler [get_files ../../lib/gaisler/sim/pwm_check.vhd]
+## set_property file_type VHDL [get_files ../../lib/gaisler/sim/pwm_check.vhd]
+## add_files -fileset sim_1 -norecurse ../../lib/gaisler/sim/ddrram.vhd
+## set_property library gaisler [get_files ../../lib/gaisler/sim/ddrram.vhd]
+## set_property file_type VHDL [get_files ../../lib/gaisler/sim/ddrram.vhd]
+## add_files -fileset sim_1 -norecurse ../../lib/gaisler/sim/ddr2ram.vhd
+## set_property library gaisler [get_files ../../lib/gaisler/sim/ddr2ram.vhd]
+## set_property file_type VHDL [get_files ../../lib/gaisler/sim/ddr2ram.vhd]
+## add_files -fileset sim_1 -norecurse ../../lib/gaisler/sim/ddr3ram.vhd
+## set_property library gaisler [get_files ../../lib/gaisler/sim/ddr3ram.vhd]
+## set_property file_type VHDL [get_files ../../lib/gaisler/sim/ddr3ram.vhd]
+## read_vhdl -library gaisler ../../lib/gaisler/jtag/jtag.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/jtag/libjtagcom.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/jtag/jtagcom.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/jtag/ahbjtag.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/jtag/ahbjtag_bsd.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/jtag/bscanregs.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/jtag/bscanregsbd.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/jtag/jtagcom2.vhd
+## add_files -fileset sim_1 -norecurse ../../lib/gaisler/jtag/jtagtst.vhd
+## set_property library gaisler [get_files ../../lib/gaisler/jtag/jtagtst.vhd]
+## set_property file_type VHDL [get_files ../../lib/gaisler/jtag/jtagtst.vhd]
+## read_vhdl -library gaisler ../../lib/gaisler/greth/ethernet_mac.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/greth/greth.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/greth/greth_mb.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/greth/greth_gbit.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/greth/greth_gbit_mb.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/greth/grethm.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/greth/rgmii.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/ddr/ddrpkg.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/ddr/ddrintpkg.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/ddr/ddrphy_wrap.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/ddr/ddrspa.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/ddr/ddr2spa.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/ddr/ddr2buf.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/ddr/ddr2spax.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/ddr/ddr2spax_ahb.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/ddr/ddr2spax_ddr.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/ddr/ddr1spax.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/ddr/ddr1spax_ddr.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/ddr/ahb2mig_series7_pkg.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/ddr/ahb2mig_series7.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/ddr/ahb2avl_async.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/ddr/ahb2avl_async_be.vhd
+## add_files -fileset sim_1 -norecurse ../../lib/gaisler/ddr/mig_interface_model.v
+## set_property library gaisler [get_files ../../lib/gaisler/ddr/mig_interface_model.v]
+## set_property file_type Verilog [get_files ../../lib/gaisler/ddr/mig_interface_model.v]
+## read_vhdl -library gaisler ../../lib/gaisler/i2c/i2c.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/i2c/i2cmst.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/i2c/i2cmst_gen.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/i2c/i2cslv.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/i2c/i2c2ahbx.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/i2c/i2c2ahb.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/i2c/i2c2ahb_apb.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/i2c/i2c2ahb_gen.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/i2c/i2c2ahb_apb_gen.vhd
+## add_files -fileset sim_1 -norecurse ../../lib/gaisler/i2c/i2c_slave_model.v
+## set_property library gaisler [get_files ../../lib/gaisler/i2c/i2c_slave_model.v]
+## set_property file_type Verilog [get_files ../../lib/gaisler/i2c/i2c_slave_model.v]
+## read_vhdl -library gaisler ../../lib/gaisler/spi/spi.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/spi/spimctrl.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/spi/spictrlx.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/spi/spictrl.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/spi/spi2ahbx.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/spi/spi2ahb.vhd
+## read_vhdl -library gaisler ../../lib/gaisler/spi/spi2ahb_apb.vhd
+## add_files -fileset sim_1 -norecurse ../../lib/gaisler/spi/spi_flash.vhd
+## set_property library gaisler [get_files ../../lib/gaisler/spi/spi_flash.vhd]
+## set_property file_type VHDL [get_files ../../lib/gaisler/spi/spi_flash.vhd]
+## read_vhdl -library esa ../../lib/esa/memoryctrl/memoryctrl.vhd
+## read_vhdl -library esa ../../lib/esa/memoryctrl/mctrl.vhd
+## read_vhdl -library esa ../../lib/esa/pci/pcicomp.vhd
+## read_vhdl -library esa ../../lib/esa/pci/pci_arb_pkg.vhd
+## read_vhdl -library esa ../../lib/esa/pci/pci_arb.vhd
+## read_vhdl -library esa ../../lib/esa/pci/pciarb.vhd
+## add_files -fileset sim_1 -norecurse ../../lib/micron/sdram/mobile_sdr.v
+## set_property library micron [get_files ../../lib/micron/sdram/mobile_sdr.v]
+## set_property file_type Verilog [get_files ../../lib/micron/sdram/mobile_sdr.v]
+## add_files -fileset sim_1 -norecurse ../../lib/work/debug/debug.vhd
+## set_property library work [get_files ../../lib/work/debug/debug.vhd]
+## set_property file_type VHDL [get_files ../../lib/work/debug/debug.vhd]
+## add_files -fileset sim_1 -norecurse ../../lib/work/debug/grtestmod.vhd
+## set_property library work [get_files ../../lib/work/debug/grtestmod.vhd]
+## set_property file_type VHDL [get_files ../../lib/work/debug/grtestmod.vhd]
+## add_files -fileset sim_1 -norecurse ../../lib/work/debug/cpu_disas.vhd
+## set_property library work [get_files ../../lib/work/debug/cpu_disas.vhd]
+## set_property file_type VHDL [get_files ../../lib/work/debug/cpu_disas.vhd]
+# read_vhdl -library work ../../lib/gaisler/pcie/pcie.vhd
+# read_vhdl -library work config.vhd
+# read_vhdl -library work ahb2mig_ml50x.vhd
+# read_vhdl -library work ahbrom.vhd
+# read_vhdl -library work svga2ch7301c.vhd
+# read_vhdl -library work leon3mp.vhd
+# add_files -fileset sim_1 testbench.vhd
+# add_files -fileset sim_1 prom.srec ram.srec
+# set_property steps.xst.args.netlist_hierarchy as_optimized [get_runs synth_1]
+# set_property strategy XST Defaults [get_runs synth_1]
+ERROR: [Common 17-161] Invalid option value 'Defaults' specified for 'objects'.
+
+    while executing
+"set_property strategy XST Defaults [get_runs synth_1]"
+    (file "./planahead/leon3mp_planAhead.tcl" line 23)
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_runs synth_1
+[Fri May 22 12:27:41 2020] Launched synth_1...
+Run output will be captured here: C:/cygwin64/home/Chri/grlib-asistmmu-aes/designs/leon3-xilinx-ml50x/planahead/.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+[Fri May 22 12:35:30 2020] Launched synth_1...
+Run output will be captured here: C:/cygwin64/home/Chri/grlib-asistmmu-aes/designs/leon3-xilinx-ml50x/planahead/.runs/synth_1/runme.log
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1
+[Fri May 22 13:12:16 2020] Launched synth_1...
+Run output will be captured here: C:/cygwin64/home/Chri/grlib-asistmmu-aes/designs/leon3-xilinx-ml50x/planahead/.runs/synth_1/runme.log
+launch_runs impl_1
+Release 14.4 - ngc2edif P.49d (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Reading design leon3mp.ngc ...
+WARNING:NetListWriters:298 - No output is written to leon3mp.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus ahb0/rin_hrdatas<19 : 0> on block
+   leon3mp is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus ahbmo<0>_haddr<31 : 8> on block leon3mp
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus ahbsi_hwdata<41 : 0> on block leon3mp is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus ahbso<3>_hrdata<41 : 0> on block leon3mp
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus apbi_psel<12 : 0> on block leon3mp is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus dcomgen.dcom0/dcom0/r_len_mux0000<5 : 0>
+   on block leon3mp is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus ddrsp0.ddrc0/ddrc/ddrc/mask_mux0003<13 :
+   0> on block leon3mp is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   ddrsp0.ddrc0/ddrc/ddrc/ndr_sdo_address<14 : 0> on block leon3mp is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   eth1.e1/m100.u0/ethc0/Madd_r.rxcnt_addsub0000_cy<7 : 3> on block leon3mp is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   eth1.e1/m100.u0/ethc0/Madd_rin.tfcnt_addsub0000_cy<6 : 3> on block leon3mp is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   eth1.e1/m100.u0/ethc0/Madd_rin.tfcnt_addsub0000_lut<5 : 1> on block leon3mp
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   eth1.e1/m100.u0/ethc0/Madd_v.ipcrc_add0000_cy<6 : 1> on block leon3mp is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   eth1.e1/m100.u0/ethc0/Madd_v.ipcrc_add0000_lut<9 : 3> on block leon3mp is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   eth1.e1/m100.u0/ethc0/Madd_v.rcntl_add0004_cy<5 : 3> on block leon3mp is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   eth1.e1/m100.u0/ethc0/Madd_v.rcntl_add0005_cy<5 : 3> on block leon3mp is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   eth1.e1/m100.u0/ethc0/Madd_v.rcntm_add0003_cy<5 : 2> on block leon3mp is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   eth1.e1/m100.u0/ethc0/Madd_v.rcntm_add0004_cy<5 : 3> on block leon3mp is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   eth1.e1/m100.u0/ethc0/Madd_v.rxcnt_add0002_cy<7 : 5> on block leon3mp is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   eth1.e1/m100.u0/ethc0/Madd_v.tfcnt_addsub0000_cy<6 : 3> on block leon3mp is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   eth1.e1/m100.u0/ethc0/Madd_v.tfrpnt_addsub0000_cy<5 : 3> on block leon3mp is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   eth1.e1/m100.u0/ethc0/Madd_v.txcnt_add0001_cy<8 : 3> on block leon3mp is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   eth1.e1/m100.u0/ethc0/Madd_veri.datain_31_16_add0000_cy<7 : 4> on block
+   leon3mp is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   eth1.e1/m100.u0/ethc0/Maddsub_r.rcntl_share0000_cy<6 : 1> on block leon3mp is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   eth1.e1/m100.u0/ethc0/Maddsub_r.rcntm_share0000_cy<6 : 1> on block leon3mp is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   eth1.e1/m100.u0/ethc0/Msub_v.tfcnt_addsub0001_cy<6 : 1> on block leon3mp is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   eth1.e1/m100.u0/ethc0/Msub_v.txcnt_sub0001_cy<8 : 3> on block leon3mp is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus eth1.e1/m100.u0/ethc0/r_rcntl_mux0000<5
+   : 0> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus eth1.e1/m100.u0/ethc0/r_rcntm_mux0000<3
+   : 0> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus eth1.e1/m100.u0/ethc0/r_rxdsel_mux0000<8
+   : 3> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus eth1.e1/m100.u0/ethc0/r_txdsel_mux0000<8
+   : 3> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   eth1.e1/m100.u0/ethc0/r_txlength_mux0000<7 : 0> on block leon3mp is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   eth1.e1/m100.u0/ethc0/rin_mdio_ctrl_data<15 : 0> on block leon3mp is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   eth1.e1/m100.u0/ethc0/rx_rmii0.rx0/r_byte_count_mux0000<10 : 0> on block
+   leon3mp is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   eth1.e1/m100.u0/ethc0/tx_rmii0.tx0/r_ifg_cycls_mux0000<4 : 0> on block
+   leon3mp is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   eth1.e1/m100.u0/ethc0/tx_rmii0.tx0/rin_delay_val<8 : 0> on block leon3mp is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus gpt.timer0/Msub_scaler_sub0000_cy<7 : 4>
+   on block leon3mp is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus gpt.timer0/res_mux0000<31 : 0> on block
+   leon3mp is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus i2cm.i2c0/byte_ctrl/bit_ctrl/s_state<19
+   : 0> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   i2cm.i2c0/byte_ctrl/bit_ctrl/s_state_mux0001<19 : 0> on block leon3mp is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus l3.cpu[0].u0/leon3x0/cmem0/dtdatain3<23
+   : 4> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus l3.cpu[0].u0/leon3x0/cmem0/dtdatain<31 :
+   3> on block leon3mp is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus l3.cpu[0].u0/leon3x0/cmem0/itdatain<30 :
+   0> on block leon3mp is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus l3.cpu[0].u0/leon3x0/cramo_dcramo_ctx<6
+   : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/cramo_dcramo_stag<31 : 12> on block leon3mp is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus l3.cpu[0].u0/leon3x0/cramo_dcramo_tag<31
+   : 0> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus l3.cpu[0].u0/leon3x0/cramo_icramo_tag<31
+   : 0> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_1_pmul_9_1_xtime_10_xtime<4
+   : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_1_pmul_9_1_xtime_11_xtime<4
+   : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_1_pmul_9_1_xtime_12_xtime<4
+   : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_1_pmul_b_1_xtime_4_xtime<4 :
+   1> on block leon3mp is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_1_pmul_b_1_xtime_5_xtime<4 :
+   1> on block leon3mp is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_1_pmul_b_1_xtime_6_xtime<3 :
+   1> on block leon3mp is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_1_pmul_d_1_xtime_7_xtime<4 :
+   1> on block leon3mp is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_1_pmul_d_1_xtime_8_xtime<4 :
+   1> on block leon3mp is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_1_pmul_d_1_xtime_9_xtime<3 :
+   1> on block leon3mp is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_1_pmul_e_1_xtime_1_xtime<4 :
+   1> on block leon3mp is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_1_pmul_e_1_xtime_2_xtime<4 :
+   1> on block leon3mp is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_1_pmul_e_1_xtime_3_xtime<3 :
+   1> on block leon3mp is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_2_pmul_9_5_xtime_58_xtime<4
+   : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_2_pmul_9_5_xtime_59_xtime<4
+   : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_2_pmul_9_5_xtime_60_xtime<4
+   : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_2_pmul_b_5_xtime_52_xtime<4
+   : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_2_pmul_b_5_xtime_53_xtime<4
+   : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_2_pmul_b_5_xtime_54_xtime<3
+   : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_2_pmul_d_5_xtime_55_xtime<4
+   : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_2_pmul_d_5_xtime_56_xtime<4
+   : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_2_pmul_d_5_xtime_57_xtime<3
+   : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_2_pmul_e_5_xtime_49_xtime<4
+   : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_2_pmul_e_5_xtime_50_xtime<4
+   : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_2_pmul_e_5_xtime_51_xtime<3
+   : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_3_pmul_9_9_xtime_106_xtime<4
+   : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_3_pmul_9_9_xtime_107_xtime<4
+   : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_3_pmul_9_9_xtime_108_xtime<4
+   : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_3_pmul_b_9_xtime_100_xtime<4
+   : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_3_pmul_b_9_xtime_101_xtime<4
+   : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_3_pmul_b_9_xtime_102_xtime<3
+   : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_3_pmul_d_9_xtime_103_xtime<4
+   : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_3_pmul_d_9_xtime_104_xtime<4
+   : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_3_pmul_d_9_xtime_105_xtime<3
+   : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_3_pmul_e_9_xtime_97_xtime<4
+   : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_3_pmul_e_9_xtime_98_xtime<4
+   : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_3_pmul_e_9_xtime_99_xtime<3
+   : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_4_pmul_9_13_xtime_154_xtime<
+   4 : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_4_pmul_9_13_xtime_155_xtime<
+   4 : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_4_pmul_9_13_xtime_156_xtime<
+   4 : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_4_pmul_b_13_xtime_148_xtime<
+   4 : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_4_pmul_b_13_xtime_149_xtime<
+   4 : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_4_pmul_b_13_xtime_150_xtime<
+   3 : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_4_pmul_d_13_xtime_151_xtime<
+   4 : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_4_pmul_d_13_xtime_152_xtime<
+   4 : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_4_pmul_d_13_xtime_153_xtime<
+   3 : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_4_pmul_e_13_xtime_145_xtime<
+   4 : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_4_pmul_e_13_xtime_146_xtime<
+   4 : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/aesdec/inv_mix_col_4_pmul_e_13_xtime_147_xtime<
+   3 : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/dcache0/c_xaddress<31 : 0> on block leon3mp is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/dcache0/rdatasel_mux0004<9 : 0> on block
+   leon3mp is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/mmudco_transdata_data<31 : 2> on block leon3mp
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/mmugen.m0/tlbsplit0.dtlb0/wb_ACC_mux0000<27 :
+   4> on block leon3mp is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/mmugen.m0/tlbsplit0.itlb0/tlbcami<7>_tagin_I2<5
+   : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/mmugen.m0/tlbsplit0.itlb0/tlbcami<7>_tagin_I3<5
+   : 1> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/mmugen.m0/twi_a<0>_adata<31 : 0> on block
+   leon3mp is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/mmugen.m0/twi_a<1>_adata<31 : 0> on block
+   leon3mp is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/mmugen.m0/twi_adata<31 : 0> on block leon3mp is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/c0mmu/mmuico_transdata_data<31 : 2> on block leon3mp
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/iu/bpdata_mux0000<31 : 0> on block leon3mp is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/iu/rin_a_ctrl_inst<31 : 4> on block leon3mp is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus l3.cpu[0].u0/leon3x0/p0/iu/rin_a_imm<31
+   : 0> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus l3.cpu[0].u0/leon3x0/p0/iu/rin_a_rsel1<5
+   : 0> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.cpu[0].u0/leon3x0/p0/iu/xc_result_mux0000<26 : 23> on block leon3mp is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus l3.cpu[0].u0/leon3x0/rfo_data1<31 : 0>
+   on block leon3mp is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   l3.dsugen.dsu0/x0/Msub_tv.delaycnt_addsub0000_cy<4 : 1> on block leon3mp is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus l3.dsugen.dsu0/x0/tbi_data<127 : 0> on
+   block leon3mp is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus mctrl0.mctrl0/ri_address<24 : 0> on
+   block leon3mp is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus mctrl0.mctrl0/ri_bstate<7 : 1> on block
+   leon3mp is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus svga.svga0/dataout_clut<23 : 3> on block
+   leon3mp is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus svga.svga0/t_read_pointer_out_mux0000<8
+   : 0> on block leon3mp is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   vgadvi.i2cdvi/byte_ctrl/bit_ctrl/s_state<19 : 0> on block leon3mp is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   vgadvi.i2cdvi/byte_ctrl/bit_ctrl/s_state_mux0001<19 : 0> on block leon3mp is
+   not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file leon3mp.edif ...
+ngc2edif: Total memory usage is 153288 kilobytes
+
+Parsing EDIF File [./planahead/.data/cache/leon3mp_ngc_zx.edif]
+Finished Parsing EDIF File [./planahead/.data/cache/leon3mp_ngc_zx.edif]
+INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/virtex5/virtex5lx/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/virtex5/virtex5lx/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/virtex5/virtex5lx/hd_int_macros.edn]
+WARNING: [Netlist 29-43] Netlist 'leon3mp' is not ideal for floorplanning, since the cellview 'leon3mp' defined in file 'leon3mp.ngc' contains large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Device 21-21] Reading bus macro file C:/Xilinx/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/virtex5/pr_bus_macros.xml
+Loading clock regions from C:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/virtex5/virtex5lxt/xc5vlx110t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/virtex5/virtex5lxt/xc5vlx110t/ClockBuffers.xml
+Loading package from C:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/virtex5/virtex5lxt/xc5vlx110t/ff1136/Package.xml
+Loading io standards from C:/Xilinx/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/virtex5/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.4/ISE_DS/PlanAhead/data\parts/xilinx/virtex5/virtex5lxt/xc5vlx110t/ff1136/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/virtex5/drc.xml
+[Fri May 22 13:28:29 2020] Launched impl_1...
+Run output will be captured here: C:/cygwin64/home/Chri/grlib-asistmmu-aes/designs/leon3-xilinx-ml50x/planahead/.runs/impl_1/runme.log
+launch_runs: Time (s): elapsed = 00:00:16 . Memory (MB): peak = 981.473 ; gain = 257.934
+launch_runs impl_1 -to_step Bitgen
+[Fri May 22 13:47:19 2020] Launched impl_1...
+Run output will be captured here: C:/cygwin64/home/Chri/grlib-asistmmu-aes/designs/leon3-xilinx-ml50x/planahead/.runs/impl_1/runme.log
+launch_impact 
+INFO: [Chipscope 16-8] Launching iMPACT with command: impact.exe -intstyle pa -mode bscan -port auto -autoassign -b C:/cygwin64/home/Chri/grlib-asistmmu-aes/designs/leon3-xilinx-ml50x/planahead/.runs/impl_1/leon3mp.bit
+set_property steps.bitgen.args.d true [get_runs impl_1]
+set_property steps.bitgen.args.m true [get_runs impl_1]
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step Bitgen
+[Fri May 22 14:18:43 2020] Launched impl_1...
+Run output will be captured here: C:/cygwin64/home/Chri/grlib-asistmmu-aes/designs/leon3-xilinx-ml50x/planahead/.runs/impl_1/runme.log
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user repositories specified
+INFO: [IP_Flow 19-816] Loaded Xilinx IP repository 'C:/Xilinx/14.4/ISE_DS/ISE/'
+launch_impact 
+INFO: [Chipscope 16-8] Launching iMPACT with command: impact.exe -intstyle pa -mode bscan -port auto -autoassign -b C:/cygwin64/home/Chri/grlib-asistmmu-aes/designs/leon3-xilinx-ml50x/planahead/.runs/impl_1/leon3mp.bit
+exit
+INFO: [Common 17-206] Exiting PlanAhead at Fri May 22 14:28:00 2020...
+INFO: [Common 17-83] Releasing license: PlanAhead

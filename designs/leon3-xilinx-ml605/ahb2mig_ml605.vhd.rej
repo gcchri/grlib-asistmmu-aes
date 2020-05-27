@@ -1,0 +1,23 @@
+--- ahb2mig_ml605.vhd	2014-04-16 17:51:32.000000000 +0300
++++ ahb2mig_ml605.vhd	2014-08-07 13:30:18.992627200 +0300
+@@ -39,9 +39,9 @@ package ml605 is
+   constant DM_WIDTH  : integer := 8;
+   constant DQ_WIDTH  : integer := 64;
+   constant DQS_WIDTH : integer := 8;
+-  constant ROW_WIDTH : integer := 13;
++  constant ROW_WIDTH : integer := 14;
+   constant PAYLOAD_WIDTH : integer := 64;
+-  constant ADDR_WIDTH    : integer := 27;
++  constant ADDR_WIDTH    : integer := 28;
+ 
+   type mig_app_in_type is record
+       app_wdf_wren  : std_logic;
+@@ -314,7 +314,7 @@ begin
+    ahbso.hresp   <= ra.hresp;
+    ahbso.hrdata <= ahbdrivedata(ra.hrdata);
+ 
+-   migi.app_addr  <= '0' & ra.acc.haddr(28 downto 6) & "000";
++   migi.app_addr  <= '0' & ra.acc.haddr(29 downto 6) & "000";
+ 
+    ddr_ctrl : process(rst, r, ra, migo)
+    variable v        : ddr_reg_type;   -- local variables for registers

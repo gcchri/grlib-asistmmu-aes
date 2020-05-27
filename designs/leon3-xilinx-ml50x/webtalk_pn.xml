@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pn" timeStamp="Fri May 22 19:51:21 2020">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="2B25EEF8478D4FC48CAA9456405D266C" type="project"/>
+<property name="ProjectIteration" value="5" type="project"/>
+<property name="ProjectFile" value="C:/cygwin64/home/grlib-asistmmu-aes/designs/leon3-xilinx-ml50x/leon3mp.xise" type="project"/>
+<property name="ProjectCreationTimestamp" value="2020-05-05T15:57:36" type="project"/>
+</section>
+<section name="Project Statistics" visible="true">
+<property name="PROPEXT_xilxMapPackRegInto_virtex5" value="For Inputs and Outputs" type="process"/>
+<property name="PROP_Enable_Message_Filtering" value="false" type="design"/>
+<property name="PROP_FitterReportFormat" value="HTML" type="process"/>
+<property name="PROP_LastAppliedGoal" value="Balanced" type="design"/>
+<property name="PROP_LastAppliedStrategy" value="Xilinx Default (unlocked)" type="design"/>
+<property name="PROP_ManualCompileOrderImp" value="true" type="design"/>
+<property name="PROP_PropSpecInProjFile" value="Store all values" type="design"/>
+<property name="PROP_Simulator" value="Modelsim-SE VHDL" type="design"/>
+<property name="PROP_SynthFsmEncode" value="None" type="process"/>
+<property name="PROP_Top_Level_Module_Type" value="HDL" type="design"/>
+<property name="PROP_UseSmartGuide" value="false" type="design"/>
+<property name="PROP_UserConstraintEditorPreference" value="Text Editor" type="process"/>
+<property name="PROP_intProjectCreationTimestamp" value="2020-05-05T15:57:36" type="design"/>
+<property name="PROP_intWbtProjectID" value="2B25EEF8478D4FC48CAA9456405D266C" type="design"/>
+<property name="PROP_intWbtProjectIteration" value="5" type="process"/>
+<property name="PROP_intWorkingDirLocWRTProjDir" value="Same" type="design"/>
+<property name="PROP_intWorkingDirUsed" value="No" type="design"/>
+<property name="PROP_lastSelectedUcfFile" value="C:/cygwin64/home/grlib-asistmmu-aes/designs/leon3-xilinx-ml50x/leon3mp.ucf" type="process"/>
+<property name="PROP_map_otherCmdLineOptions" value="-m" type="process"/>
+<property name="PROP_selectedSimRootSourceNode_behav" value="work.testbench" type="process"/>
+<property name="PROP_xilxBitgCfg_GenOpt_DRC_virtex5" value="false" type="process"/>
+<property name="PROP_xilxBitgCfg_GenOpt_ReadBack_virtex5" value="true" type="process"/>
+<property name="PROP_xilxBitgStart_Clk_DriveDone_virtex5" value="true" type="process"/>
+<property name="PROP_xilxNgdbldMacro" value="changed" type="process"/>
+<property name="PROP_xilxNgdbld_AUL" value="true" type="process"/>
+<property name="PROP_xilxSynthKeepHierarchy" value="Soft" type="process"/>
+<property name="PROP_xstBusDelimiter" value="()" type="process"/>
+<property name="PROP_xstPackIORegister" value="Yes" type="process"/>
+<property name="PROP_xst_otherCmdLineOptions" value="-uc leon3mp.xcf" type="process"/>
+<property name="PROP_AutoCompileOrderImp" value="false" type="process"/>
+<property name="PROP_AutoTop" value="false" type="design"/>
+<property name="PROP_DevFamily" value="Virtex5" type="design"/>
+<property name="PROP_xilxBitgCfg_GenOpt_MaskFile_virtex5" value="true" type="process"/>
+<property name="PROP_DevDevice" value="xc5vlx110t" type="design"/>
+<property name="PROP_DevFamilyPMName" value="virtex5" type="design"/>
+<property name="PROP_DevPackage" value="ff1136" type="design"/>
+<property name="PROP_Synthesis_Tool" value="XST (VHDL/Verilog)" type="design"/>
+<property name="PROP_DevSpeed" value="-1" type="design"/>
+<property name="PROP_PreferredLanguage" value="VHDL" type="design"/>
+<property name="FILE_CDC" value="1" type="source"/>
+<property name="FILE_UCF" value="3" type="source"/>
+<property name="FILE_VERILOG" value="5" type="source"/>
+<property name="FILE_VHDL" value="286" type="source"/>
+</section>
+</application>
+</document>

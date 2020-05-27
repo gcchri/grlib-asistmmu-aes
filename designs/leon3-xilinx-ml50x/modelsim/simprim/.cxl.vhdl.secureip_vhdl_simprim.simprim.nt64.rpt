@@ -1,0 +1,17 @@
+CxlResult:C:\cygwin64\home\Chri\grlib-asistmmu-aes\designs\leon3-xilinx-ml50x\modelsim/simprim/.cxl.vhdl.secureip_vhdl_simprim.simprim.nt64.rpt =
+	ExecutionPlatform = nt64 ,
+	SourceLibrary = secureip_vhdl_simprim ,
+	SourcePath = C:/Xilinx/14.4/ISE_DS/ISE/vhdl/src/simprims/secureip/mti ,
+	Simulator = mti_se ,
+	SimulatorVersion = 10.1c ,
+	CompiledLibrary = simprim ,
+	CompiledPath = C:\cygwin64\home\Chri\grlib-asistmmu-aes\designs\leon3-xilinx-ml50x\modelsim/simprim ,
+	Timestamp = Tue May 05 17:20:45 2020 ,
+	Time = 1588695645 ,
+	Language = vhdl ,
+	XilinxBuildNumber = P.49d ,
+	XilinxVersion = 14.4 ,
+	LogFile = C:\cygwin64\home\Chri\grlib-asistmmu-aes\designs\leon3-xilinx-ml50x\modelsim/simprim/.cxl.vhdl.secureip_vhdl_simprim.simprim.nt64.log ,
+	NumOfErrors = 0 ,
+	NumOfWarnings = 0 ,
+

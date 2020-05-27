@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2012.4 (64-bit)
+# Build 222254 by xbuild on Tue Dec 18 05:21:09 MST 2012
+# Start of session at: Fri May 22 16:00:08 2020
+# Process ID: 8140
+# Log file: C:/cygwin64/home/Chri/grlib-asistmmu-aes/designs/leon3-xilinx-ml50x/vivado.log
+# Journal file: C:/cygwin64/home/Chri/grlib-asistmmu-aes/designs/leon3-xilinx-ml50x\vivado.jou
+#-----------------------------------------------------------
+start_gui
+source ./vivado/leon3mp_vivado.tcl

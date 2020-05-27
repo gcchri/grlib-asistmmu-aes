@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Strategy Version="1" Minor="2">
+	<StratHandle Name="TimingWithIOBPacking" Flow="XST14">
+		<Desc>Timing Performance with IOB Packing</Desc>
+	</StratHandle>
+	<Step Id="xst">
+		<Option Id="RegBalEnum">0</Option>
+		<Option Id="PackIOBEnum">0</Option>
+		<Option Id="OptLevelInt">2</Option>
+	</Step>
+</Strategy>
+

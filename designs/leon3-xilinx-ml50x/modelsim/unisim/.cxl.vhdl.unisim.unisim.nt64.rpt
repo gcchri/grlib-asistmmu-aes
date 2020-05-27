@@ -1,0 +1,17 @@
+CxlResult:C:\cygwin64\home\Chri\grlib-asistmmu-aes\designs\leon3-xilinx-ml50x\modelsim/unisim/.cxl.vhdl.unisim.unisim.nt64.rpt =
+	ExecutionPlatform = nt64 ,
+	SourceLibrary = unisim ,
+	SourcePath = C:/Xilinx/14.4/ISE_DS/ISE/vhdl/src/unisims ,
+	Simulator = mti_se ,
+	SimulatorVersion = 10.1c ,
+	CompiledLibrary = unisim ,
+	CompiledPath = C:\cygwin64\home\Chri\grlib-asistmmu-aes\designs\leon3-xilinx-ml50x\modelsim/unisim ,
+	Timestamp = Tue May 05 17:15:28 2020 ,
+	Time = 1588695328 ,
+	Language = vhdl ,
+	XilinxBuildNumber = P.49d ,
+	XilinxVersion = 14.4 ,
+	LogFile = C:\cygwin64\home\Chri\grlib-asistmmu-aes\designs\leon3-xilinx-ml50x\modelsim/unisim/.cxl.vhdl.unisim.unisim.nt64.log ,
+	NumOfErrors = 0 ,
+	NumOfWarnings = 0 ,
+

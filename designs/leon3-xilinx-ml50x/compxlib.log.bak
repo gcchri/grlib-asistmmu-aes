@@ -1,0 +1,120 @@
+    ____  ____
+   /   /\/   /
+  /___/  \  /    VENDOR      : Xilinx Inc.
+  \   \   \/     VERSION     : 14.4 (P.49d)
+   \   \         APPLICATION : C:\Xilinx\14.4\ISE_DS\ISE\bin\nt64\unwrapped\compxlib.exe
+   /   /         CONTENTS    : Compilation Log
+  /___/   /\     FILENAME    : compxlib.log
+  \   \  /  \    
+   \___\/\___\
+
+Release 14.4 - C:\Xilinx\14.4\ISE_DS\ISE\bin\nt64\unwrapped\compxlib.exe 14.4 (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Processing command line ...
+Reading the compxlib configuration file - 'compxlib.cfg' ...
+Library Source Paths => 'C:/Xilinx/14.4/ISE_DS/ISE'
+Current Working Directory => 'C:\cygwin64\home\Chri\grlib-asistmmu-aes\designs\leon3-xilinx-ml50x'
+Compilation Mode = FAST
+Execute Mode = ON
+Scheduling library installation & compilation for architectures: Virtex5
+
+Scheduling library installation & compilation for libraries: unisim
+
+Signature:-
+------------------------------------------------------------------------------
+C:\Xilinx\14.4\ISE_DS\ISE\bin\nt64\unwrapped\compxlib.exe -s mti_se -l vhdl -arch Virtex5 -lib unisim -w -dir ./modelsim 
+------------------------------------------------------------------------------
+
+Setting up the simulator 'mti_se' for compilation ...
+The executable path is set to 'C:\modeltech64_10.1c\win64' ...
+Setting up the source libraries for simulator 'mti_se' ...
+
+
+
+Compiling Xilinx HDL Libraries for 'mti_se' simulator
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+Language => 'vhdl'
+Output directory => 'C:\cygwin64\home\Chri\grlib-asistmmu-aes\designs\leon3-xilinx-ml50x\modelsim'
+
+
+Library verilog.secureip will be compiled, because no precompiled info.
+--> Compiling verilog.secureip library ...
+    > verilog.secureip library compiled from C:/Xilinx/14.4/ISE_DS/ISE/secureip/mti
+    > verilog.secureip library compiled to C:\cygwin64\home\Chri\grlib-asistmmu-aes\designs\leon3-xilinx-ml50x\modelsim/secureip
+==============================================================================
+BEGIN_COMPILATION_MESSAGES(mti_se:verilog:secureip)
+Modifying modelsim.ini
+
+
+
+END_COMPILATION_MESSAGES(mti_se:verilog:secureip)
+==============================================================================
+    > Log file 'C:\cygwin64\home\Chri\grlib-asistmmu-aes\designs\leon3-xilinx-ml50x\modelsim/secureip/.cxl.verilog.secureip.secureip.nt64.log' generated
+compxlib[verilog.secureip]: 0 error(s), 0 warning(s), 50.00 % complete
+
+
+
+Library vhdl.unisim will be compiled, because no precompiled info.
+--> Compiling vhdl.unisim library ...
+    > vhdl.unisim library compiled from C:/Xilinx/14.4/ISE_DS/ISE/vhdl/src/unisims
+    > vhdl.unisim library compiled to C:\cygwin64\home\Chri\grlib-asistmmu-aes\designs\leon3-xilinx-ml50x\modelsim/unisim
+==============================================================================
+BEGIN_COMPILATION_MESSAGES(mti_se:vhdl:unisim)
+Modifying modelsim.ini
+
+
+
+END_COMPILATION_MESSAGES(mti_se:vhdl:unisim)
+==============================================================================
+    > Log file 'C:\cygwin64\home\Chri\grlib-asistmmu-aes\designs\leon3-xilinx-ml50x\modelsim/unisim/.cxl.vhdl.unisim.unisim.nt64.log' generated
+
+Library vhdl.unisim:vhdl.unimacro will be compiled, because no precompiled info.
+--> Compiling vhdl.unisim:vhdl.unimacro library ...
+    > vhdl.unisim:vhdl.unimacro library compiled from C:/Xilinx/14.4/ISE_DS/ISE/vhdl/src/unimacro
+    > vhdl.unisim:vhdl.unimacro library compiled to C:\cygwin64\home\Chri\grlib-asistmmu-aes\designs\leon3-xilinx-ml50x\modelsim/unimacro
+==============================================================================
+BEGIN_COMPILATION_MESSAGES(mti_se:vhdl:unimacro)
+Modifying modelsim.ini
+
+
+
+END_COMPILATION_MESSAGES(mti_se:vhdl:unimacro)
+==============================================================================
+    > Log file 'C:\cygwin64\home\Chri\grlib-asistmmu-aes\designs\leon3-xilinx-ml50x\modelsim/unimacro/.cxl.vhdl.unimacro.unimacro.nt64.log' generated
+compxlib[vhdl.unisim:vhdl.unimacro]: 0 error(s), 0 warning(s)
+
+
+Library vhdl.unisim:vhdl.secureip_vhdl_unisim will be compiled, because no precompiled info.
+--> Compiling vhdl.unisim:vhdl.secureip_vhdl_unisim library ...
+    > vhdl.unisim:vhdl.secureip_vhdl_unisim library compiled from C:/Xilinx/14.4/ISE_DS/ISE/vhdl/src/unisims/secureip
+    > vhdl.unisim:vhdl.secureip_vhdl_unisim library compiled to C:\cygwin64\home\Chri\grlib-asistmmu-aes\designs\leon3-xilinx-ml50x\modelsim/unisim
+==============================================================================
+BEGIN_COMPILATION_MESSAGES(mti_se:vhdl:secureip_vhdl_unisim)
+Modifying modelsim.ini
+
+
+
+END_COMPILATION_MESSAGES(mti_se:vhdl:secureip_vhdl_unisim)
+==============================================================================
+    > Log file 'C:\cygwin64\home\Chri\grlib-asistmmu-aes\designs\leon3-xilinx-ml50x\modelsim/unisim/.cxl.vhdl.secureip_vhdl_unisim.unisim.nt64.log' generated
+compxlib[vhdl.unisim:vhdl.secureip_vhdl_unisim]: 0 error(s), 0 warning(s)
+
+compxlib[vhdl.unisim]: 0 error(s), 0 warning(s), 100.00 % complete
+
+
+Copying setup file 'modelsim.ini' to 'C:\cygwin64\home\Chri\grlib-asistmmu-aes\designs\leon3-xilinx-ml50x\modelsim/modelsim.ini' ...
+**********************************************************************************************
+*                                   COMPILATION SUMMARY                                      *
+*                                                                                            *
+*  Simulator used: mti_se                                                                    *
+*  Compiled on: Tue May 05 17:15:28 2020                                                     *
+*                                                                                            *
+**********************************************************************************************
+*               Library                |  Lang   |  Mapped Name(s)   | Err#(s)  |  Warn#(s)  *
+*--------------------------------------------------------------------------------------------*
+*  secureip                            | verilog | secureip          | 0        | 0          *
+*--------------------------------------------------------------------------------------------*
+*  unisim                              | vhdl    | unisim            | 0        | 0          *
+*--------------------------------------------------------------------------------------------*
+

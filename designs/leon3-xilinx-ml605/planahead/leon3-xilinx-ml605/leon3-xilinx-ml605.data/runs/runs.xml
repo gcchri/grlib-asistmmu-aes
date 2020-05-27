@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="8">
+	<Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc6vlx240tff1156-1" LaunchPart="xc6vlx240tff1156-1" ConstrsSet="constrs_1" Description="Timing Performance with IOB Packing" State="current" Dir="$PRUNDIR/synth_1" LaunchTime="1436356829">
+		<File Type="XST-NGC" Name="leon3mp.ngc"/>
+		<File Type="RUN-STRAT" Name="$PDATADIR/runs/synth_1/synth_1.psg"/>
+		<File Type="XST-SRP" Name="leon3mp.srp"/>
+		<File Type="PA-XST" Name="leon3mp.xst"/>
+		<File Type="RUN-SRCS" Name="$PDATADIR/runs/synth_1/sources.xml"/>
+		<File Type="PA-XSTPRJ" Name="leon3mp.prj"/>
+		<File Type="RUN-CONSTRS" Name="$PDATADIR/runs/synth_1/constrs_in.xml"/>
+	</Run>
+	<Run Id="impl_1" Type="Ft2:EntireDesign" SynthRun="synth_1" Part="xc6vlx240tff1156-1" LaunchPart="xc6vlx240tff1156-1" ConstrsSet="constrs_1" Description="MAP Timing Driven Logic Optimization Register Duplication High Effort Normal Extra Effort, PAR High Effort Normal Extra Effort" State="current" Dir="$PRUNDIR/impl_1" LaunchTime="1436357144">
+		<File Type="MAP-PSR" Name="leon3mp.psr"/>
+		<File Type="PA-EDIF" Name="leon3mp.edf"/>
+		<File Type="PAR-NCD" Name="leon3mp_routed.ncd"/>
+		<File Type="PA-UCF" Name="leon3mp.ucf"/>
+		<File Type="PAR-PAD" Name="leon3mp_routed_pad.txt"/>
+		<File Type="PAR-PAR" Name="leon3mp_routed.par"/>
+		<File Type="PAR-UNR" Name="leon3mp_routed.unroutes"/>
+		<File Type="BG-BIT" Name="leon3mp.bit"/>
+		<File Type="BG-DRC" Name="leon3mp.drc"/>
+		<File Type="PA-CONSTRSDIR" Name=".constrs"/>
+		<File Type="BG-BGN" Name="leon3mp.bgn"/>
+		<File Type="TRCE-TWR" Name="leon3mp.twr"/>
+		<File Type="TRCE-TWX" Name="leon3mp.twx"/>
+		<File Type="XDL-XDL" Name="leon3mp_routed.xdl"/>
+		<File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+		<File Type="WBT-LOG" Name="webtalk.log"/>
+		<File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+		<File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+		<File Type="NGDB-NGD" Name="leon3mp.ngd"/>
+		<File Type="NGDB-BLD" Name="leon3mp.bld"/>
+		<File Type="MAP-NCD" Name="leon3mp.ncd"/>
+		<File Type="MAP-PCF" Name="leon3mp.pcf"/>
+		<File Type="MAP-MRP" Name="leon3mp.mrp"/>
+		<File Type="MAP-MAP" Name="leon3mp.map"/>
+	</Run>
+</Runs>
+

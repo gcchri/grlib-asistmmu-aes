@@ -1,0 +1,5 @@
+AR i2c_master_byte_ctrl structural C:/cygwin64/home/grlib-asistmmu-aes/lib/opencores/i2c/i2c_master_byte_ctrl.vhd sub00/vhpl03 1590169538
+AR i2c_master_bit_ctrl structural C:/cygwin64/home/grlib-asistmmu-aes/lib/opencores/i2c/i2c_master_bit_ctrl.vhd sub00/vhpl01 1590169513
+EN i2c_master_byte_ctrl NULL C:/cygwin64/home/grlib-asistmmu-aes/lib/opencores/i2c/i2c_master_byte_ctrl.vhd sub00/vhpl02 1590169537
+PH i2coc NULL C:/cygwin64/home/grlib-asistmmu-aes/lib/opencores/i2c/i2coc.vhd sub00/vhpl04 1590169539
+EN i2c_master_bit_ctrl NULL C:/cygwin64/home/grlib-asistmmu-aes/lib/opencores/i2c/i2c_master_bit_ctrl.vhd sub00/vhpl00 1590169512
