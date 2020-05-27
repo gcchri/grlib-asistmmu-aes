@@ -1,4 +1,4 @@
-This is the customized grlib use for the project ASIST AES.
+This is the customized grlib used for the project ASIST AES.
 
 *Refer to https://www.gaisler.com/index.php/products/processors/leon3
 for the documentation regarding synthesizing Leon3 processor.
